@@ -6,13 +6,22 @@
 
 header{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+    font-weight: 600;
     padding: 0rem 1rem;
     background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-1{
+    padding-left: 800px;
+}
+
+.header{
+    position: absolute;
+    z-index: 1;
 }
 
 .logo{
@@ -49,6 +58,10 @@ header{
     background-color: green;
     border: 0px solid green;
     box-shadow: 3px 3px 7px black;
+}
+
+.login{
+    font-weight: 600;
 }
 
 ul.dropmenu li {

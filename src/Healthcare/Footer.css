@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 
-footer{
+.footer-1{
     background-color: black;
     color: white;
-    position: absolute;
     width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .sm-links li a{

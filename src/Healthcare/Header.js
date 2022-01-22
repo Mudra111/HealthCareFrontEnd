@@ -4,10 +4,10 @@ import "./Header.css";
 
 export const Header = () => {
     return (
-        <>
+        <div className='header sticky-top navbar'>
             <header>
                 <img className='logo' src={logo} alt="" width="30" height="24" />
-                <nav>
+                <nav className='nav-1'>
                     <ul className='links'>
                         <li>
                             Consulting Department
@@ -28,6 +28,6 @@ export const Header = () => {
                 </nav>
                 <button className="btn btn-outline-dark login" type="button">Log In</button>
             </header>
-        </>
+        </div>
     )
 }
