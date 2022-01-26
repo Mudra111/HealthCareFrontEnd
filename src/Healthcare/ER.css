@@ -1,0 +1,14 @@
+.center{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.criterias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.c-item{
+    margin: 3rem 5rem;
+}

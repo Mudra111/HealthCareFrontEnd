@@ -8,7 +8,7 @@ export const Footer = () => {
         <div>
         <footer className='container-fluid footer-1'>
             <div className='copyright'>Copyright &copy; Healthcare</div>
-            <ul className='sm-links'>
+            <ul className='sm-links' style={{marginBottom:'0rem',}}>
                 <li><a href="#" className='fa fa-instagram'></a></li>
                 <li><a href="#" className='fa fa-facebook'></a></li>
                 <li><a href="#" className='fa fa-twitter'></a></li>

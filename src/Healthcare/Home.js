@@ -72,7 +72,7 @@ export const Home = () => {
                 </div>
                 <div className='depa-info contaier con-3'>
                     <div className='pic-container'>
-                        <a href='#'>
+                        <a href='#'>       
                             <img src={docimg} alt="" className="doc-pic" />
                             <h3 className='doc-name'>Mr/Ms.Doctor</h3>
                         </a>

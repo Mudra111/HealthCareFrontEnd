@@ -7,22 +7,22 @@
 header{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    padding: 0rem 1rem;
-    background-color: transparent;
+    width: 100%;
+    background-color: white;
     display: flex;
     justify-content: flex-end;
-    flex-direction: row;
     align-items: center;
 }
 
 .nav-1{
-    padding-left: 800px;
+    /* padding-left: auto; */
+    margin-left: 35rem;
 }
 
-.header{
+/* .header{
     position: absolute;
     z-index: 1;
-}
+} */
 
 .logo{
     width:10vw;
@@ -51,13 +51,11 @@ header{
 
 .links li a:hover{
     color: green;
-    text-shadow: 2px 2px 7px black;
 }
 
 .login:hover{
     background-color: green;
     border: 0px solid green;
-    box-shadow: 3px 3px 7px black;
 }
 
 .login{
@@ -70,7 +68,7 @@ ul.dropmenu li {
 
 ul.dropmenu{
     position: absolute;
-    background-color: gray;
+    background-color: white;
     box-shadow: 2px 2px 7px black;
     padding: 0rem;
 }
@@ -80,12 +78,24 @@ ul.dropmenu{
     text-shadow: none;
 }
 
-.dropmenu li:hover{
+.border li:hover{
     border: 2px solid black;
     border-radius: 4px;
 }
-.dropmenu li:hover a{
-    color: white;
+.sub-menu li:hover{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.border li:hover a{
+    color: rgb(95, 95, 95);
+}
+.sub-menu li:hover a{
+    color: rgb(95, 95, 95);
+}
+
+.sub-menu{
+    padding-left: 0px !important;
+    width: max-content;
 }
 
 ul.links li ul.dropmenu{
@@ -101,5 +111,4 @@ ul.links li:hover ul.dropmenu{
 
 ul.links li:hover{
     color: green;
-    text-shadow: 2px 2px 7px black;
 }
