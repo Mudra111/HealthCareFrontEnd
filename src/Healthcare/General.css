@@ -1,0 +1,221 @@
+.gen_heading{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.gen_heading_div{
+    background-color: rgba(0, 0, 139, 0.863);
+    box-shadow: 0 3px 8px rgb( 0 0 0 / 30%);
+    z-index: 200;
+    position: relative;
+}
+
+.overview_gen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: no-repeat url("./images/general_over.jpg");
+    background-size: cover;
+    height: 600px;
+}
+
+.overview_gen{
+    display: flex;
+    justify-content: start;
+    padding-left: 50px;
+}
+
+.ReqAppo_gen{
+    background-color: rgba(0, 0, 139, 0.74);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.ReqAppo_gen:hover{
+    box-shadow: 3px 3px 3px gray;
+}
+
+.gen_sp_heading{
+    background-color: rgba(0, 0, 139, 0.74);
+    position: relative;
+    box-shadow: 0 3px 8px rgb( 0 0 0 / 30%);
+    color: aliceblue;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.doctors_gen{
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 3px 8px rgb( 0 0 0 / 30%);
+}
+
+.forS_size_gen{
+    width: 100%;
+    background-color: rgba(233, 234, 235, 0.589);
+    margin: auto;
+    margin-top: 0;
+}
+
+.sp_1_name_gen{
+    color: rgb(6, 6, 207);
+    padding-left: 350px;
+    padding-top: 15px;
+    background-color: rgba(186, 188, 192, 0.822);
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    width: 100%;
+    margin: auto;
+}
+
+.gen_sp_1_main{
+    background-color: rgba(106, 120, 161, 0.753);
+    padding: 20px 0px;
+}
+
+.sp1Imggen{
+    height: 140px;
+    
+}
+
+.sp1Tabgen{
+    width: 600px;
+    margin-left: 50px;
+}
+
+.tdata{
+    width: 100px;
+}
+
+.que_gen{
+    background-color: rgba(197, 216, 245, 0.822);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.que-item_gen{
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    background-color:rgba(153, 185, 250, 0.726);
+    box-shadow: 3px 3px 3px rgba(204, 202, 202, 0.582);
+}
+
+.answ_gen{
+    font-size: large;
+    padding-bottom: 10px; 
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 600ms;
+    color: black;
+}
+
+.sp1n_gen{
+    padding-left: 350px;
+    color: rgba(6, 6, 207, 0.719);
+    padding-top: 20px;
+}
+
+.sp1quaHead_gen{
+    color: rgb(6, 6, 207);
+}
+
+.breakLine_gen{
+    background-color:hsla(240, 4%, 84%, 0.719);
+    position: relative;
+    box-shadow: 0 3px 8px rgb( 0 0 0 / 30%);
+    height: 20px;
+}
+
+.que-link_gen{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.que-link_gen:hover{
+    color: black;
+
+}
+
+.answ_gen p{
+    /* background-color: rgba(8, 15, 26, 0.425); */
+    margin: 10px 10px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.ans1gen{
+    max-height: 420px;
+     transition: 600ms;
+}
+
+.ans2gen{
+    max-height: 100px;
+     transition: 600ms;
+}
+
+.ans3gen{
+    max-height: 150px;
+     transition: 600ms;
+}
+
+.ans4gen{
+    max-height: 130px;
+     transition: 600ms;
+}
+
+.ans5gen{
+    max-height: 70px;
+     transition: 600ms;
+}
+
+.ans6gen{
+    max-height: 100px;
+     transition: 600ms;
+}
+
+.ans7gen{
+    max-height: 260px;
+     transition: 600ms;
+}
+
+.ans8gen{
+    max-height: 100px;
+     transition: 600ms;
+}
+
+.ans9gen{
+    max-height: 125px;
+     transition: 600ms;
+}
+
+.ans10gen{
+    max-height: 70px;
+     transition: 600ms;
+}
+
+.ans11gen{
+    max-height: 100px;
+     transition: 600ms;
+}
+
+.ans12gen{
+    max-height: 100px;
+     transition: 600ms;
+}

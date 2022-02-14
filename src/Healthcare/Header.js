@@ -14,9 +14,9 @@ export const Header = () => {
                         <li>
                             Consulting Department
                             <ul className="dropmenu border">
-                                <li><Link to="/">Gaynacologist</Link></li>
-                                <li><Link to="/">Acute Disease</Link></li>
-                                <li><Link to="/">Skin Disease</Link></li>
+                                <li><Link to="/general_disease_dep">General Disease</Link></li>
+                                <li><Link to="/gynecology_department">Obstetrics & Gynecology</Link></li>
+                                <li><Link to="/skin_disease_dep">Skin Disease</Link></li>
                             </ul>
                         </li>
                         <li>Blood Donation
@@ -37,7 +37,7 @@ export const Header = () => {
                                 </li>
                             </ul>
                         </li>
-                        <li>Money Donation</li>
+                        <li><Link to="/donate_money">Money Donation</Link></li>
                         <li><Link to="/">Feedback</Link></li>
                         <li><button className="btn btn-outline-dark login" type="button">Log In</button></li>
                     </ul>

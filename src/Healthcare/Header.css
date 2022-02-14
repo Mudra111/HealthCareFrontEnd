@@ -12,6 +12,12 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+}
+
+.header{
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .nav-1{
@@ -96,6 +102,10 @@ ul.dropmenu{
 .sub-menu{
     padding-left: 0px !important;
     width: max-content;
+}
+
+.abc{
+    width: 500px;
 }
 
 ul.links li ul.dropmenu{

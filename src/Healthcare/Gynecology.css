@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.gynecology_depa{
+    width: 100%;
+}
+
+.gynecologyImg{
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 50px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.gyneco_heading{
+    text-align: center;
+    color: rgb(11, 75, 128);
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.gyn_heading_div{
+    background-color: gainsboro;
+    box-shadow: 0 3px 8px rgb( 0 0 0 / 30%);
+    z-index: 200;
+    position: relative;
+}
+
+.overview_gyn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(155, 186, 243);
+}
+
+.overviewCon{
+    height: 500px;
+    width: 700px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: larger;
+    padding-bottom: 100px;
+}
+
+.gyn_sp_heading{
+    background-color: rgb(216, 212, 212);
+    position: relative;
+    box-shadow: 0 3px 8px rgb( 0 0 0 / 30%);
+    color: rgb(11, 75, 128);
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.forS_size{
+    width: 90%;
+    background-color: rgb(232, 232, 236);
+    margin: auto;
+    margin-top: 0;
+}
+
+.gyn_sp_1_main{
+
+    background-color: darkgray;
+}
+
+.sp_1_name{
+    color: darkblue;
+    padding-left: 350px;
+    padding-top: 15px;
+    background-color: rgb(216, 212, 212);
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    width: 90%;
+    margin: auto;
+}
+
+.sp1n{
+    padding-left: 350px;
+    color: rgb(96, 96, 179);
+    padding-top: 20px;
+}
+
+.sp1Img{
+    /* padding-left: 400px; */
+    padding-top: 20px;
+}
+
+.gy_ImgCon{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.sp1Tab{
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.sp1Qua{
+    padding-left: 350px;
+    width: 1200px;
+}
+
+.sp1quaHead{
+    color: rgb(96, 96, 179);
+}
+
+.sp1quaDet{
+    margin-bottom: 0;
+    padding-top: 8px;
+    padding-bottom: 25px;
+}
+
+.breakLine{
+    background-color:rgb(216, 212, 212);
+    position: relative;
+    box-shadow: 0 3px 8px rgb( 0 0 0 / 30%);
+    height: 20px;
+}
+
+.ReqAppo{
+    background-color: darkblue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.ReqAppo:hover{
+    box-shadow: 3px 3px 3px gray;
+}
+
+.que{
+    background-color: #3c4053;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.que-container{
+    padding: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+.heading_que{
+    height: 80px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15px;
+    box-shadow: none !important;
+}
+
+.que-item{
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    background-color: rgb(177, 181, 187);
+    box-shadow: 3px 3px 3px rgb(117, 116, 116);
+}
+
+.que-link{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.que-link:hover{
+    color: black;
+}
+
+.answ{
+    font-size: large;
+    padding-bottom: 10px; 
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 600ms;
+}
+
+.answ p{
+    background-color: rgb(177, 181, 187);
+    margin: 10px 10px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.ans1{
+     max-height: 170px;
+     transition: 600ms;
+}
+
+.ans2{
+    max-height: 90px;
+    transition: 600ms;
+}
+
+.ans3{
+    max-height: 120px;
+    transition: 600ms;
+}
+
+.ans4{
+    max-height: 90px;
+    transition: 600ms;
+}
+
+.ans5{
+    max-height: 120px;
+    transition: 600ms;
+}
+
+.ans6{
+    max-height: 120px;
+    transition: 600ms;
+}
+
+.ans7{
+    max-height: 90px;
+    transition: 600ms;
+}
+
+.ans8{
+    max-height: 120px;
+    transition: 600ms;
+}
+
+.ans9{
+    max-height: 170px;
+    transition: 600ms;
+}
+
+.ans10{
+    max-height: 120px;
+    transition: 600ms;
+}
+
+.ans11{
+    max-height: 90px;
+    transition: 600ms;
+}
+
+.ans12{
+    max-height: 90px;
+    transition: 600ms;
+}
+
+.remove{
+    display: none;
+}
+
+.Remove_show{
+    display: block;
+}
+
+.Add_hide{
+    display: none;
+}
