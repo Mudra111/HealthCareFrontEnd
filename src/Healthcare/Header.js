@@ -10,35 +10,48 @@ export const Header = () => {
                 <img className='logo' src={logo} alt="" width="30" height="24" />
                 <nav className='nav-1'>
                     <ul className='links'>
-                    <li><Link to="/">Home</Link></li>
-                        <li>
+
+                        <li><Link to="/">Home</Link></li>
+                        
+                        <li><Link to="/">Laboratory Tests</Link></li>
+
+                        <li className="dropdown">
+                            <Link className="dropdown-toggle" to="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                             Consulting Department
-                            <ul className="dropmenu border">
-                                <li><Link to="/">Gaynacologist</Link></li>
-                                <li><Link to="/">Acute Disease</Link></li>
-                                <li><Link to="/">Skin Disease</Link></li>
+                            </Link>
+
+                            <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><Link className="dropdown-item" to="/eligibilityrequ">Gaynacologist</Link></li>
+                                <li><Link className="dropdown-item" to="/typesofblood">Acute Disease</Link></li>
+                                <li><Link className="dropdown-item" to="/">Skin Disease</Link></li>
                             </ul>
                         </li>
-                        <li>Blood Donation
-                        <ul className="dropmenu d-flex">
-                                <li>How to Donate
-                                <ul className='sub-menu'>
-                                    <li className='sub-menuItem'><Link to="/eligibilityrequ">Eligibility Requirements</Link></li>
-                                    <li className='sub-menuItem'><Link to="/">Types of Blood Donations</Link></li>
-                                    <li className='sub-menuItem'><Link to="/">Lean about Blood</Link></li>
-                                </ul>
-                                </li>
-                                <li>Blood donation Process
-                                <ul className='sub-menu'>
-                                    <li className='sub-menuItem'><Link to="/">Eligibility Requirements</Link></li>
-                                    <li className='sub-menuItem'><Link to="/">Types of Blood Donations</Link></li>
-                                    <li className='sub-menuItem'><Link to="/">Lean about Blood</Link></li>
-                                </ul>
-                                </li>
+
+                        <li className="dropdown">
+                            <Link className="dropdown-toggle" to="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Blood Donation
+                            </Link>
+
+                            <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+
+                                <li className='dropdown-item'>How to Donate</li>
+                                <li><Link className="dropdown-item" to="/eligibilityrequ">Eligibility Requirements</Link></li>
+                                <li><Link className="dropdown-item" to="/typesofblood">Types of Blood Donations</Link></li>
+                                <li><Link className="dropdown-item" to="/">Learn about Blood</Link></li>
+
+                                <hr/>
+
+                                <li className='dropdown-item'>How to Donate</li>
+                                <li><Link className="dropdown-item" to="/donationpro">Donation Process Overview</Link></li>
+                                <li><Link className="dropdown-item" to="/whattodo1">What to do Before,During and After a Donation</Link></li>
+                                <li><Link className="dropdown-item" to="/help2">How Blood Donation Helps</Link></li>
                             </ul>
                         </li>
+
                         <li>Money Donation</li>
+
                         <li><Link to="/">Feedback</Link></li>
+
                         <li><button className="btn btn-outline-dark login" type="button">Log In</button></li>
                     </ul>
                 </nav>

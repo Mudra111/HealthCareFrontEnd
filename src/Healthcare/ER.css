@@ -1,14 +1,193 @@
 .center{
     text-align: center;
     font-weight: bolder;
+    font-size: 80px;
+    margin: 2rem 0;
 }
 
 .criterias{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transform-style: preserve-3d;
 }
 
 .c-item{
     margin: 3rem 5rem;
+}
+
+.box{
+    height: 20rem;
+    width: 40%;
+    background: transparent;
+    border: 3px solid transparent;
+    border-bottom-color: green;
+    border-top-color: green;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    line-height: 1.5em;
+    text-align: center;
+    perspective: 1000px;
+}
+
+.b2{
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.b1{
+    margin-top: 1rem;
+    margin-left: auto;
+}
+
+.b3{
+    margin-top: 1rem;
+    margin-right: auto;
+}
+
+.cri{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 7rem;
+    visibility: hidden;
+    color: white;
+}
+
+.content{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    visibility: hidden;
+}
+
+div.box:hover{
+    background:linear-gradient(45deg,navy,lightblue);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+div.box:hover h2.cri{
+    visibility: visible;
+}
+div.box:hover p.content{
+    visibility: visible;
+}
+
+div.bloodDon{
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+}
+
+.but1{
+    font-size: larger;
+    font-weight: bold;
+    background-color:  darkblue;
+    color: white;
+    border: 0px solid darkblue;
+    padding: 1rem;
+}
+
+.but1:hover{
+    background-color: blue;
+    color: white;
+    border:0px solid blue;
+}
+
+.ig1{
+    background: url('./images/Age.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.ig2{
+    background: url('./images/Weight.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.ig3{
+    background: url('./images/Pulse.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.ig4{
+    background: url('./images/Blood\ Pressure.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.ig5{
+    background: url('./images/Child\ Birth.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.ig6{
+    background: url('./images/Hemo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.ig7{
+    background: url('./images/Malaria.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.ig8{
+    background: url('./images/IV.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.ig9{
+    background: url('./images/Skin.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.ig10{
+    background: url('./images/Cancer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.ig11{
+    background: url('./images/Accupuncture.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.ig12{
+    background: url('./images/Infection.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.ig13{
+    background: url('./images/Heart.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.ig14{
+    background: url('./images/Dentist.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.ig15{
+    background: url('./images/Other.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.ig16{
+    background: url('./images/Medication.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }

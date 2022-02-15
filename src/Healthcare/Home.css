@@ -27,11 +27,11 @@
     display: none;
 }
 
-.depa-info-main{
+/* .depa-info-main{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-}
+} */
 
 .depa-info{
     display: flex;
