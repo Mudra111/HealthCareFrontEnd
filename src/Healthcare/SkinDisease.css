@@ -1,0 +1,212 @@
+.overviewCon_skin {
+	height: 700px;
+	width: 1000px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: larger;
+	padding-bottom: 100px;
+	box-shadow: 0 5px 9px rgb(0 0 0 / 30%);
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 15px;
+	background-color: rgba(155, 178, 219, 0.993);
+	border-radius: 9px;
+	color: rgba(19, 20, 20, 0.767);
+}
+
+.breakLine_skin {
+	background-color: rgb(184, 179, 179);
+	position: relative;
+	box-shadow: 0 3px 8px rgb(0 0 0 / 30%);
+	height: 20px;
+}
+
+.ovrconheading_skin {
+	/* background-color: rgba(245, 222, 179, 0.555); */
+	/* box-shadow: 0 3px 8px rgb( 0 0 0 / 30%); */
+	position: relative;
+	width: 100%;
+	margin-bottom: 8px;
+	text-align: center;
+	/* padding: 10px 0px; */
+}
+
+.skin_heading_div {
+	background-color: rgb(15, 5, 100);
+	width: 100%;
+	color: white;
+}
+
+.skin_heading {
+	text-align: center;
+	color: white;
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+
+.overview_skin {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 800px;
+	background: no-repeat url("./images/Skin_back.jpg");
+	background-size: cover;
+}
+
+.ReqAppo_skin {
+	background-color: rgba(20, 20, 20, 0.801);
+	color: white;
+	padding: 10px 15px;
+	border-radius: 10px;
+	border: none;
+	font-weight: bold;
+	/* border: 1px solid black; */
+}
+
+.ReqAppo_skin:hover {
+	box-shadow: 5px 5px 8px rgb(54, 54, 54);
+}
+
+.Skin_sp_heading {
+	background-color: rgb(15, 5, 100);
+	position: relative;
+	box-shadow: 0 3px 8px rgb(0 0 0 / 30%);
+	color: whitesmoke;
+	padding: 15px 0px;
+	text-align: center;
+}
+
+.ImgSkinSp {
+	opacity: 0.6;
+}
+
+.Skin_sp_1 {
+	background-color: rgba(169, 169, 169, 0.384);
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.DrName_main_skin {
+	background-color: dodgerblue;
+}
+
+.sp_name_head_1 {
+	width: 70%;
+	margin: 0 auto;
+	box-shadow: 0 3px 8px rgb(0 0 0 / 30%);
+	position: relative;
+	height: 500px;
+	background-color: white;
+}
+
+.sp_name_head_2 {
+	width: 70%;
+	margin: 0 auto;
+	box-shadow: 0 3px 8px rgb(0 0 0 / 30%);
+	position: relative;
+	height: 555px;
+	background-color: white;
+}
+
+.sp_name_head_3 {
+	width: 70%;
+	margin: 0 auto;
+	box-shadow: 0 3px 8px rgb(0 0 0 / 30%);
+	position: relative;
+	height: 500px;
+	background-color: white;
+}
+
+.sp_Head1 {
+	background-image: linear-gradient(
+		to left,
+		rgba(5, 6, 83, 0.445),
+		rgba(5, 6, 83, 0.87)
+	);
+	padding: 15px;
+	color: white;
+}
+
+/* .sp_Head2{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(9, 9, 100, 0.37);
+    grid-area: H2;
+} */
+
+/* .sp_H{
+    display: grid;
+    grid-template-areas: 'H1 H1 H2';
+} */
+
+/* .doc_pic_con{
+    box-shadow: 3px 3px 3px gray;
+    height:400px;
+    width: 240px;
+    margin-left: 20px;
+} */
+
+.Skin_pic_det_main {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px;
+}
+
+.doc_1 {
+	height: 270px;
+	width: 200px;
+	border-radius: 8px;
+}
+
+.SkinTab {
+	width: 260px;
+	margin-top: 20px;
+	font-size: large;
+}
+
+.doc_det_con {
+	width: 800px;
+	background-color: rgba(211, 211, 211, 0.63);
+	box-shadow: 4px 5px 6px gray;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.doc_det_con p {
+	padding-left: 30px;
+}
+
+/* .sp_Head::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: linear-gradient(to left, rgba(99, 99, 102, 0.315), rgba(116, 115, 117, 0.87));
+    -webkit-transform: skewX(24deg);
+    -ms-transform: skewX(24deg);
+    transform: skewX(24deg);
+    z-index: -1;
+}
+
+.sp_Head{
+    position: absolute;
+    color: white;
+    margin: 0 0 0 00px;
+    padding: 30px 110px;
+    font-size: 18px;
+    font-weight: 500;
+    z-index: 0;
+    left: 70px;
+    text-align: center;
+    align-content: center;
+}
+
+.sp_Head h2{
+    vertical-align: middle;
+    position: absolute;
+    top: 20px;
+    color: aquamarine;
+*/

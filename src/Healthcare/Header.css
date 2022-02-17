@@ -1,19 +1,24 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-weight: 600;
-    width: 100vw;
-    background-color: rgb(231, 230, 230);
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    padding: 1% 2%;
-    box-shadow: 2px 2px 8px black;
+header {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-weight: 600;
+  width: 100vw;
+  background-color: rgb(231, 230, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 2%;
+  box-shadow: 2px 2px 8px black;
+}
+
+.header {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* .nav-1{
@@ -21,8 +26,8 @@ header{
     margin-left: 35rem;
 } */
 
-.navbar{
-    padding-top: 0;
+.navbar {
+  padding-top: 0;
 }
 
 /* .header{
@@ -30,46 +35,100 @@ header{
     z-index: 1;
 } */
 
-.logo{
-    width:10vw;
-    height: 10vh;
-    margin-right: auto;
+.logo {
+  width: 10vw;
+  height: 10vh;
+  margin-right: auto;
 }
 
-.links{
-    cursor: pointer;
-    list-style: none;
-    margin: 0rem;
-    padding: 0rem;
+.links {
+  cursor: pointer;
+  list-style: none;
+  margin: 0rem;
+  padding: 0rem;
 }
 
-.links li{
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    /* font-size: larger;
+.links li {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  /* font-size: larger;
     font-weight: 600; */
 }
 
-.links li a{
-    text-decoration: none;
-    transition:all 0.3s ease 0s;
-    color: black;
+.links li a {
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  color: black;
 }
 
-.links li a:hover{
-    color: green;
+.links li a:hover {
+  color: green;
 }
 
-.login:hover{
-    background-color: blue;
-    border: 0px solid blue;
+.login:hover {
+  background-color: blue;
+  border: 0px solid blue;
 }
 
-.login{
-    font-weight: 600;
-    /* font-size: 20px; */
-    padding: 0.2rem 0.5rem;
-    background-color: darkblue;
-    border: 0px solid darkblue;
-    color: white;
+.login {
+  font-weight: 600;
+  /* font-size: 20px; */
+  padding: 0.2rem 0.5rem;
+  background-color: darkblue;
+  border: 0px solid darkblue;
+  color: white;
+}
+
+ul.dropmenu li {
+  display: block;
+}
+
+ul.dropmenu {
+  position: absolute;
+  background-color: white;
+  box-shadow: 2px 2px 7px black;
+  padding: 0rem;
+}
+
+.dropmenu a {
+  text-align: center;
+  text-shadow: none;
+}
+
+.border li:hover {
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.sub-menu li:hover {
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.border li:hover a {
+  color: rgb(95, 95, 95);
+}
+.sub-menu li:hover a {
+  color: rgb(95, 95, 95);
+}
+
+.sub-menu {
+  padding-left: 0px !important;
+  width: max-content;
+}
+
+.abc {
+  width: 500px;
+}
+
+ul.links li ul.dropmenu {
+  visibility: hidden;
+  opacity: 0;
+}
+
+ul.links li:hover ul.dropmenu {
+  visibility: visible;
+  opacity: 1;
+}
+
+ul.links li:hover {
+  color: green;
 }

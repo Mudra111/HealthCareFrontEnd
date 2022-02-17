@@ -1,0 +1,68 @@
+.money{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(226, 239, 243);
+    padding-bottom: 30px;
+}
+
+.subM{
+    height: 800px;
+    position: relative;
+    margin: 0px 200px;
+    border-left: 1px solid rgb(199, 216, 223);;
+    padding-left: 15px;
+}
+
+.MoneyImg{
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.7;
+    border-bottom-left-radius: 9000px;
+    width: 800px;
+    height: 800px;
+}
+
+.apptitle{
+    position: absolute;
+    top: 8px;
+    z-index: 1;
+    color: rgb(11, 75, 128);
+}
+
+.appcontent{
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    width: 500px;
+    font-weight: 490;
+    font-size: large;
+    color: rgb(11, 75, 128);
+    text-align: justify;
+}
+
+.contspan1{
+    font-weight: 700;
+    padding-left: 80px;
+}
+
+.contspan2{
+    font-weight: 700;
+    padding-top: 100px;
+}
+
+.donatebutn{
+    background-color:rgb(11, 75, 128);
+    color: white;
+    position: absolute;
+    top: 670px;
+    left: 160px;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: x-large;
+}
+
+.donatebutn:hover{
+    box-shadow: 7px 7px 15px gray;
+}
