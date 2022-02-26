@@ -5,13 +5,15 @@
 }
 
 header {
-	font-family: Arial, Helvetica, sans-serif;
+	/* font-family: Arial, Helvetica, sans-serif; */
 	font-weight: 600;
-	width: 100%;
-	background-color: white;
+	width: 100vw;
+	background-color: rgb(231, 230, 230);
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: center;
+	padding: 1% 2%;
+	box-shadow: 2px 2px 8px black;
 }
 
 .header {
@@ -19,9 +21,13 @@ header {
 	padding-bottom: 0;
 }
 
-.nav-1 {
-	/* padding-left: auto; */
-	margin-left: 35rem;
+/* .nav-1{
+    padding-left: auto;
+    margin-left: 35rem;
+} */
+
+.navbar {
+	padding-top: 0;
 }
 
 /* .header{
@@ -45,7 +51,8 @@ header {
 .links li {
 	display: inline-block;
 	padding: 0.5rem 1rem;
-	font-size: medium;
+	/* font-size: larger;
+    font-weight: 600; */
 }
 
 .links li a {
@@ -59,12 +66,17 @@ header {
 }
 
 .login:hover {
-	background-color: green;
-	border: 0px solid green;
+	background-color: blue;
+	border: 0px solid blue;
 }
 
 .login {
 	font-weight: 600;
+	/* font-size: 20px; */
+	padding: 0.2rem 0.5rem;
+	background-color: darkblue;
+	border: 0px solid darkblue;
+	color: white;
 }
 
 ul.dropmenu li {

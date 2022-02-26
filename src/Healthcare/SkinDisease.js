@@ -5,7 +5,7 @@ import SkinSp1 from "./images/SkinSp1.jpg";
 import SkinSp2 from "./images/SkinSp2.jpg";
 import SkinSp3 from "./images/SkinSp3.png";
 
-export default function Gynecology() {
+export default function Skin() {
 	const [isShow1, setIsShow1] = useState(false);
 
 	const changeClass1 = () => {

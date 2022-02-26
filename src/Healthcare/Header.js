@@ -13,54 +13,89 @@ export const Header = () => {
 						<li>
 							<Link to="/">Home</Link>
 						</li>
+
 						<li>
-							Consulting Department
-							<ul className="dropmenu border">
+							<Link to="/">Laboratory Tests</Link>
+						</li>
+
+						<li className="dropdown">
+							<Link
+								className="dropdown-toggle"
+								to="/"
+								role="button"
+								id="dropdownMenuLink"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Consulting Department
+							</Link>
+
+							<ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
 								<li>
-									<Link to="/general_disease_dep">General Disease</Link>
-								</li>
-								<li>
-									<Link to="/gynecology_department">
-										Obstetrics & Gynecology
+									<Link className="dropdown-item" to="/general_disease_dep">
+										General Disease
 									</Link>
 								</li>
 								<li>
-									<Link to="/skin_disease_dep">Skin Disease</Link>
+									<Link className="dropdown-item" to="/gynecology_department">
+										Obstetrics and Gynecology
+									</Link>
+								</li>
+								<li>
+									<Link className="dropdown-item" to="/skin_disease_dep">
+										Skin Disease
+									</Link>
 								</li>
 							</ul>
 						</li>
-						<li>
-							Blood Donation
-							<ul className="dropmenu d-flex">
+
+						<li className="dropdown">
+							<Link
+								className="dropdown-toggle"
+								to="/"
+								role="button"
+								id="dropdownMenuLink"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Blood Donation
+							</Link>
+
+							<ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<li className="dropdown-item">How to Donate</li>
 								<li>
-									How to Donate
-									<ul className="sub-menu">
-										<li className="sub-menuItem">
-											<Link to="/eligibilityrequ">
-												Eligibility Requirements
-											</Link>
-										</li>
-										<li className="sub-menuItem">
-											<Link to="/">Types of Blood Donations</Link>
-										</li>
-										<li className="sub-menuItem">
-											<Link to="/">Lean about Blood</Link>
-										</li>
-									</ul>
+									<Link className="dropdown-item" to="/eligibilityrequ">
+										Eligibility Requirements
+									</Link>
 								</li>
 								<li>
-									Blood donation Process
-									<ul className="sub-menu">
-										<li className="sub-menuItem">
-											<Link to="/">Eligibility Requirements</Link>
-										</li>
-										<li className="sub-menuItem">
-											<Link to="/">Types of Blood Donations</Link>
-										</li>
-										<li className="sub-menuItem">
-											<Link to="/">Lean about Blood</Link>
-										</li>
-									</ul>
+									<Link className="dropdown-item" to="/typesofblood">
+										Types of Blood Donations
+									</Link>
+								</li>
+								<li>
+									<Link className="dropdown-item" to="/">
+										Learn about Blood
+									</Link>
+								</li>
+
+								<hr />
+
+								<li className="dropdown-item">How to Donate</li>
+								<li>
+									<Link className="dropdown-item" to="/donationpro">
+										Donation Process Overview
+									</Link>
+								</li>
+								<li>
+									<Link className="dropdown-item" to="/whattodo1">
+										What to do Before,During and After a Donation
+									</Link>
+								</li>
+								<li>
+									<Link className="dropdown-item" to="/">
+										How Blood Donation Helps
+									</Link>
 								</li>
 							</ul>
 						</li>
@@ -70,6 +105,7 @@ export const Header = () => {
 						<li>
 							<Link to="/">Feedback</Link>
 						</li>
+
 						<li>
 							<button className="btn btn-outline-dark login" type="button">
 								Log In

@@ -1,0 +1,42 @@
+.tobd{
+    width: 80%;
+    margin: 2rem auto;
+    box-shadow: 2px 2px 20px black;
+}
+
+.bd1{
+    width:50%;
+    height: 80vh;
+    margin: auto 2rem;
+    border-radius: 20%;
+    box-shadow: 4px 4px 10px gray;
+}
+
+.con1{
+    width: 50%;
+    margin: 2rem 2rem;
+}
+
+.but2{
+    font-size: larger;
+    font-weight: bold;
+    background-color:  darkblue;
+    color: white;
+    border: 0px solid darkblue;
+    width: 100%;
+}
+
+.but2:hover{
+    background-color: blue;
+    color: white;
+    border:0px solid blue;
+}
+
+.tobd-con{
+    font-size: large;
+}
+
+.title{
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
