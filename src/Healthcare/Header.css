@@ -1,28 +1,27 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-header{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
+header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
-.header{
-    padding-top: 0;
-    padding-bottom: 0;
+.header {
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
-.nav-1{
-    /* padding-left: auto; */
-    margin-left: 35rem;
+.nav-1 {
+	/* padding-left: auto; */
+	margin-left: 35rem;
 }
 
 /* .header{
@@ -30,95 +29,94 @@ header{
     z-index: 1;
 } */
 
-.logo{
-    width:10vw;
-    height: 10vh;
-    margin-right: auto;
+.logo {
+	width: 10vw;
+	height: 10vh;
+	margin-right: auto;
 }
 
-.links{
-    cursor: pointer;
-    list-style: none;
-    margin: 0rem;
-    padding: 0rem;
+.links {
+	cursor: pointer;
+	list-style: none;
+	margin: 0rem;
+	padding: 0rem;
 }
 
-.links li{
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    font-size: medium;
+.links li {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	font-size: medium;
 }
 
-.links li a{
-    text-decoration: none;
-    transition:all 0.3s ease 0s;
-    color: black;
+.links li a {
+	text-decoration: none;
+	transition: all 0.3s ease 0s;
+	color: black;
 }
 
-.links li a:hover{
-    color: green;
+.links li a:hover {
+	color: green;
 }
 
-.login:hover{
-    background-color: green;
-    border: 0px solid green;
+.login:hover {
+	background-color: green;
+	border: 0px solid green;
 }
 
-.login{
-    font-weight: 600;
+.login {
+	font-weight: 600;
 }
 
 ul.dropmenu li {
-    display: block;
+	display: block;
 }
 
-ul.dropmenu{
-    position: absolute;
-    background-color: white;
-    box-shadow: 2px 2px 7px black;
-    padding: 0rem;
+ul.dropmenu {
+	position: absolute;
+	background-color: white;
+	box-shadow: 2px 2px 7px black;
+	padding: 0rem;
 }
 
-.dropmenu a{
-    text-align: center;
-    text-shadow: none;
+.dropmenu a {
+	text-align: center;
+	text-shadow: none;
 }
 
-.border li:hover{
-    border: 2px solid black;
-    border-radius: 4px;
+.border li:hover {
+	border: 2px solid black;
+	border-radius: 4px;
 }
-.sub-menu li:hover{
-    border: 2px solid black;
-    border-radius: 4px;
+.sub-menu li:hover {
+	border: 2px solid black;
+	border-radius: 4px;
 }
-.border li:hover a{
-    color: rgb(95, 95, 95);
+.border li:hover a {
+	color: rgb(95, 95, 95);
 }
-.sub-menu li:hover a{
-    color: rgb(95, 95, 95);
-}
-
-.sub-menu{
-    padding-left: 0px !important;
-    width: max-content;
+.sub-menu li:hover a {
+	color: rgb(95, 95, 95);
 }
 
-.abc{
-    width: 500px;
+.sub-menu {
+	padding-left: 0px !important;
+	width: max-content;
 }
 
-ul.links li ul.dropmenu{
-    visibility: hidden;
-    opacity: 0;
+.abc {
+	width: 500px;
 }
 
-ul.links li:hover ul.dropmenu{
-    visibility: visible;
-    opacity: 1;
-
+ul.links li ul.dropmenu {
+	visibility: hidden;
+	opacity: 0;
 }
 
-ul.links li:hover{
-    color: green;
+ul.links li:hover ul.dropmenu {
+	visibility: visible;
+	opacity: 1;
+}
+
+ul.links li:hover {
+	color: green;
 }
