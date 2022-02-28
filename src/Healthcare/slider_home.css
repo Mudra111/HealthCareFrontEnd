@@ -1,0 +1,31 @@
+.jRFJkP:hover:enabled,
+.jRFJkP:focus:enabled {
+	color: #fff;
+	background-color: rgb(73, 72, 75) !important;
+	box-shadow: 0 0 2px 0 #333;
+}
+
+.rec-dot {
+	display: none;
+}
+
+.rec-arrow-left {
+	margin-left: 15px;
+}
+
+.rec-arrow-right {
+	margin-right: 15px;
+}
+
+.dctImagHome {
+	height: 200px;
+	width: 190px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.DctSlider {
+	padding-top: 45px;
+	padding-bottom: 40px;
+	background-color: rgba(22, 6, 110, 0.685);
+}

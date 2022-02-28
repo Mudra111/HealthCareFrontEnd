@@ -177,36 +177,78 @@
 	padding-left: 30px;
 }
 
-/* .sp_Head::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    background-image: linear-gradient(to left, rgba(99, 99, 102, 0.315), rgba(116, 115, 117, 0.87));
-    -webkit-transform: skewX(24deg);
-    -ms-transform: skewX(24deg);
-    transform: skewX(24deg);
-    z-index: -1;
+.queskin {
+	background-color: #463c5393;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
-.sp_Head{
-    position: absolute;
-    color: white;
-    margin: 0 0 0 00px;
-    padding: 30px 110px;
-    font-size: 18px;
-    font-weight: 500;
-    z-index: 0;
-    left: 70px;
-    text-align: center;
-    align-content: center;
+.que-itemskin {
+	border-radius: 3px;
+	margin-bottom: 10px;
+	padding-bottom: 4px;
+	background-color: rgb(220, 223, 228);
+	box-shadow: 3px 3px 3px rgb(117, 116, 116);
 }
 
-.sp_Head h2{
-    vertical-align: middle;
-    position: absolute;
-    top: 20px;
-    color: aquamarine;
-*/
+.answskin {
+	font-size: large;
+	padding-bottom: 10px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 600ms;
+}
+
+.answskin p {
+	background-color: rgb(220, 223, 228);
+	margin: 10px 10px;
+	margin-bottom: 0;
+	border-radius: 5px;
+	padding: 0px 10px;
+}
+
+.ans1skin {
+	max-height: 170px;
+	transition: 600ms;
+}
+
+.ans2skin {
+	max-height: 550px;
+	transition: 600ms;
+}
+
+.ans3skin {
+	max-height: 120px;
+	transition: 600ms;
+}
+
+.ans4skin {
+	max-height: 90px;
+	transition: 600ms;
+}
+
+.ans5skin {
+	max-height: 120px;
+	transition: 600ms;
+}
+
+.ans6skin {
+	max-height: 120px;
+	transition: 600ms;
+}
+
+.ans7skin {
+	max-height: 180px;
+	transition: 600ms;
+}
+
+.ans8skin {
+	max-height: 120px;
+	transition: 600ms;
+}
+
+.ans9skin {
+	max-height: 170px;
+	transition: 600ms;
+}

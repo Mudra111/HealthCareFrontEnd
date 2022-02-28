@@ -325,13 +325,13 @@ export default function Skin() {
 					<div className="breakLine_skin"></div>
 				</div>
 
-				<section className="que">
+				<section className="queskin">
 					<div className="que-container">
-						<div className="heading_que que-item">
+						<div className="heading_que que-itemskin">
 							<h2>Frequently Asked Questions on Dermatologist</h2>
 						</div>
 
-						<div className="que-item" id="que1">
+						<div className="que-itemskin" id="que1">
 							<a onClick={changeClass1} className="que-link">
 								Why should I visit a Dermatologist?
 								<span className={`${isShow1 ? "Add_hide" : "add"}`}>
@@ -342,9 +342,9 @@ export default function Skin() {
 								</span>
 							</a>
 
-							<div className={`answ ${isShow1 ? "ans1" : ""}`}>
-								<hr />
+							<div className={`answskin ${isShow1 ? "ans1skin" : ""}`}>
 								<p>
+									<hr />
 									You may have to visit a dermatologist for any hair and skin
 									issues you may have, for example, Skin problems in teenagers
 									like fungal infection, acne, hair fall etc. You can choose to
@@ -355,9 +355,9 @@ export default function Skin() {
 							</div>
 						</div>
 
-						<div className="que-item" id="que2">
+						<div className="que-itemskin" id="que2">
 							<a onClick={changeClass2} className="que-link">
-								Is it safe to go to a gynaecologist during Covid?
+								What are the common problems that a dermatologist treats?
 								<span className={`${isShow2 ? "Add_hide" : "add"}`}>
 									&#11167;
 								</span>
@@ -366,18 +366,37 @@ export default function Skin() {
 								</span>
 							</a>
 
-							<div className={`answ ${isShow2 ? "ans2" : ""}`}>
-								<hr />
+							<div className={`answskin ${isShow2 ? "ans2skin" : ""}`}>
 								<p>
-									It's better to give them a call before visiting them. Ask your
-									gynaecologist if teleconsultation is possible.
+									<hr />
+									The most common problems dermatologists treat are:
+									<ul>
+										<li>Pimples</li>
+										<li>Psoriasis</li>
+										<li>Rashes</li>
+										<li>Bacterial infections</li>
+										<li>Cosmetic procedures like skin peeling</li>
+										<li>Hives</li>
+										<li>Sunburn</li>
+										<li>Itchy skin</li>
+										<li>Cold Sores</li>
+										<li>Skin cancer</li>
+										<li>Warts</li>
+										<li>Fungal infections</li>
+										<li>Dermatitis</li>
+										<li>Hand dermatitis</li>
+										<li>Atopic eczema</li>
+										<li>Hair fall</li>
+									</ul>
+									Acne in women can also be due to PCOS. If you have other
+									symptoms of PCOS it is recommended to consult a gynaecologist.
 								</p>
 							</div>
 						</div>
 
-						<div className="que-item" id="que3">
+						<div className="que-itemskin" id="que3">
 							<a onClick={changeClass3} className="que-link">
-								When should I see a gynaecologist?
+								Is it safe to consult online?
 								<span className={`${isShow3 ? "Add_hide" : "add"}`}>
 									&#11167;
 								</span>
@@ -386,20 +405,20 @@ export default function Skin() {
 								</span>
 							</a>
 
-							<div className={`answ ${isShow3 ? "ans3" : ""}`}>
-								<hr />
+							<div className={`answskin ${isShow3 ? "ans3skin" : ""}`}>
 								<p>
-									Women should make their appointment once if they have
-									menstrual problems like delayed periods, too heavy bleeding,
-									pain during periods etc . Also, it's good to consult them if
-									you are trying to conceive, are pregnant or during menopause.
+									<hr />
+									Yes! Your skin specialist online consultation will be
+									absolutely safe and secure with MFine. All the information you
+									share with your dermatologist will be private. We also ensure
+									100% confidentiality during your treatment.
 								</p>
 							</div>
 						</div>
 
-						<div className="que-item" id="que4">
+						<div className="que-itemskin" id="que4">
 							<a onClick={changeClass4} className="que-link">
-								Do gynaecologists judge you?
+								Does a dermatologist treat skin problems in kids?
 								<span className={`${isShow4 ? "Add_hide" : "add"}`}>
 									&#11167;
 								</span>
@@ -408,18 +427,20 @@ export default function Skin() {
 								</span>
 							</a>
 
-							<div className={`answ ${isShow4 ? "ans4" : ""}`}>
-								<hr />
+							<div className={`answskin ${isShow4 ? "ans4skin" : ""}`}>
 								<p>
-									Gynaecologists will mostly want to help you and tell you
-									what's going on with your body.
+									<hr />
+									Yes, a dermatologist does treat skin problems in children. If
+									your child has conditions like eczema, psoriasis, acne, warts
+									or diaper dermatitis (diaper rash), it is advisable to consult
+									a skin doctor and get it treated.
 								</p>
 							</div>
 						</div>
 
-						<div className="que-item" id="que5">
+						<div className="que-itemskin" id="que5">
 							<a onClick={changeClass5} className="que-link">
-								Is it okay to go to the gynaecologist on your period?
+								Is it necessary to get dermatological treatments?
 								<span className={`${isShow5 ? "Add_hide" : "add"}`}>
 									&#11167;
 								</span>
@@ -428,20 +449,21 @@ export default function Skin() {
 								</span>
 							</a>
 
-							<div className={`answ ${isShow5 ? "ans5" : ""}`}>
-								<hr />
+							<div className={`answskin ${isShow5 ? "ans5skin" : ""}`}>
 								<p>
-									Going to the gynaecologist is okay during periods, especially
-									if it's related to irregularities in your periods. But some
-									choose not to,considering their comfort level, but there's no
-									need to otherwise.
+									<hr />
+									Yes, it is of utmost importance to take care of dermatological
+									conditions as they can reflect your overall health. Skin and
+									hair, not only have aesthetic appeal but also protect our
+									internal organs from getting harmed. Hence, it is essential to
+									take care of the skin you live in.
 								</p>
 							</div>
 						</div>
 
-						<div className="que-item" id="que6">
+						<div className="que-itemskin" id="que6">
 							<a onClick={changeClass6} className="que-link">
-								Can Covid cause gynaecological problems?
+								Which doctor should I consult for hair loss?
 								<span className={`${isShow6 ? "Add_hide" : "add"}`}>
 									&#11167;
 								</span>
@@ -450,20 +472,17 @@ export default function Skin() {
 								</span>
 							</a>
 
-							<div className={`answ ${isShow6 ? "ans6" : ""}`}>
-								<hr />
+							<div className={`answskin ${isShow6 ? "ans6skin" : ""}`}>
 								<p>
-									Covid, directly, does not cause any gynaecological problems.
-									However, some symptoms may be related to stress due to the
-									pandemic. Consult with your gynaecologist on the same.
+									<hr />A dermatologist can treat both skin and hair. You can
+									consult a dermatologist for problems such as hair loss.
 								</p>
 							</div>
 						</div>
 
-						<div className="que-item" id="que7">
+						<div className="que-itemskin" id="que7">
 							<a onClick={changeClass7} className="que-link">
-								Should I cancel my gynaecologist appointment if I have my
-								period?
+								What is the best vitamin for hair loss?
 								<span className={`${isShow7 ? "Add_hide" : "add"}`}>
 									&#11167;
 								</span>
@@ -472,19 +491,26 @@ export default function Skin() {
 								</span>
 							</a>
 
-							<div className={`answ ${isShow7 ? "ans7" : ""}`}>
-								<hr />
+							<div className={`answskin ${isShow7 ? "ans7skin" : ""}`}>
 								<p>
-									Seeing a gynaecologist is okay during periods. Some choose not
-									to, considering their comfort levels, but otherwise, there's
-									no need to cancel.
+									<hr />
+									The 5 Best Vitamins for Hair Loss Prevention, Based on
+									Research
+									<ol>
+										<li>Biotin.</li>
+										<li>Iron.</li>
+										<li>Vitamin C.</li>
+										<li>Vitamin D.</li>
+										<li>Zinc.</li>
+									</ol>
 								</p>
 							</div>
 						</div>
 
-						<div className="que-item" id="que8">
+						<div className="que-itemskin" id="que8">
 							<a onClick={changeClass8} className="que-link">
-								Is it normal to get wet at the ob-gyn?
+								What is the difference between a cosmetologist & a
+								dermatologist?
 								<span className={`${isShow8 ? "Add_hide" : "add"}`}>
 									&#11167;
 								</span>
@@ -493,20 +519,22 @@ export default function Skin() {
 								</span>
 							</a>
 
-							<div className={`answ ${isShow8 ? "ans8" : ""}`}>
-								<hr />
+							<div className={`answskin ${isShow8 ? "ans8skin" : ""}`}>
 								<p>
-									There's nothing wrong with it; your body's natural response to
-									lubrication has nothing to do with the gynaecological
-									examination. Moreover, some women lubricate more than others,
-									and that's perfectly normal.
+									<hr />A dermatologist specializes in diagnosing and treating
+									all skin-related issues. They prescribe surgical or
+									non-surgical treatment for skin diseases. On the other hand,
+									cosmetology involves the study of skin, hair and nails.
+									Cosmetologists specialize in beauty treatments for the skin,
+									nails and hair including hairstyling, hairdressing and nail
+									treatments.
 								</p>
 							</div>
 						</div>
 
-						<div className="que-item" id="que9">
+						<div className="que-itemskin" id="que9">
 							<a onClick={changeClass9} className="que-link">
-								What does a gynaecologist check?
+								Is sun protection required?
 								<span className={`${isShow9 ? "Add_hide" : "add"}`}>
 									&#11167;
 								</span>
@@ -515,81 +543,11 @@ export default function Skin() {
 								</span>
 							</a>
 
-							<div className={`answ ${isShow9 ? "ans9" : ""}`}>
-								<hr />
+							<div className={`answskin ${isShow9 ? "ans9skin" : ""}`}>
 								<p>
-									Your doctor will typically check for abnormalities in your
-									blood pressure, heart rate, check for haemoglobin and record
-									your weight. They may also check your heart, lungs, chest and
-									thyroid glands for any abnormalities. During the breast
-									examination, your doctor will look for abnormal lumps or pain.
-									The internal examination helps the doctor check for
-									abnormalities in your reproductive organs, genital area,
-									cervix, ovaries and uterus. Finally, they will also do a pap
-									smear to ensure cells in your cervix are normal.
-								</p>
-							</div>
-						</div>
-
-						<div className="que-item" id="que10">
-							<a onClick={changeClass10} className="que-link">
-								Can a gynaecologist tell if you are a virgin?
-								<span className={`${isShow10 ? "Add_hide" : "add"}`}>
-									&#11167;
-								</span>
-								<span className={`${isShow10 ? "Remove_show" : "remove"}`}>
-									&#11165;
-								</span>
-							</a>
-
-							<div className={`answ ${isShow10 ? "ans10" : ""}`}>
-								<hr />
-								<p>
-									Unless you tell them, your gynaecologist will not know if you
-									are sexually active. In general, a pelvic or a vaginal exam
-									cannot tell with certainty if a woman is sexually active or
-									not.
-								</p>
-							</div>
-						</div>
-
-						<div className="que-item" id="que11">
-							<a onClick={changeClass11} className="que-link">
-								Is it embarrassing to have a pelvic exam?
-								<span className={`${isShow11 ? "Add_hide" : "add"}`}>
-									&#11167;
-								</span>
-								<span className={`${isShow11 ? "Remove_show" : "remove"}`}>
-									&#11165;
-								</span>
-							</a>
-
-							<div className={`answ ${isShow11 ? "ans11" : ""}`}>
-								<hr />
-								<p>
-									A pelvic exam is a simple, painless procedure, and it takes
-									only about five minutes. It's very normal to feel uneasy when
-									you don't know what to expect.
-								</p>
-							</div>
-						</div>
-
-						<div className="que-item" id="que12">
-							<a onClick={changeClass12} className="que-link">
-								Does a pap smear hurt?
-								<span className={`${isShow12 ? "Add_hide" : "add"}`}>
-									&#11167;
-								</span>
-								<span className={`${isShow12 ? "Remove_show" : "remove"}`}>
-									&#11165;
-								</span>
-							</a>
-
-							<div className={`answ ${isShow12 ? "ans12" : ""}`}>
-								<hr />
-								<p>
-									The pap smear may feel uncomfortable, but it's a procedure
-									that's over very quickly.
+									<hr />
+									Sun protection is essential to reduce the burden of skin
+									cancer and other signs of photodamage.
 								</p>
 							</div>
 						</div>

@@ -357,10 +357,9 @@ export default function Gynecology() {
 								</span>
 							</a>
 							<div className={`answ ${isShow1 ? "ans1" : ""}`}>
-								<hr />
 								<p>
-									A gynaecologist may ask you questions about the following
-									subjects:
+									<hr />A gynaecologist may ask you questions about the
+									following subjects:
 									<ul>
 										<li>
 											Medical history of breast cancers or any other cancer in
@@ -390,8 +389,8 @@ export default function Gynecology() {
 								</span>
 							</a>
 							<div className={`answ ${isShow2 ? "ans2" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									It's better to give them a call before visiting them. Ask your
 									gynaecologist if teleconsultation is possible.
 								</p>
@@ -408,8 +407,8 @@ export default function Gynecology() {
 								</span>
 							</a>
 							<div className={`answ ${isShow3 ? "ans3" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									Women should make their appointment once if they have
 									menstrual problems like delayed periods, too heavy bleeding,
 									pain during periods etc . Also, it's good to consult them if
@@ -428,8 +427,8 @@ export default function Gynecology() {
 								</span>
 							</a>
 							<div className={`answ ${isShow4 ? "ans4" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									Gynaecologists will mostly want to help you and tell you
 									what's going on with your body.
 								</p>
@@ -446,8 +445,8 @@ export default function Gynecology() {
 								</span>
 							</a>
 							<div className={`answ ${isShow5 ? "ans5" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									Going to the gynaecologist is okay during periods, especially
 									if it's related to irregularities in your periods. But some
 									choose not to,considering their comfort level, but there's no
@@ -466,8 +465,8 @@ export default function Gynecology() {
 								</span>
 							</a>
 							<div className={`answ ${isShow6 ? "ans6" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									Covid, directly, does not cause any gynaecological problems.
 									However, some symptoms may be related to stress due to the
 									pandemic. Consult with your gynaecologist on the same.
@@ -486,8 +485,8 @@ export default function Gynecology() {
 								</span>
 							</a>
 							<div className={`answ ${isShow7 ? "ans7" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									Seeing a gynaecologist is okay during periods. Some choose not
 									to, considering their comfort levels, but otherwise, there's
 									no need to cancel.
@@ -505,8 +504,8 @@ export default function Gynecology() {
 								</span>
 							</a>
 							<div className={`answ ${isShow8 ? "ans8" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									There's nothing wrong with it; your body's natural response to
 									lubrication has nothing to do with the gynaecological
 									examination. Moreover, some women lubricate more than others,
@@ -525,8 +524,8 @@ export default function Gynecology() {
 								</span>
 							</a>
 							<div className={`answ ${isShow9 ? "ans9" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									Your doctor will typically check for abnormalities in your
 									blood pressure, heart rate, check for haemoglobin and record
 									your weight. They may also check your heart, lungs, chest and
@@ -550,8 +549,8 @@ export default function Gynecology() {
 								</span>
 							</a>
 							<div className={`answ ${isShow10 ? "ans10" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									Unless you tell them, your gynaecologist will not know if you
 									are sexually active. In general, a pelvic or a vaginal exam
 									cannot tell with certainty if a woman is sexually active or
@@ -570,11 +569,10 @@ export default function Gynecology() {
 								</span>
 							</a>
 							<div className={`answ ${isShow11 ? "ans11" : ""}`}>
-								<hr />
 								<p>
-									A pelvic exam is a simple, painless procedure, and it takes
-									only about five minutes. It's very normal to feel uneasy when
-									you don't know what to expect.
+									<hr />A pelvic exam is a simple, painless procedure, and it
+									takes only about five minutes. It's very normal to feel uneasy
+									when you don't know what to expect.
 								</p>
 							</div>
 						</div>
@@ -589,8 +587,8 @@ export default function Gynecology() {
 								</span>
 							</a>
 							<div className={`answ ${isShow12 ? "ans12" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									The pap smear may feel uncomfortable, but it's a procedure
 									that's over very quickly.
 								</p>

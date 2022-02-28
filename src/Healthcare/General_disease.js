@@ -336,10 +336,9 @@ export default function General() {
 							</a>
 
 							<div className={`answ_gen ${isShow1 ? "ans1gen" : ""}`}>
-								<hr />
 								<p>
-									A General Physician would treat acute non-life-threatening
-									diseases such as:
+									<hr />A General Physician would treat acute
+									non-life-threatening diseases such as:
 									<ul>
 										<li>Cough & cold</li>
 										<li>Flu</li>
@@ -378,8 +377,8 @@ export default function General() {
 							</a>
 
 							<div className={`answ_gen ${isShow2 ? "ans2gen" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									General Medicine deals with all acute non-life-threatening
 									diseases, early detection/prevention and referral to
 									specialized doctors for patients with life-threatening health
@@ -400,10 +399,9 @@ export default function General() {
 							</a>
 
 							<div className={`answ_gen ${isShow3 ? "ans3gen" : ""}`}>
-								<hr />
 								<p>
-									A General Physician is a primary health care provider who
-									specializes in treating a little bit of every disease or
+									<hr />A General Physician is a primary health care provider
+									who specializes in treating a little bit of every disease or
 									health condition. With a GP, you can discuss various health
 									concerns, such as managing blood pressure, diabetes, fever,
 									headache, pains, diarrhoea, vomiting etc. Visiting a GP can
@@ -428,8 +426,8 @@ export default function General() {
 							</a>
 
 							<div className={`answ_gen ${isShow4 ? "ans4gen" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									Visiting a General Physician is the first step towards
 									understanding and diagnosing your health condition. A GP will
 									give you the best advice and suggestions regarding your health
@@ -453,9 +451,8 @@ export default function General() {
 							</a>
 
 							<div className={`answ_gen ${isShow5 ? "ans5gen" : ""}`}>
-								<hr />
 								<p>
-									A General Physician is otherwise also known as a General
+									<hr />A General Physician is otherwise also known as a General
 									Practitioner.
 								</p>
 							</div>
@@ -473,8 +470,8 @@ export default function General() {
 							</a>
 
 							<div className={`answ_gen ${isShow6 ? "ans6gen" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									Although a doctor is otherwise also called a physician, it is
 									important to differentiate physicians from doctors providing
 									homeopathic, ayurvedic care or those practicing Unani
@@ -497,8 +494,8 @@ export default function General() {
 							</a>
 
 							<div className={`answ_gen ${isShow7 ? "ans7gen" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									Before finding the best General Physician, you need to
 									consider the following factors:
 									<ul>
@@ -526,8 +523,8 @@ export default function General() {
 							</a>
 
 							<div className={`answ_gen ${isShow8 ? "ans8gen" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									General Physicians treat a wide range of every disease or
 									health condition. They may prescribe medications or refer you
 									to specialist doctors if the need arises. They may perform
@@ -548,8 +545,8 @@ export default function General() {
 							</a>
 
 							<div className={`answ_gen ${isShow9 ? "ans9gen" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									There are no hard and fast rules as to who's the best doctor.
 									But here are some useful suggestions for women depending on
 									the health problems:
@@ -576,8 +573,8 @@ export default function General() {
 							</a>
 
 							<div className={`answ_gen ${isShow10 ? "ans10gen" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									Yes. They are equally competent to any other doctor. There is
 									a scarcity of women doctors who must be encouraged to take up
 									medicine as their profession.
@@ -597,8 +594,8 @@ export default function General() {
 							</a>
 
 							<div className={`answ_gen ${isShow11 ? "ans11gen" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									Yes. Many physicians, especially those in the primary health
 									care sectors do pap smears and perform breast examinations.
 									But some may also refer you to a gynaecologist.
@@ -618,8 +615,8 @@ export default function General() {
 							</a>
 
 							<div className={`answ_gen ${isShow12 ? "ans12gen" : ""}`}>
-								<hr />
 								<p>
+									<hr />
 									Once a doctor-patient relationship is established and the
 									treatment started, doctors do have a legal and moral
 									obligation to adhere to a standard of reasonable care.

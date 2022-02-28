@@ -43,7 +43,7 @@ export const Header = () => {
 								</li>
 								<li>
 									<Link className="dropdown-item" to="/skin_disease_dep">
-										Skin Disease
+										Dermatology
 									</Link>
 								</li>
 							</ul>
