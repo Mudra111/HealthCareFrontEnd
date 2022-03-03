@@ -107,9 +107,11 @@ export const Header = () => {
 						</li>
 
 						<li>
-							<button className="btn btn-outline-dark login" type="button">
-								Log In
-							</button>
+							<Link to="/login">
+								<button className="btn btn-outline-dark login" type="button">
+									Log In
+								</button>
+							</Link>
 						</li>
 					</ul>
 				</nav>

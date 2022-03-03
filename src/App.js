@@ -9,6 +9,7 @@ import DonateMoney from "./Healthcare/Donate_money";
 import Gynecology from "./Healthcare/Gynecology";
 import General from "./Healthcare/General_disease";
 import Skin from "./Healthcare/SkinDisease";
+import Login from "./Healthcare/login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { WhatToDo1 } from "./Healthcare/WhatToDo1";
 // import { Help } from './Healthcare/Help';
@@ -31,6 +32,7 @@ function App() {
 					<Route exact path="/gynecology_department" element={<Gynecology />} />
 					<Route exact path="/general_disease_dep" element={<General />} />
 					<Route exact path="/skin_disease_dep" element={<Skin />} />
+					<Route exact path="/login" element={<Login />} />
 				</Routes>
 				<Footer />
 			</Router>
