@@ -1,7 +1,19 @@
 .jRFJkP:hover:enabled,
 .jRFJkP:focus:enabled {
-	color: #fff;
-	background-color: rgb(73, 72, 75) !important;
+	color: rgb(31, 30, 30) !important;
+	background-color: rgb(241, 240, 243) !important;
+	box-shadow: 0 0 2px 0 #333;
+}
+
+.jRFJkP:focus {
+	color: rgb(31, 30, 30);
+	background-color: rgb(241, 240, 243) !important;
+	box-shadow: 0 0 2px 0 #333;
+}
+
+.jRFJkP {
+	color: rgb(31, 30, 30);
+	background-color: rgb(241, 240, 243) !important;
 	box-shadow: 0 0 2px 0 #333;
 }
 
@@ -18,14 +30,29 @@
 }
 
 .dctImagHome {
-	height: 200px;
-	width: 190px;
+	height: 220px;
+	width: 220px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+	border-bottom: 3px solid black;
 }
 
 .DctSlider {
 	padding-top: 45px;
-	padding-bottom: 40px;
-	background-color: rgba(22, 6, 110, 0.685);
+	padding-bottom: 30px;
+	background-color: rgba(5, 2, 22, 0.966);
+}
+
+.dct-detail {
+	height: 197px;
+	width: 221px;
+	padding: 5px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: cornflowerblue;
+}
+
+.dct-name {
+	font-weight: 600;
+	font-size: 1.04rem;
 }
