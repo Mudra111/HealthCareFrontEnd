@@ -15,7 +15,7 @@ export const Header = () => {
             </li>
 
             <li>
-              <Link to="/">Laboratory Tests</Link>
+              <Link to="/login">Laboratory Tests</Link>
             </li>
 
             <li className="dropdown">
@@ -96,7 +96,7 @@ export const Header = () => {
               <Link to="/">Feedback</Link>
             </li>
             <li>
-              <Link to="/login">
+              <Link to="/registration">
                 <button className="btn btn-outline-dark login" type="button">
                   Log In
                 </button>

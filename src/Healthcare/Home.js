@@ -5,7 +5,6 @@ import Img2 from "./images/mainslide-img-4.jpg";
 import Img3 from "./images/mainslide-img-2.jpg";
 import Img4 from "./images/mainslide-img-3.jpg";
 import Slider from "./slider_home";
-import { CommonSymp } from "./Common_Symp";
 
 export const Home = () => {
   return (
@@ -78,8 +77,6 @@ export const Home = () => {
           </button>
         </div>
       </div>
-
-      <CommonSymp />
 
       <div>
         <Slider />
