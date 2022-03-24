@@ -18,6 +18,10 @@ export const Header = () => {
 							<Link to="/labtest">Laboratory Tests</Link>
 						</li>
 
+						{/*<li>
+            <Link to="/login">Laboratory Tests</Link>
+          </li>
+  */}
 						<li className="dropdown">
 							<Link
 								className="dropdown-toggle"
@@ -73,11 +77,6 @@ export const Header = () => {
 										Types of Blood Donations
 									</Link>
 								</li>
-								<li>
-									<Link className="dropdown-item" to="/">
-										Learn about Blood
-									</Link>
-								</li>
 
 								<hr />
 
@@ -92,11 +91,6 @@ export const Header = () => {
 										What to do Before,During and After a Donation
 									</Link>
 								</li>
-								<li>
-									<Link className="dropdown-item" to="/">
-										How Blood Donation Helps
-									</Link>
-								</li>
 							</ul>
 						</li>
 						<li>
@@ -105,7 +99,13 @@ export const Header = () => {
 						<li>
 							<Link to="/">Feedback</Link>
 						</li>
-
+						<li>
+							<Link to="/registration">
+								<button className="btn btn-outline-dark login" type="button">
+									registration
+								</button>
+							</Link>
+						</li>
 						<li>
 							<Link to="/login">
 								<button className="btn btn-outline-dark login" type="button">
