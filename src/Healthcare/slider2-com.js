@@ -5,7 +5,6 @@ export default styled.div`
 	height: 420px;
 	width: 224px;
 	background-color: white;
-	border: 2px solid black;
 	border-radius: 10px;
 	cursor: pointer;
 `;

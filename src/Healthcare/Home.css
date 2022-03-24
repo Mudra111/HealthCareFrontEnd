@@ -1,30 +1,30 @@
-.main-slider-1{
-    position: relative;
-    width: 100%;
+.main-slider-1 {
+	position: relative;
+	width: 100%;
 }
 
-.main-container-dep{
-    background: fixed no-repeat url("./images/background-img.jpg");
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-    padding-bottom: 50px;
+.main-container-dep {
+	background: fixed no-repeat url("./images/background-img.jpg");
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 50px;
 }
 
-.carousel-item img{
-    height: 600px !important;
+.carousel-item img {
+	height: 700px !important;
 }
 
-.bottom-btn{
-    display: none;
+.bottom-btn {
+	display: none;
 }
 
-.prev-btn{
-    display: none;
+.prev-btn {
+	display: none;
 }
 
-.next-btn{
-    display: none;
+.next-btn {
+	display: none;
 }
 
 /* .depa-info-main{
@@ -33,50 +33,182 @@
     flex-direction: row;
 } */
 
-.depa-info{
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    margin: 70px;
-    position: relative;
-    border: 3px solid white;
-    box-shadow: 3px 3px 7px rgb(71, 69, 69);
-    height: 400px;
-    width: 600px;
-    cursor: pointer;
-    background-color: black;
-    color: white;
+.depa-info {
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin: 70px;
+	position: relative;
+	border: 3px solid white;
+	box-shadow: 3px 3px 7px rgb(71, 69, 69);
+	height: 400px;
+	width: 600px;
+	cursor: pointer;
+	background-color: black;
+	color: white;
 }
 
-.doc-pic{
-    height: 250px;
-    width: 200px;
+.doc-pic {
+	height: 250px;
+	width: 200px;
 }
 
-.doc-name{
-    margin: 10px;
+.doc-name {
+	margin: 10px;
 }
 
-.pic-container{
-    margin: 20px;
-    box-shadow: 2px 2px 4px rgb(71, 69, 69);
-    height: 345px;
+.pic-container {
+	margin: 20px;
+	box-shadow: 2px 2px 4px rgb(71, 69, 69);
+	height: 345px;
 }
 
-.degree-container{
-    margin: 20px;
-    margin-left: 5px;
-    border: 3px rgb(152, 165, 179);
-    border-style: outset;
-    height: 300px;
-    width: 400px;
+.degree-container {
+	margin: 20px;
+	margin-left: 5px;
+	border: 3px rgb(152, 165, 179);
+	border-style: outset;
+	height: 300px;
+	width: 400px;
 }
 
-.degree-container p{
-    padding: 20px;
-    font-size: larger;
+.degree-container p {
+	padding: 20px;
+	font-size: larger;
 }
 
-.con-3{
-    margin-bottom: 0;
+.con-3 {
+	margin-bottom: 0;
+}
+
+.Slide1Con1 {
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	padding: 10px;
+	font-size: 70px;
+	background-color: rgba(19, 102, 179, 0.705);
+	animation: animate1 7s;
+	/* transition: width 4s; */
+}
+
+/* .SlideCon::before {
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background-color: black;
+	color: white;
+	transition: width 4s;
+	overflow: hidden;
+	animation: animate 4s;
+	border-right: 2px solid black;
+} */
+
+@keyframes animate1 {
+	from {
+		color: rgba(19, 102, 179, 0.705);
+	}
+	to {
+		color: white;
+	}
+}
+
+.Slide1Con2 {
+	position: absolute;
+	top: 310px;
+	left: 100px;
+	padding: 10px;
+	animation: animate2 7s;
+	background-color: rgba(19, 102, 179, 0.705);
+	/* transition: width 4s; */
+}
+
+@keyframes animate2 {
+	from {
+		color: rgba(19, 102, 179, 0.705);
+	}
+	to {
+		color: white;
+	}
+}
+
+.Slide2Con1 {
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	padding: 10px;
+	font-size: 70px;
+	background-color: rgba(12, 44, 148, 0.705);
+	animation: ani2mate1 7s;
+	/* transition: width 4s; */
+}
+
+.Slide2Con2 {
+	position: absolute;
+	top: 310px;
+	left: 100px;
+	padding: 10px;
+	animation: ani2mate2 7s;
+	background-color: rgba(12, 44, 148, 0.705);
+	/* transition: width 4s; */
+}
+
+@keyframes ani2mate1 {
+	from {
+		color: rgba(12, 44, 148, 0.705);
+	}
+	to {
+		color: white;
+	}
+}
+
+@keyframes ani2mate2 {
+	from {
+		color: rgba(12, 44, 148, 0.705);
+	}
+	to {
+		color: white;
+	}
+}
+
+.Slide3Con1 {
+	position: absolute;
+	top: 320px;
+	left: 280px;
+	padding: 10px;
+	font-size: 70px;
+	background-color: rgba(12, 44, 148, 0.705);
+	animation: ani2mate1 7s;
+	/* transition: width 4s; */
+}
+
+.Slide3Con2 {
+	position: absolute;
+	top: 430px;
+	left: 280px;
+	padding: 10px;
+	animation: ani2mate2 7s;
+	background-color: rgba(12, 44, 148, 0.705);
+	/* transition: width 4s; */
+}
+
+@keyframes ani3mate1 {
+	from {
+		color: rgba(12, 44, 148, 0.705);
+	}
+	to {
+		color: white;
+	}
+}
+
+@keyframes ani3mate2 {
+	from {
+		color: rgba(12, 44, 148, 0.705);
+	}
+	to {
+		color: white;
+	}
 }

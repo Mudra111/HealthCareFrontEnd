@@ -1,10 +1,11 @@
 import React from "react";
 import "./Home.css";
-import Img1 from "./images/mainslide-img-1.jpg";
-import Img2 from "./images/mainslide-img-4.jpg";
-import Img3 from "./images/mainslide-img-2.jpg";
-import Img4 from "./images/mainslide-img-3.jpg";
+import Img1 from "./images/HomeSlider1.jpg";
+import Img2 from "./images/HomeSlider22.jpg";
+import Img3 from "./images/HomeSlider33.jpg";
 import Slider from "./slider_home";
+import CommonSympt from "./CommonSympt";
+import Sugg from "./SuggestionSearchbar";
 
 export const Home = () => {
 	return (
@@ -45,16 +46,25 @@ export const Home = () => {
 					</div>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src={Img1} class="d-block w-100" alt="..." />
+							<img src={Img1} class="d-block w-100n" alt="..." />
+							<div>
+								<h1 className="Slide1Con1">WELCOME TO HOSPITAL</h1>
+								<h4 className="Slide1Con2">BE CALM QUIT COOL.</h4>
+							</div>
 						</div>
 						<div class="carousel-item">
 							<img src={Img2} class="d-block w-100" alt="..." />
+							<div>
+								<h1 className="Slide2Con1">TRY TO BE HEALTHY</h1>
+								<h4 className="Slide2Con2">AIN'T THAT NICE?</h4>
+							</div>
 						</div>
 						<div class="carousel-item">
 							<img src={Img3} class="d-block w-100" alt="..." />
-						</div>
-						<div class="carousel-item">
-							<img src={Img4} class="d-block w-100" alt="..." />
+							<div>
+								<h1 className="Slide3Con1">BE AWESOME</h1>
+								<h4 className="Slide3Con2">IN A SMOOTH WAY</h4>
+							</div>
 						</div>
 					</div>
 					<button
@@ -78,8 +88,16 @@ export const Home = () => {
 				</div>
 			</div>
 
+			{/*<div>
+				<Sugg />
+			</div>*/}
+
 			<div>
 				<Slider />
+			</div>
+
+			<div>
+				<CommonSympt />
 			</div>
 		</div>
 	);

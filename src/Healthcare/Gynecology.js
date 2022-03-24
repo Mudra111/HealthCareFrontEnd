@@ -4,6 +4,7 @@ import "./Gynecology.css";
 import sp1Gyn from "./images/sp1Gyn.jpg";
 import sp2Gyn from "./images/sp2Gyn.jpg";
 import sp3Gyn from "./images/sp3Gyn.jpg";
+import SuggArr from "./SuggArr";
 
 export default function Gynecology() {
 	const [isShow1, setIsShow1] = useState(false);
@@ -80,6 +81,9 @@ export default function Gynecology() {
 
 	return (
 		<div className="main_gyn">
+			<div>
+				<SuggArr />
+			</div>
 			<div className="gynecology_depa">
 				<div className="gyn_heading_div">
 					<h1 className="gyneco_heading">Obstetrics and Gynecology</h1>

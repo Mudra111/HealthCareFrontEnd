@@ -40,19 +40,20 @@
 .DctSlider {
 	padding-top: 45px;
 	padding-bottom: 30px;
-	background-color: rgba(5, 2, 22, 0.966);
+	/* background-color: rgba(5, 2, 22, 0.356); */
 }
 
 .dct-detail {
 	height: 197px;
 	width: 221px;
-	padding: 5px;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	background-color: cornflowerblue;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: rgb(5, 41, 114);
 }
 
 .dct-name {
 	font-weight: 600;
 	font-size: 1.04rem;
+	color: rgba(255, 255, 255, 0.863);
 }
