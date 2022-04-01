@@ -141,7 +141,7 @@ export default function General() {
 										</div>
 									</div>
 
-									<div className="sp1Qua">
+									<div className="sp1Quagen">
 										<h5 className="sp1quaHead_gen">Work Experience</h5>
 										<ul className="sp1quaDet">
 											<li>
@@ -193,7 +193,7 @@ export default function General() {
 										<img src={sp2Gen} alt="" className="sp1Imggen" />
 
 										<div className="sp_1_con">
-											<table className="sp1Tab">
+											<table className="sp1Tabgen">
 												<tr>
 													<td>
 														<b>Qualification</b>
@@ -212,7 +212,7 @@ export default function General() {
 										</div>
 									</div>
 
-									<div className="sp1Qua">
+									<div className="sp1Quagen">
 										<h5 className="sp1quaHead_gen">Work Experience</h5>
 										<ul className="sp1quaDet">
 											<li>Working in Apollo Hospitals since last Assignment</li>
@@ -267,7 +267,7 @@ export default function General() {
 									<div className="gy_ImgCon">
 										<img src={sp3Gen} alt="" className="sp1Imggen" />
 										<div className="sp_1_con">
-											<table className="sp1Tab">
+											<table className="sp1Tabgen">
 												<tr>
 													<td>
 														<b>Qualification</b>
@@ -286,7 +286,7 @@ export default function General() {
 										</div>
 									</div>
 
-									<div className="sp1Qua">
+									<div className="sp1Quagen">
 										<h5 className="sp1quaHead_gen">Work Experience</h5>
 										<ul className="sp1quaDet">
 											<li>Suraksha Hospital, Kolkata 2002</li>
@@ -320,8 +320,8 @@ export default function General() {
 				<div className="breakLine_gen"></div>
 
 				<section className="que_gen">
-					<div className="que-container">
-						<div className="heading_que que-item_gen">
+					<div className="que-containergen">
+						<div className="heading_queGen que-item_gen">
 							<h2>Frequently Asked Questions on General Physician Near Me</h2>
 						</div>
 						<div className="que-item_gen" id="que1">
@@ -553,7 +553,7 @@ export default function General() {
 									<ul>
 										<li>General Physician</li>
 										<li>
-											Gynaecologists who provide care pertaining to women’s
+											Gynaecologists who provide care pertaining to women's
 											health.
 										</li>
 									</ul>

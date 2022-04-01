@@ -212,3 +212,503 @@
 		color: white;
 	}
 }
+
+@media only screen and (min-device-width: 350px) and (max-device-width: 550px) {
+	.carousel-item img {
+		height: 300px !important;
+	}
+
+	.Slide1Con1 {
+		position: absolute;
+		top: 170px;
+		left: 50px;
+		padding: 10px;
+		font-size: 20px;
+		background-color: rgba(19, 102, 179, 0.705);
+		animation: animate1 7s;
+		/* transition: width 4s; */
+	}
+
+	@keyframes animate1 {
+		from {
+			color: rgba(19, 102, 179, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	.Slide1Con2 {
+		position: absolute;
+		top: 217px;
+		left: 50px;
+		font-size: x-small;
+		padding: 10px;
+		animation: animate2 7s;
+		background-color: rgba(19, 102, 179, 0.705);
+	}
+
+	@keyframes animate2 {
+		from {
+			color: rgba(19, 102, 179, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	.Slide2Con1 {
+		position: absolute;
+		top: 120px;
+		left: 50px;
+		padding: 10px;
+		font-size: 20px;
+		background-color: rgba(12, 44, 148, 0.705);
+		animation: ani2mate1 7s;
+		/* transition: width 4s; */
+	}
+
+	.Slide2Con2 {
+		position: absolute;
+		top: 165px;
+		left: 50px;
+		font-size: x-small;
+		padding: 10px;
+		animation: ani2mate2 7s;
+		background-color: rgba(12, 44, 148, 0.705);
+		/* transition: width 4s; */
+	}
+
+	@keyframes ani2mate1 {
+		from {
+			color: rgba(12, 44, 148, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	@keyframes ani2mate2 {
+		from {
+			color: rgba(12, 44, 148, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	.Slide3Con1 {
+		position: absolute;
+		top: 130px;
+		left: 115px;
+		padding: 10px;
+		font-size: 20px;
+		background-color: rgba(12, 44, 148, 0.705);
+		animation: ani2mate1 7s;
+		/* transition: width 4s; */
+	}
+
+	.Slide3Con2 {
+		position: absolute;
+		top: 175px;
+		font-size: x-small;
+		left: 115px;
+		padding: 10px;
+		animation: ani2mate2 7s;
+		background-color: rgba(12, 44, 148, 0.705);
+		/* transition: width 4s; */
+	}
+
+	@keyframes ani3mate1 {
+		from {
+			color: rgba(12, 44, 148, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	@keyframes ani3mate2 {
+		from {
+			color: rgba(12, 44, 148, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+}
+
+@media only screen and (min-device-width: 551px) and (max-device-width: 750px) {
+	.carousel-item img {
+		height: 300px !important;
+	}
+
+	.Slide1Con1 {
+		position: absolute;
+		top: 170px;
+		left: 50px;
+		padding: 10px;
+		font-size: 30px;
+		background-color: rgba(19, 102, 179, 0.705);
+		animation: animate1 7s;
+		/* transition: width 4s; */
+	}
+
+	@keyframes animate1 {
+		from {
+			color: rgba(19, 102, 179, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	.Slide1Con2 {
+		position: absolute;
+		top: 230px;
+		left: 50px;
+		font-size: smaller;
+		padding: 10px;
+		animation: animate2 7s;
+		background-color: rgba(19, 102, 179, 0.705);
+	}
+
+	@keyframes animate2 {
+		from {
+			color: rgba(19, 102, 179, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	.Slide2Con1 {
+		position: absolute;
+		top: 180px;
+		left: 50px;
+		padding: 10px;
+		font-size: 30px;
+		background-color: rgba(12, 44, 148, 0.705);
+		animation: ani2mate1 7s;
+		/* transition: width 4s; */
+	}
+
+	.Slide2Con2 {
+		position: absolute;
+		top: 240px;
+		left: 50px;
+		font-size: smaller;
+		padding: 10px;
+		animation: ani2mate2 7s;
+		background-color: rgba(12, 44, 148, 0.705);
+		/* transition: width 4s; */
+	}
+
+	@keyframes ani2mate1 {
+		from {
+			color: rgba(12, 44, 148, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	@keyframes ani2mate2 {
+		from {
+			color: rgba(12, 44, 148, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	.Slide3Con1 {
+		position: absolute;
+		top: 150px;
+		left: 160px;
+		padding: 10px;
+		font-size: 30px;
+		background-color: rgba(12, 44, 148, 0.705);
+		animation: ani2mate1 7s;
+		/* transition: width 4s; */
+	}
+
+	.Slide3Con2 {
+		position: absolute;
+		top: 210px;
+		font-size: smaller;
+		left: 160px;
+		padding: 10px;
+		animation: ani2mate2 7s;
+		background-color: rgba(12, 44, 148, 0.705);
+		/* transition: width 4s; */
+	}
+
+	@keyframes ani3mate1 {
+		from {
+			color: rgba(12, 44, 148, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	@keyframes ani3mate2 {
+		from {
+			color: rgba(12, 44, 148, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+}
+
+@media only screen and (min-device-width: 751px) and (max-device-width: 1050px) {
+	.carousel-item img {
+		height: 450px !important;
+	}
+
+	.Slide1Con1 {
+		position: absolute;
+		top: 230px;
+		left: 70px;
+		padding: 10px;
+		font-size: 45px;
+		background-color: rgba(19, 102, 179, 0.705);
+		animation: animate1 7s;
+		/* transition: width 4s; */
+	}
+
+	@keyframes animate1 {
+		from {
+			color: rgba(19, 102, 179, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	.Slide1Con2 {
+		position: absolute;
+		top: 310px;
+		left: 70px;
+		font-size: 20px;
+		padding: 10px;
+		animation: animate2 7s;
+		background-color: rgba(19, 102, 179, 0.705);
+	}
+
+	@keyframes animate2 {
+		from {
+			color: rgba(19, 102, 179, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	.Slide2Con1 {
+		position: absolute;
+		top: 180px;
+		left: 80px;
+		padding: 10px;
+		font-size: 50px;
+		background-color: rgba(12, 44, 148, 0.705);
+		animation: ani2mate1 7s;
+		/* transition: width 4s; */
+	}
+
+	.Slide2Con2 {
+		position: absolute;
+		top: 265px;
+		left: 80px;
+		font-size: 20px;
+		padding: 10px;
+		animation: ani2mate2 7s;
+		background-color: rgba(12, 44, 148, 0.705);
+		/* transition: width 4s; */
+	}
+
+	@keyframes ani2mate1 {
+		from {
+			color: rgba(12, 44, 148, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	@keyframes ani2mate2 {
+		from {
+			color: rgba(12, 44, 148, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	.Slide3Con1 {
+		position: absolute;
+		top: 180px;
+		left: 200px;
+		padding: 10px;
+		font-size: 50px;
+		background-color: rgba(12, 44, 148, 0.705);
+		animation: ani2mate1 7s;
+		/* transition: width 4s; */
+	}
+
+	.Slide3Con2 {
+		position: absolute;
+		top: 265px;
+		font-size: 20px;
+		left: 200px;
+		padding: 10px;
+		animation: ani2mate2 7s;
+		background-color: rgba(12, 44, 148, 0.705);
+		/* transition: width 4s; */
+	}
+
+	@keyframes ani3mate1 {
+		from {
+			color: rgba(12, 44, 148, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	@keyframes ani3mate2 {
+		from {
+			color: rgba(12, 44, 148, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+}
+
+@media only screen and (min-device-width: 1051px) and (max-device-width: 1400px) {
+	.carousel-item img {
+		height: 620px !important;
+	}
+
+	.Slide1Con1 {
+		position: absolute;
+		top: 280px;
+		left: 70px;
+		padding: 10px;
+		font-size: 60px;
+		background-color: rgba(19, 102, 179, 0.705);
+		animation: animate1 7s;
+		/* transition: width 4s; */
+	}
+
+	@keyframes animate1 {
+		from {
+			color: rgba(19, 102, 179, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	.Slide1Con2 {
+		position: absolute;
+		top: 375px;
+		left: 70px;
+		font-size: 25px;
+		padding: 10px;
+		animation: animate2 7s;
+		background-color: rgba(19, 102, 179, 0.705);
+	}
+
+	@keyframes animate2 {
+		from {
+			color: rgba(19, 102, 179, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	.Slide2Con1 {
+		position: absolute;
+		top: 220px;
+		left: 90px;
+		padding: 10px;
+		font-size: 60px;
+		background-color: rgba(12, 44, 148, 0.705);
+		animation: ani2mate1 7s;
+		/* transition: width 4s; */
+	}
+
+	.Slide2Con2 {
+		position: absolute;
+		top: 315px;
+		left: 90px;
+		font-size: 25px;
+		padding: 10px;
+		animation: ani2mate2 7s;
+		background-color: rgba(12, 44, 148, 0.705);
+		/* transition: width 4s; */
+	}
+
+	@keyframes ani2mate1 {
+		from {
+			color: rgba(12, 44, 148, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	@keyframes ani2mate2 {
+		from {
+			color: rgba(12, 44, 148, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	.Slide3Con1 {
+		position: absolute;
+		top: 240px;
+		left: 240px;
+		padding: 10px;
+		font-size: 60px;
+		background-color: rgba(12, 44, 148, 0.705);
+		animation: ani2mate1 7s;
+		/* transition: width 4s; */
+	}
+
+	.Slide3Con2 {
+		position: absolute;
+		top: 335px;
+		font-size: 25px;
+		left: 240px;
+		padding: 10px;
+		animation: ani2mate2 7s;
+		background-color: rgba(12, 44, 148, 0.705);
+		/* transition: width 4s; */
+	}
+
+	@keyframes ani3mate1 {
+		from {
+			color: rgba(12, 44, 148, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+
+	@keyframes ani3mate2 {
+		from {
+			color: rgba(12, 44, 148, 0.705);
+		}
+		to {
+			color: white;
+		}
+	}
+}

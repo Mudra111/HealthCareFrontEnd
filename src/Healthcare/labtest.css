@@ -309,3 +309,1375 @@
 	color: black;
 	font-weight: 600;
 }
+
+@media only screen and (min-device-width: 350px) and (max-device-width: 550px) {
+	.gridCon {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.labMain1 {
+		display: none;
+		width: 100%;
+	}
+
+	.labMain2 {
+		display: none;
+	}
+
+	.navForLab {
+		background-color: rgba(6, 120, 173, 0.993);
+		width: 100%;
+	}
+
+	.navForLab ul {
+		margin: auto;
+		padding: 0;
+	}
+
+	.typesOfLab {
+		list-style: none;
+	}
+
+	.labType {
+		padding: 30px;
+		padding-right: 0px;
+		padding-left: 35px;
+		color: white;
+		font-weight: 700;
+		font-size: 23px;
+		cursor: pointer;
+		border-bottom: 1px solid white;
+	}
+
+	.labType:hover {
+		background-color: rgb(91, 196, 245);
+		color: black;
+	}
+
+	.infoLabDiv {
+		padding: 0px;
+		background: no-repeat url("./images/blood_test_lab.jpg");
+		background-size: cover;
+		width: 100%;
+		height: 380px;
+		font-weight: 900;
+		font-size: 20px;
+	}
+
+	.parForInfoLab {
+		background: none;
+		/* background-size: cover; */
+		font-weight: 900;
+		margin: 0px;
+		padding: 0;
+		padding-top: 65px;
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.innerPar {
+		background-color: rgba(255, 255, 255, 0.788);
+		border: 2px solid black;
+		padding: 10px;
+		width: 250px;
+		height: 250px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 15px;
+	}
+
+	.howQ {
+		padding-left: 0px;
+		text-align: center;
+		font-size: 20px;
+		padding-top: 10px;
+		display: none;
+	}
+
+	.circle1 {
+		margin-top: 10px;
+		margin-left: 15px;
+		margin-bottom: 0px;
+		border: 2px solid black;
+		border-radius: 50px;
+		width: 40px;
+		height: 40px;
+		display: none;
+	}
+
+	.circle2 {
+		margin-top: 50px;
+		margin-left: 15px;
+		margin-bottom: 0px;
+		border: 2px solid black;
+		border-radius: 50px;
+		width: 40px;
+		height: 40px;
+		display: none;
+	}
+
+	.circle3 {
+		margin-top: 50px;
+		margin-left: 15px;
+		margin-bottom: 0px;
+		border: 2px solid black;
+		border-radius: 50px;
+		width: 40px;
+		height: 40px;
+		display: none;
+	}
+
+	.circleCon {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 230px;
+		width: 70px;
+		display: none;
+	}
+
+	.line1 {
+		height: 50px;
+		width: 2px;
+		position: absolute;
+		top: 50px;
+		left: 35px;
+		background-color: black;
+		display: none;
+	}
+
+	.line2 {
+		height: 50px;
+		width: 2px;
+		position: absolute;
+		top: 140px;
+		left: 35px;
+		background-color: black;
+		display: none;
+	}
+
+	.num1 {
+		position: absolute;
+		top: 15px;
+		left: 30px;
+		font-weight: 700;
+		display: none;
+
+		font-size: 20px;
+	}
+
+	.num2 {
+		position: absolute;
+		top: 105px;
+		left: 30px;
+		font-weight: 700;
+		font-size: 20px;
+		display: none;
+	}
+
+	.num3 {
+		position: absolute;
+		top: 195px;
+		left: 30px;
+		font-weight: 700;
+		font-size: 20px;
+		display: none;
+	}
+
+	.circleStatements {
+		position: absolute;
+		display: none;
+	}
+
+	.statement1 {
+		margin-left: 70px;
+		font-weight: 700;
+		position: absolute;
+		top: 10px;
+		left: 50px;
+		font-size: 10px;
+		display: none;
+	}
+
+	.statement2 {
+		margin-left: 50px;
+		font-weight: 700;
+		position: absolute;
+		display: none;
+	}
+
+	.statement3 {
+		margin-left: 60px;
+		font-weight: 700;
+		position: absolute;
+		display: none;
+	}
+
+	.labBloodbtndiv {
+		text-align: center;
+		padding: 50px;
+	}
+
+	.labBloodButn {
+		background-color: rgba(10, 148, 212, 0.76);
+		padding: 15px;
+		border: 2px solid rgb(2, 90, 119);
+		border-radius: 10px;
+		padding-left: 25px;
+		padding-right: 25px;
+		font-size: 15px;
+		font-weight: 600;
+	}
+
+	.labBloodButn:hover {
+		background-color: rgb(6, 107, 153);
+		color: white;
+	}
+
+	.Scanspic {
+		width: 40vw;
+		height: 40vh;
+		margin-top: 30px;
+		margin-left: 30vw;
+	}
+
+	.ScanConPic {
+		display: flex;
+		flex-direction: column;
+		background-color: whitesmoke;
+		margin: 0px;
+		width: 100%;
+	}
+
+	.Scanscon {
+		margin: 20px;
+		font-size: 15px;
+		font-weight: 600;
+		padding: 15px;
+		padding-top: 15px;
+		background-color: rgba(0, 119, 255, 0.452);
+		align-content: center;
+	}
+
+	.availScanM {
+		width: 100%;
+	}
+
+	.availHead {
+		text-align: center;
+		padding-top: 15px;
+		display: none;
+	}
+
+	.TestNam {
+		display: flex;
+		flex-direction: column;
+		margin-left: 0px;
+		width: 330px;
+		margin: 0px;
+		padding-left: 0px;
+		display: none;
+	}
+
+	.TestN1 {
+		color: black;
+		display: block;
+		flex-direction: column;
+		width: 80px;
+	}
+
+	.TestN2 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 80px;
+	}
+
+	.TestN3 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 80px;
+	}
+
+	.TestN4 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 80px;
+	}
+
+	.TestN5 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 80px;
+		display: none;
+	}
+
+	.TestN6 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 80px;
+		display: none;
+	}
+
+	.TestN7 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 100px;
+		display: none;
+	}
+
+	.TestN8 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 100px;
+		display: none;
+	}
+
+	.SvgScan1 {
+		height: 50px;
+		padding-left: 15px;
+	}
+
+	.SvgScan6 {
+		height: 50px;
+	}
+
+	.DivP1 {
+		color: black;
+		font-weight: 600;
+	}
+}
+
+@media only screen and (min-device-width: 551px) and (max-device-width: 750px) {
+	.gridCon {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.labMain1 {
+		display: none;
+		width: 100%;
+	}
+
+	.labMain2 {
+		display: none;
+	}
+
+	.navForLab {
+		background-color: rgba(6, 120, 173, 0.993);
+		width: 100%;
+	}
+
+	.navForLab ul {
+		margin: auto;
+		padding: 0;
+	}
+
+	.typesOfLab {
+		list-style: none;
+	}
+
+	.labType {
+		padding: 30px;
+		padding-right: 0px;
+		padding-left: 35px;
+		color: white;
+		font-weight: 700;
+		font-size: 28px;
+		cursor: pointer;
+		border-bottom: 1px solid white;
+	}
+
+	.labType:hover {
+		background-color: rgb(91, 196, 245);
+		color: black;
+	}
+
+	.infoLabDiv {
+		padding: 0px;
+		background: no-repeat url("./images/blood_test_lab.jpg");
+		background-size: cover;
+		width: 100%;
+		height: 500px;
+		font-weight: 900;
+		font-size: 20px;
+	}
+
+	.parForInfoLab {
+		background: none;
+		/* background-size: cover; */
+		font-weight: 900;
+		margin: 0px;
+		padding: 0;
+		padding-top: 65px;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.innerPar {
+		background-color: rgba(255, 255, 255, 0.788);
+		border: 2px solid black;
+		padding: 10px;
+		width: 350px;
+		height: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 15px;
+	}
+
+	.howQ {
+		padding-left: 0px;
+		text-align: center;
+		font-size: 20px;
+		padding-top: 10px;
+		display: none;
+	}
+
+	.circle1 {
+		margin-top: 10px;
+		margin-left: 15px;
+		margin-bottom: 0px;
+		border: 2px solid black;
+		border-radius: 50px;
+		width: 40px;
+		height: 40px;
+		display: none;
+	}
+
+	.circle2 {
+		margin-top: 50px;
+		margin-left: 15px;
+		margin-bottom: 0px;
+		border: 2px solid black;
+		border-radius: 50px;
+		width: 40px;
+		height: 40px;
+		display: none;
+	}
+
+	.circle3 {
+		margin-top: 50px;
+		margin-left: 15px;
+		margin-bottom: 0px;
+		border: 2px solid black;
+		border-radius: 50px;
+		width: 40px;
+		height: 40px;
+		display: none;
+	}
+
+	.circleCon {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 230px;
+		width: 70px;
+		display: none;
+	}
+
+	.line1 {
+		height: 50px;
+		width: 2px;
+		position: absolute;
+		top: 50px;
+		left: 35px;
+		background-color: black;
+		display: none;
+	}
+
+	.line2 {
+		height: 50px;
+		width: 2px;
+		position: absolute;
+		top: 140px;
+		left: 35px;
+		background-color: black;
+		display: none;
+	}
+
+	.num1 {
+		position: absolute;
+		top: 15px;
+		left: 30px;
+		font-weight: 700;
+		display: none;
+
+		font-size: 20px;
+	}
+
+	.num2 {
+		position: absolute;
+		top: 105px;
+		left: 30px;
+		font-weight: 700;
+		font-size: 20px;
+		display: none;
+	}
+
+	.num3 {
+		position: absolute;
+		top: 195px;
+		left: 30px;
+		font-weight: 700;
+		font-size: 20px;
+		display: none;
+	}
+
+	.circleStatements {
+		position: absolute;
+		display: none;
+	}
+
+	.statement1 {
+		margin-left: 70px;
+		font-weight: 700;
+		position: absolute;
+		top: 10px;
+		left: 50px;
+		font-size: 10px;
+		display: none;
+	}
+
+	.statement2 {
+		margin-left: 50px;
+		font-weight: 700;
+		position: absolute;
+		display: none;
+	}
+
+	.statement3 {
+		margin-left: 60px;
+		font-weight: 700;
+		position: absolute;
+		display: none;
+	}
+
+	.labBloodbtndiv {
+		text-align: center;
+		padding: 50px;
+	}
+
+	.labBloodButn {
+		background-color: rgba(10, 148, 212, 0.76);
+		padding: 15px;
+		border: 2px solid rgb(2, 90, 119);
+		border-radius: 10px;
+		padding-left: 25px;
+		padding-right: 25px;
+		font-size: 20px;
+		font-weight: 600;
+	}
+
+	.labBloodButn:hover {
+		background-color: rgb(6, 107, 153);
+		color: white;
+	}
+
+	.Scanspic {
+		width: 40vw;
+		height: 40vh;
+		margin-top: 30px;
+		margin-left: 30vw;
+	}
+
+	.ScanConPic {
+		display: flex;
+		flex-direction: column;
+		background-color: whitesmoke;
+		margin: 0px;
+		width: 100%;
+	}
+
+	.Scanscon {
+		margin: 30px;
+		font-size: 15px;
+		font-weight: 600;
+		padding: 15px;
+		padding-top: 15px;
+		background-color: rgba(0, 119, 255, 0.452);
+		align-content: center;
+	}
+
+	.availScanM {
+		width: 100%;
+	}
+
+	.availHead {
+		text-align: center;
+		padding-top: 15px;
+		display: none;
+	}
+
+	.TestNam {
+		display: flex;
+		flex-direction: column;
+		margin-left: 0px;
+		width: 330px;
+		margin: 0px;
+		padding-left: 0px;
+		display: none;
+	}
+
+	.TestN1 {
+		color: black;
+		display: block;
+		flex-direction: column;
+		width: 80px;
+	}
+
+	.TestN2 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 80px;
+	}
+
+	.TestN3 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 80px;
+	}
+
+	.TestN4 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 80px;
+	}
+
+	.TestN5 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 80px;
+		display: none;
+	}
+
+	.TestN6 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 80px;
+		display: none;
+	}
+
+	.TestN7 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 100px;
+		display: none;
+	}
+
+	.TestN8 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 100px;
+		display: none;
+	}
+
+	.SvgScan1 {
+		height: 50px;
+		padding-left: 15px;
+	}
+
+	.SvgScan6 {
+		height: 50px;
+	}
+
+	.DivP1 {
+		color: black;
+		font-weight: 600;
+	}
+}
+
+@media only screen and (min-device-width: 751px) and (max-device-width: 1050px) {
+	.gridCon {
+		display: flex;
+		width: 100%;
+	}
+
+	.labMain1 {
+		display: none;
+		width: 100%;
+	}
+
+	.labMain2 {
+		display: none;
+	}
+
+	.navForLab {
+		background-color: rgba(6, 120, 173, 0.993);
+		/* width: 35vw; */
+	}
+
+	.navForLab ul {
+		margin: auto;
+		padding: 0;
+	}
+
+	.typesOfLab {
+		list-style: none;
+	}
+
+	.labType {
+		padding: 30px;
+		padding-right: 0px;
+		padding-left: 35px;
+		color: white;
+		font-weight: 700;
+		font-size: 28px;
+		cursor: pointer;
+		border-bottom: 1px solid white;
+	}
+
+	.labType:hover {
+		background-color: rgb(91, 196, 245);
+		color: black;
+	}
+
+	.infoLabDiv {
+		padding: 0px;
+		background: no-repeat url("./images/blood_test_lab.jpg");
+		background-size: cover;
+		width: 100%;
+		height: 500px;
+		padding-left: 7vw;
+		padding-right: 7vw;
+		font-weight: 900;
+		font-size: 20px;
+	}
+
+	.parForInfoLab {
+		background: none;
+		/* background-size: cover; */
+		font-weight: 900;
+		margin: 0px;
+		padding: 0;
+		padding-top: 65px;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.innerPar {
+		background-color: rgba(255, 255, 255, 0.788);
+		border: 2px solid black;
+		padding: 10px;
+		height: 27vw;
+		width: 60vw;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 15px;
+	}
+
+	.howQ {
+		padding-left: 0px;
+		text-align: center;
+		font-size: 20px;
+		padding-top: 10px;
+		display: none;
+	}
+
+	.circle1 {
+		margin-top: 10px;
+		margin-left: 15px;
+		margin-bottom: 0px;
+		border: 2px solid black;
+		border-radius: 50px;
+		width: 40px;
+		height: 40px;
+		display: none;
+	}
+
+	.circle2 {
+		margin-top: 50px;
+		margin-left: 15px;
+		margin-bottom: 0px;
+		border: 2px solid black;
+		border-radius: 50px;
+		width: 40px;
+		height: 40px;
+		display: none;
+	}
+
+	.circle3 {
+		margin-top: 50px;
+		margin-left: 15px;
+		margin-bottom: 0px;
+		border: 2px solid black;
+		border-radius: 50px;
+		width: 40px;
+		height: 40px;
+		display: none;
+	}
+
+	.circleCon {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 230px;
+		width: 70px;
+		display: none;
+	}
+
+	.line1 {
+		height: 50px;
+		width: 2px;
+		position: absolute;
+		top: 50px;
+		left: 35px;
+		background-color: black;
+		display: none;
+	}
+
+	.line2 {
+		height: 50px;
+		width: 2px;
+		position: absolute;
+		top: 140px;
+		left: 35px;
+		background-color: black;
+		display: none;
+	}
+
+	.num1 {
+		position: absolute;
+		top: 15px;
+		left: 30px;
+		font-weight: 700;
+		display: none;
+
+		font-size: 20px;
+	}
+
+	.num2 {
+		position: absolute;
+		top: 105px;
+		left: 30px;
+		font-weight: 700;
+		font-size: 20px;
+		display: none;
+	}
+
+	.num3 {
+		position: absolute;
+		top: 195px;
+		left: 30px;
+		font-weight: 700;
+		font-size: 20px;
+		display: none;
+	}
+
+	.circleStatements {
+		position: absolute;
+		display: none;
+	}
+
+	.statement1 {
+		margin-left: 70px;
+		font-weight: 700;
+		position: absolute;
+		top: 10px;
+		left: 50px;
+		font-size: 10px;
+		display: none;
+	}
+
+	.statement2 {
+		margin-left: 50px;
+		font-weight: 700;
+		position: absolute;
+		display: none;
+	}
+
+	.statement3 {
+		margin-left: 60px;
+		font-weight: 700;
+		position: absolute;
+		display: none;
+	}
+
+	.labBloodbtndiv {
+		text-align: center;
+		padding: 50px;
+	}
+
+	.labBloodButn {
+		background-color: rgba(10, 148, 212, 0.76);
+		padding: 15px;
+		border: 2px solid rgb(2, 90, 119);
+		border-radius: 10px;
+		padding-left: 25px;
+		padding-right: 25px;
+		font-size: 25px;
+		font-weight: 600;
+	}
+
+	.labBloodButn:hover {
+		background-color: rgb(6, 107, 153);
+		color: white;
+	}
+
+	.Scanspic {
+		width: 40vw;
+		height: 54vh;
+		margin-top: 30px;
+		margin-left: 17vw;
+	}
+
+	.ScanConPic {
+		display: flex;
+		flex-direction: column;
+		background-color: whitesmoke;
+		margin: 0px;
+		width: 100%;
+	}
+
+	.Scanscon {
+		margin: 25px;
+		font-size: 15px;
+		font-weight: 600;
+		padding: 15px;
+		padding-top: 15px;
+		background-color: rgba(0, 119, 255, 0.452);
+		align-content: center;
+	}
+
+	.availScanM {
+		width: 100%;
+	}
+
+	.availHead {
+		text-align: center;
+		padding-top: 15px;
+		display: none;
+	}
+
+	.TestNam {
+		display: flex;
+		/* flex-direction: column; */
+		margin-left: 0px;
+		width: 330px;
+		margin-right: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-left: 0px;
+		display: none;
+	}
+
+	.TestN1 {
+		color: black;
+		display: block;
+		flex-direction: column;
+		width: 80px;
+	}
+
+	.TestN2 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 80px;
+	}
+
+	.TestN3 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 80px;
+	}
+
+	.TestN4 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 80px;
+	}
+
+	.TestN5 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 80px;
+		display: none;
+	}
+
+	.TestN6 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 80px;
+		display: none;
+	}
+
+	.TestN7 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 100px;
+		display: none;
+	}
+
+	.TestN8 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 100px;
+		display: none;
+	}
+
+	.SvgScan1 {
+		height: 50px;
+		padding-left: 15px;
+	}
+
+	.SvgScan6 {
+		height: 50px;
+	}
+
+	.DivP1 {
+		color: black;
+		font-weight: 600;
+	}
+}
+
+@media only screen and (min-device-width: 1051px) and (max-device-width: 1519px) {
+	.gridCon {
+		display: grid;
+		grid-template-columns: auto auto;
+		width: 100%;
+	}
+
+	.labMain {
+		grid-column-start: 2;
+		grid-column-end: 5;
+		height: 500px;
+	}
+
+	.labMain1 {
+		display: none;
+	}
+
+	.labMain2 {
+		display: none;
+	}
+
+	.navForLab {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		background-color: rgba(6, 120, 173, 0.993);
+		width: 30vw;
+	}
+
+	.navForLab ul {
+		margin: auto;
+		padding: 0;
+	}
+
+	.typesOfLab {
+		list-style: none;
+	}
+
+	.labType {
+		padding: 30px;
+		padding-right: 0px;
+		padding-left: 35px;
+		color: white;
+		font-weight: 700;
+		font-size: 30px;
+		cursor: pointer;
+		border-bottom: 1px solid white;
+	}
+
+	.labType:hover {
+		background-color: rgb(91, 196, 245);
+		color: black;
+	}
+
+	.infoLabDiv {
+		padding: 50px;
+		background: no-repeat url("./images/blood_test_lab.jpg");
+		background-size: cover;
+		height: 450px;
+		font-weight: 900;
+		font-size: 20px;
+	}
+
+	.parForInfoLab {
+		background: no-repeat url("./images/blood_test_lab.jpg");
+		background-size: cover;
+		font-weight: 900;
+		padding: 50px;
+		padding-left: 0px;
+		padding-top: 34px;
+		padding-right: 0px;
+		height: 350px;
+		font-size: 20px;
+		width: 100%;
+	}
+
+	.innerPar {
+		background-color: rgba(255, 255, 255, 0.788);
+		border: 2px solid black;
+		padding: 20px;
+		width: 35vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.howQ {
+		padding-left: 0px;
+		padding-top: 20px;
+		text-align: center;
+	}
+
+	.circle1 {
+		margin-top: 20px;
+		margin-left: 180px;
+		margin-bottom: 40px;
+		border: 2px solid black;
+		border-radius: 50px;
+		width: 50px;
+		height: 50px;
+	}
+
+	.circle2 {
+		margin-top: 20px;
+		margin-left: 40px;
+		margin-bottom: 40px;
+		border: 2px solid black;
+		border-radius: 50px;
+		width: 50px;
+		height: 50px;
+	}
+
+	.circle3 {
+		margin-top: 20px;
+		margin-right: 180px;
+		margin-bottom: 40px;
+		border: 2px solid black;
+		border-radius: 50px;
+		width: 50px;
+		height: 50px;
+	}
+
+	.circleCon {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		height: 80px;
+	}
+
+	.line1 {
+		height: 0.2vw;
+		width: 19%;
+		position: absolute;
+		top: 45px;
+		left: 230px;
+		background-color: black;
+		display: none;
+	}
+
+	.line2 {
+		height: 2px;
+		width: 13.6%;
+		position: absolute;
+		top: 45px;
+		right: 230px;
+		background-color: black;
+		display: none;
+	}
+
+	.num1 {
+		position: absolute;
+		top: 25px;
+		left: 197px;
+		font-weight: 700;
+		font-size: 25px;
+	}
+
+	.num2 {
+		position: absolute;
+		top: 25px;
+		left: 38.3vw;
+		font-weight: 700;
+		font-size: 25px;
+	}
+
+	.num3 {
+		position: absolute;
+		top: 25px;
+		right: 197px;
+		font-weight: 700;
+		font-size: 25px;
+	}
+
+	.circleStatements {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.statement1 {
+		margin-left: 70px;
+		font-weight: 700;
+	}
+
+	.statement2 {
+		margin-left: 50px;
+		font-weight: 700;
+	}
+
+	.statement3 {
+		margin-left: 60px;
+		font-weight: 700;
+	}
+
+	.labBloodbtndiv {
+		text-align: center;
+		padding: 50px;
+	}
+
+	.labBloodButn {
+		background-color: rgba(10, 148, 212, 0.76);
+		padding: 15px;
+		border: 2px solid rgb(2, 90, 119);
+		border-radius: 10px;
+		padding-left: 25px;
+		padding-right: 25px;
+		font-size: 25px;
+		font-weight: 600;
+	}
+
+	.labBloodButn:hover {
+		background-color: rgb(6, 107, 153);
+		color: white;
+	}
+
+	.Scanspic {
+		width: 300px;
+		height: 200px;
+		margin: 30px;
+		margin-right: 5px;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	.ScanConPic {
+		display: flex;
+		justify-content: space-around;
+		background-color: whitesmoke;
+		margin: 50px;
+		width: 60vw;
+	}
+
+	.Scanscon {
+		margin: 30px;
+		font-size: 16px;
+		font-weight: 600;
+		padding: 20px;
+		padding-top: 50px;
+		background-color: rgba(0, 119, 255, 0.452);
+		align-content: center;
+	}
+
+	.availScanM {
+		width: 60vw;
+	}
+
+	.availHead {
+		text-align: center;
+		display: none;
+	}
+
+	.TestNam {
+		/* display: flex; */
+		/* padding: 20px; */
+		margin-left: 0px;
+		/* justify-content: center; */
+		display: none;
+	}
+
+	.TestN1 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 85px;
+	}
+
+	.TestN2 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 85px;
+	}
+
+	.TestN3 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 85px;
+	}
+
+	.TestN4 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 85px;
+	}
+
+	.TestN5 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 85px;
+	}
+
+	.TestN6 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 85px;
+	}
+
+	.TestN7 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 85px;
+	}
+
+	.TestN8 {
+		color: black;
+		display: flex;
+		flex-direction: column;
+		width: 100px;
+		display: none;
+	}
+
+	.SvgScan1 {
+		height: 50px;
+		padding-left: 15px;
+	}
+
+	.SvgScan6 {
+		height: 50px;
+	}
+
+	.DivP1 {
+		color: black;
+		font-weight: 600;
+	}
+}

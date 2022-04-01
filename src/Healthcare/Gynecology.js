@@ -81,9 +81,9 @@ export default function Gynecology() {
 
 	return (
 		<div className="main_gyn">
-			<div>
+			{/*<div>
 				<SuggArr />
-			</div>
+	</div>*/}
 			<div className="gynecology_depa">
 				<div className="gyn_heading_div">
 					<h1 className="gyneco_heading">Obstetrics and Gynecology</h1>

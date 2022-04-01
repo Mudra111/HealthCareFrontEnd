@@ -1,9 +1,11 @@
 import React from "react";
-import logo from "./Logo.png";
+import logo from "./images/healthcareLogo.png";
 import "./Header.css";
 import { Link } from "react-router-dom";
 
 export const Header = () => {
+
+	
 	return (
 		<div className="header sticky-top navbar">
 			<header>
@@ -35,18 +37,18 @@ export const Header = () => {
 							</Link>
 
 							<ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-								<li>
-									<Link className="dropdown-item" to="/general_disease_dep">
+								<li className="dropdown-item">
+									<Link  to="/general_disease_dep">
 										General Disease
 									</Link>
 								</li>
-								<li>
-									<Link className="dropdown-item" to="/gynecology_department">
+								<li className="dropdown-item">
+									<Link  to="/gynecology_department">
 										Obstetrics and Gynecology
 									</Link>
 								</li>
-								<li>
-									<Link className="dropdown-item" to="/skin_disease_dep">
+								<li className="dropdown-item">
+									<Link  to="/skin_disease_dep">
 										Dermatology
 									</Link>
 								</li>
@@ -66,28 +68,24 @@ export const Header = () => {
 							</Link>
 
 							<ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-								<li className="dropdown-item">How to Donate</li>
-								<li>
-									<Link className="dropdown-item" to="/eligibilityrequ">
+								<li className="dropdown-item">
+									<Link  to="/eligibilityrequ">
 										Eligibility Requirements
 									</Link>
 								</li>
-								<li>
-									<Link className="dropdown-item" to="/typesofblood">
+								<li  className="dropdown-item">
+									<Link to="/typesofblood">
 										Types of Blood Donations
 									</Link>
 								</li>
 
-								<hr />
-
-								<li className="dropdown-item">How to Donate</li>
-								<li>
-									<Link className="dropdown-item" to="/donationpro">
+								<li className="dropdown-item">
+									<Link  to="/donationpro">
 										Donation Process Overview
 									</Link>
 								</li>
-								<li>
-									<Link className="dropdown-item" to="/whattodo1">
+								<li className="dropdown-item">
+									<Link  to="/whattodo1">
 										What to do Before,During and After a Donation
 									</Link>
 								</li>
@@ -97,15 +95,15 @@ export const Header = () => {
 							<Link to="/donate_money">Money Donation</Link>
 						</li>
 						<li>
-							<Link to="/">Feedback</Link>
+							<Link to="/feedback">Feedback</Link>
 						</li>
-						<li>
+						{/*<li>
 							<Link to="/registration">
 								<button className="btn btn-outline-dark login" type="button">
-									registration
+									Registration
 								</button>
 							</Link>
-						</li>
+</li>*/}
 						<li>
 							<Link to="/login">
 								<button className="btn btn-outline-dark login" type="button">

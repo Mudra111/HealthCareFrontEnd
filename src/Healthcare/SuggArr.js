@@ -33,7 +33,7 @@ export default function SuggArr() {
 						value={Airport}
 					/>
 				</div>
-				{filteredData.length != 0 && (
+				{filteredData.length !== 0 && (
 					<div
 						className={`dataResultdep ${disData ? "" : "dataResultNotShowdep"}`}
 					>
