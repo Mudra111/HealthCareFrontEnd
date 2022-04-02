@@ -28,6 +28,16 @@
 	padding-left: 50px;
 }
 
+.overviewCon_gen {
+	height: 380px;
+	width: 50%;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 20px;
+	padding-left: 0px;
+	padding-bottom: 100px;
+}
+
 .ReqAppo_gen {
 	background-color: rgba(0, 0, 139, 0.74);
 	color: white;
@@ -48,6 +58,12 @@
 	color: aliceblue;
 	padding: 15px 0px;
 	text-align: center;
+}
+
+.gen_ImgCon {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 20px;
 }
 
 .doctors_gen {
@@ -88,8 +104,14 @@
 	margin-left: 50px;
 }
 
-.tdata {
+.tdatagen {
 	width: 100px;
+}
+
+.sp1quaDet_gen {
+	margin-bottom: 0;
+	padding-top: 8px;
+	padding-bottom: 25px;
 }
 
 .que_gen {
@@ -266,11 +288,17 @@
 		padding-left: 0px;
 	}
 
-	.overviewCon {
+	.overviewCon_gen {
+		height: 380px;
 		width: 80%;
+		text-align: center;
+		padding-top: 50px;
+		font-size: 10px;
+		padding-left: 0px;
+		padding-bottom: 100px;
 	}
 
-	.ovrconheading {
+	.ovrconheading_gen {
 		font-size: 20px;
 	}
 
@@ -281,7 +309,7 @@
 		border-radius: 10px;
 		border: none;
 		font-weight: bold;
-		font-size: 15px;
+		font-size: 13px;
 	}
 
 	.ReqAppo_gen:hover {
@@ -330,20 +358,23 @@
 
 	.sp1Imggen {
 		height: 100px;
+		width: 100px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.sp1Tabgen {
 		width: 160px;
-		margin-left: 20px;
+		margin-left: auto;
+		margin-right: 15px;
 		font-size: 10px;
-		/* display: none; */
 	}
 
 	.sp1Quagen {
 		display: none;
 	}
 
-	.tdata {
+	.tdatagen {
 		width: 100px;
 	}
 
@@ -525,12 +556,18 @@
 		padding-left: 0px;
 	}
 
-	.overviewCon {
+	.overviewCon_gen {
+		height: 380px;
 		width: 70%;
+		text-align: center;
+		padding-top: 50px;
 		padding-right: 30px;
+		font-size: 15px;
+		padding-left: 0px;
+		padding-bottom: 100px;
 	}
 
-	.ovrconheading {
+	.ovrconheading_gen {
 		font-size: 20px;
 	}
 
@@ -608,7 +645,7 @@
 		padding: 10px;
 	}
 
-	.tdata {
+	.tdatagen {
 		width: 100px;
 	}
 
@@ -786,16 +823,21 @@
 		background: no-repeat url("./images/general_over.jpg");
 		background-size: cover;
 		height: 580px;
-		font-size: 15px;
 		padding-left: 0px;
 	}
 
-	.overviewCon {
+	.overviewCon_gen {
+		height: 380px;
 		width: 70%;
+		text-align: center;
+		padding-top: 50px;
 		padding-right: 20%;
+		font-size: 15px;
+		padding-left: 0px;
+		padding-bottom: 100px;
 	}
 
-	.ovrconheading {
+	.ovrconheading_gen {
 		font-size: 25px;
 	}
 
@@ -872,7 +914,7 @@
 		padding: 10px;
 	}
 
-	.tdata {
+	.tdatagen {
 		width: 100px;
 	}
 
@@ -1054,12 +1096,18 @@
 		padding-left: 0px;
 	}
 
-	.overviewCon {
+	.overviewCon_gen {
+		height: 380px;
 		width: 70%;
+		text-align: center;
+		padding-top: 50px;
 		padding-right: 20%;
+		font-size: 15px;
+		padding-left: 0px;
+		padding-bottom: 100px;
 	}
 
-	.ovrconheading {
+	.ovrconheading_gen {
 		font-size: 25px;
 	}
 
@@ -1140,7 +1188,7 @@
 		padding: 10px;
 	}
 
-	.tdata {
+	.tdatagen {
 		width: 100px;
 	}
 
