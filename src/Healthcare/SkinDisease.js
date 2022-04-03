@@ -101,7 +101,7 @@ export default function Skin() {
 						</p>
 						<br />
 
-						<p>
+						<p className="Skin_ow_con_part_2">
 							Highly trained board-certified dermatologic surgeons and
 							dermatologists offer a holistic approach and expert care, as part
 							of a multispecialty group. Many people who come to us with skin
@@ -109,9 +109,9 @@ export default function Skin() {
 							disorder of the immune system.Our skin disease experts work with
 							other specialists to provide the individualized care you need.
 						</p>
-						<br />
+						<br className="Skin_ow_con_part_br" />
 
-						<p>
+						<p className="Skin_ow_con_part_3">
 							Having all this expertise in a single place means that your care
 							is discussed among the team, test results are available quickly,
 							and appointments are scheduled in coordination. What might take
@@ -142,7 +142,7 @@ export default function Skin() {
 						<div className="sp_name_head_1">
 							<div className="sp_H">
 								<div className="sp_Head1">
-									<h2>Dr.Sheetal Srinivas</h2>
+									<h2>Dr. Sheetal Srinivas</h2>
 								</div>
 							</div>
 
@@ -204,7 +204,7 @@ export default function Skin() {
 						<div className="sp_name_head_2">
 							<div className="sp_H">
 								<div className="sp_Head1">
-									<h2>Dr.Debasmita Chakraborty</h2>
+									<h2>Dr. Debasmita Chakraborty</h2>
 								</div>
 							</div>
 
@@ -269,7 +269,7 @@ export default function Skin() {
 						<div className="sp_name_head_3">
 							<div className="sp_H">
 								<div className="sp_Head1">
-									<h2>Dr.Ashwini Tatawati</h2>
+									<h2>Dr. Ashwini Tatawati</h2>
 								</div>
 							</div>
 
@@ -326,13 +326,13 @@ export default function Skin() {
 				</div>
 
 				<section className="queskin">
-					<div className="que-container">
-						<div className="heading_que que-itemskin">
+					<div className="que-container_skin">
+						<div className="heading_que_skin que-itemskin">
 							<h2>Frequently Asked Questions on Dermatologist</h2>
 						</div>
 
 						<div className="que-itemskin" id="que1">
-							<a onClick={changeClass1} className="que-link">
+							<a onClick={changeClass1} className="que-link_skin">
 								Why should I visit a Dermatologist?
 								<span className={`${isShow1 ? "Add_hide" : "add"}`}>
 									&#11167;
@@ -356,7 +356,7 @@ export default function Skin() {
 						</div>
 
 						<div className="que-itemskin" id="que2">
-							<a onClick={changeClass2} className="que-link">
+							<a onClick={changeClass2} className="que-link_skin">
 								What are the common problems that a dermatologist treats?
 								<span className={`${isShow2 ? "Add_hide" : "add"}`}>
 									&#11167;
@@ -395,7 +395,7 @@ export default function Skin() {
 						</div>
 
 						<div className="que-itemskin" id="que3">
-							<a onClick={changeClass3} className="que-link">
+							<a onClick={changeClass3} className="que-link_skin">
 								Is it safe to consult online?
 								<span className={`${isShow3 ? "Add_hide" : "add"}`}>
 									&#11167;
@@ -417,7 +417,7 @@ export default function Skin() {
 						</div>
 
 						<div className="que-itemskin" id="que4">
-							<a onClick={changeClass4} className="que-link">
+							<a onClick={changeClass4} className="que-link_skin">
 								Does a dermatologist treat skin problems in kids?
 								<span className={`${isShow4 ? "Add_hide" : "add"}`}>
 									&#11167;
@@ -439,7 +439,7 @@ export default function Skin() {
 						</div>
 
 						<div className="que-itemskin" id="que5">
-							<a onClick={changeClass5} className="que-link">
+							<a onClick={changeClass5} className="que-link_skin">
 								Is it necessary to get dermatological treatments?
 								<span className={`${isShow5 ? "Add_hide" : "add"}`}>
 									&#11167;
@@ -462,7 +462,7 @@ export default function Skin() {
 						</div>
 
 						<div className="que-itemskin" id="que6">
-							<a onClick={changeClass6} className="que-link">
+							<a onClick={changeClass6} className="que-link_skin">
 								Which doctor should I consult for hair loss?
 								<span className={`${isShow6 ? "Add_hide" : "add"}`}>
 									&#11167;
@@ -481,7 +481,7 @@ export default function Skin() {
 						</div>
 
 						<div className="que-itemskin" id="que7">
-							<a onClick={changeClass7} className="que-link">
+							<a onClick={changeClass7} className="que-link_skin">
 								What is the best vitamin for hair loss?
 								<span className={`${isShow7 ? "Add_hide" : "add"}`}>
 									&#11167;
@@ -508,7 +508,7 @@ export default function Skin() {
 						</div>
 
 						<div className="que-itemskin" id="que8">
-							<a onClick={changeClass8} className="que-link">
+							<a onClick={changeClass8} className="que-link_skin">
 								What is the difference between a cosmetologist & a
 								dermatologist?
 								<span className={`${isShow8 ? "Add_hide" : "add"}`}>
@@ -533,7 +533,7 @@ export default function Skin() {
 						</div>
 
 						<div className="que-itemskin" id="que9">
-							<a onClick={changeClass9} className="que-link">
+							<a onClick={changeClass9} className="que-link_skin">
 								Is sun protection required?
 								<span className={`${isShow9 ? "Add_hide" : "add"}`}>
 									&#11167;

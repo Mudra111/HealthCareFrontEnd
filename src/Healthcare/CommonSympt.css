@@ -1,6 +1,7 @@
 .ComnSymMain {
 	display: flex;
 	justify-content: space-around;
+	background-color: rgb(220, 240, 245);
 }
 
 .ComnSymImgConMain {
@@ -77,7 +78,7 @@
 
 .Confor1 h1 {
 	padding-left: 35%;
-	background-color: rgba(0, 0, 255, 0.658);
+	background-color: rgba(23, 76, 175, 0.795);
 	padding-top: 5px;
 	padding-bottom: 5px;
 	color: white;
@@ -97,7 +98,7 @@
 
 .Confor2 h1 {
 	padding-left: 37%;
-	background-color: rgba(0, 0, 255, 0.658);
+	background-color: rgba(23, 76, 175, 0.795);
 	padding-top: 5px;
 	padding-bottom: 5px;
 	color: white;
@@ -117,7 +118,7 @@
 
 .Confor3 h1 {
 	padding-left: 40%;
-	background-color: rgba(0, 0, 255, 0.658);
+	background-color: rgba(23, 76, 175, 0.795);
 	padding-top: 5px;
 	padding-bottom: 5px;
 	color: white;
@@ -136,8 +137,8 @@
 }
 
 .Confor4 h1 {
-	padding-left: 35%;
-	background-color: rgba(0, 0, 255, 0.658);
+	padding-left: 44%;
+	background-color: rgba(23, 76, 175, 0.795);
 	padding-top: 5px;
 	padding-bottom: 5px;
 	color: white;
@@ -156,8 +157,8 @@
 }
 
 .Confor5 h1 {
-	padding-left: 35%;
-	background-color: rgba(0, 0, 255, 0.658);
+	padding-left: 33%;
+	background-color: rgba(23, 76, 175, 0.795);
 	padding-top: 5px;
 	padding-bottom: 5px;
 	color: white;
@@ -176,8 +177,8 @@
 }
 
 .Confor6 h1 {
-	padding-left: 35%;
-	background-color: rgba(0, 0, 255, 0.658);
+	padding-left: 40%;
+	background-color: rgba(23, 76, 175, 0.795);
 	padding-top: 5px;
 	padding-bottom: 5px;
 	color: white;
@@ -196,8 +197,8 @@
 }
 
 .Confor7 h1 {
-	padding-left: 35%;
-	background-color: rgba(0, 0, 255, 0.658);
+	padding-left: 44%;
+	background-color: rgba(23, 76, 175, 0.795);
 	padding-top: 5px;
 	padding-bottom: 5px;
 	color: white;
@@ -216,8 +217,8 @@
 }
 
 .Confor8 h1 {
-	padding-left: 35%;
-	background-color: rgba(0, 0, 255, 0.658);
+	padding-left: 38%;
+	background-color: rgba(23, 76, 175, 0.795);
 	padding-top: 5px;
 	padding-bottom: 5px;
 	color: white;
@@ -237,7 +238,7 @@
 
 .Confor9 h1 {
 	padding-left: 35%;
-	background-color: rgba(0, 0, 255, 0.658);
+	background-color: rgba(23, 76, 175, 0.795);
 	padding-top: 5px;
 	padding-bottom: 5px;
 	color: white;
@@ -249,4 +250,1347 @@
 
 .Comn9NotDis {
 	display: none;
+}
+
+@media only screen and (min-device-width: 350px) and (max-device-width: 550px) {
+	.ComnSymMain {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.ComnSymImgConMain {
+		display: flex;
+		text-align: center;
+	}
+
+	.ComnSymMain {
+		padding: 50px;
+		padding-top: 0;
+	}
+
+	.comnimg1 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg2 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg3 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg4 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg5 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg6 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg7 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg8 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg9 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.commonbtn {
+		background-color: transparent;
+		border: none;
+		border-radius: 20px;
+	}
+
+	.commonbtn:hover {
+		box-shadow: 3px 3px 3px 3px gray;
+	}
+
+	.commonContent {
+		width: 100%;
+	}
+
+	.contentimg1 {
+		margin-left: 35%;
+	}
+
+	.Confor1 h1 {
+		padding-left: 35%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: medium;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con1font {
+		font-size: 10px;
+	}
+
+	p.con1font {
+		text-align: center;
+	}
+
+	.Confor1 h2 {
+		text-align: center;
+		font-size: medium;
+	}
+
+	.Comn1NotDis {
+		display: none;
+	}
+
+	.contentimg2 {
+		margin-left: 35%;
+	}
+
+	.Confor2 h1 {
+		padding-left: 37%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: medium;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con2font {
+		font-size: 10px;
+	}
+
+	p.con2font {
+		text-align: center;
+	}
+
+	.Confor2 h2 {
+		text-align: center;
+		font-size: medium;
+	}
+
+	.Comn2NotDis {
+		display: none;
+	}
+
+	.contentimg3 {
+		margin-left: 35%;
+	}
+
+	.Confor3 h1 {
+		padding-left: 40%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: medium;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con3font {
+		font-size: 10px;
+	}
+
+	p.con3font {
+		text-align: center;
+	}
+
+	.Confor3 h2 {
+		text-align: center;
+		font-size: medium;
+	}
+
+	.Comn3NotDis {
+		display: none;
+	}
+
+	.contentimg4 {
+		margin-left: 35%;
+	}
+
+	.Confor4 h1 {
+		padding-left: 44%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: medium;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con4font {
+		font-size: 10px;
+	}
+
+	p.con4font {
+		text-align: center;
+	}
+
+	.Confor4 h2 {
+		text-align: center;
+		font-size: medium;
+	}
+
+	.Comn4NotDis {
+		display: none;
+	}
+
+	.contentimg5 {
+		margin-left: 35%;
+	}
+
+	.Confor5 h1 {
+		padding-left: 33%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: medium;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con5font {
+		font-size: 10px;
+	}
+
+	p.con5font {
+		text-align: center;
+	}
+
+	.Confor5 h2 {
+		text-align: center;
+		font-size: medium;
+	}
+
+	.Comn5NotDis {
+		display: none;
+	}
+
+	.contentimg6 {
+		margin-left: 35%;
+	}
+
+	.Confor6 h1 {
+		padding-left: 40%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: medium;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con6font {
+		font-size: 10px;
+	}
+
+	p.con6font {
+		text-align: center;
+	}
+
+	.Confor6 h2 {
+		text-align: center;
+		font-size: medium;
+	}
+
+	.Comn6NotDis {
+		display: none;
+	}
+
+	.contentimg7 {
+		margin-left: 35%;
+	}
+
+	.Confor7 h1 {
+		padding-left: 44%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: medium;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con7font {
+		font-size: 10px;
+	}
+
+	p.con7font {
+		text-align: center;
+	}
+
+	.Confor7 h2 {
+		text-align: center;
+		font-size: medium;
+	}
+
+	.Comn7NotDis {
+		display: none;
+	}
+
+	.contentimg8 {
+		margin-left: 35%;
+	}
+
+	.Confor8 h1 {
+		padding-left: 38%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: medium;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con8font {
+		font-size: 10px;
+	}
+
+	p.con8font {
+		text-align: center;
+	}
+
+	.Confor8 h2 {
+		text-align: center;
+		font-size: medium;
+	}
+
+	.Comn8NotDis {
+		display: none;
+	}
+
+	.contentimg9 {
+		margin-left: 35%;
+	}
+
+	.Confor9 h1 {
+		padding-left: 35%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: medium;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con9font {
+		font-size: 10px;
+	}
+
+	p.con9font {
+		text-align: center;
+	}
+
+	.Confor9 h2 {
+		text-align: center;
+		font-size: medium;
+	}
+
+	.Comn9NotDis {
+		display: none;
+	}
+}
+
+@media only screen and (min-device-width: 551px) and (max-device-width: 750px) {
+	.ComnSymMain {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.ComnSymImgConMain {
+		display: flex;
+		text-align: center;
+	}
+
+	.ComnSymMain {
+		padding: 50px;
+		padding-top: 0;
+	}
+
+	.comnimg1 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg2 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg3 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg4 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg5 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg6 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg7 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg8 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg9 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.commonbtn {
+		background-color: transparent;
+		border: none;
+		border-radius: 20px;
+	}
+
+	.commonbtn:hover {
+		box-shadow: 3px 3px 3px 3px gray;
+	}
+
+	.commonContent {
+		width: 100%;
+	}
+
+	.contentimg1 {
+		margin-left: 35%;
+	}
+
+	.Confor1 h1 {
+		padding-left: 35%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con1font {
+		font-size: 15px;
+	}
+
+	p.con1font {
+		text-align: center;
+	}
+
+	.Confor1 h2 {
+		text-align: center;
+	}
+
+	.Comn1NotDis {
+		display: none;
+	}
+
+	.contentimg2 {
+		margin-left: 35%;
+	}
+
+	.Confor2 h1 {
+		padding-left: 37%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con2font {
+		font-size: 15px;
+	}
+
+	p.con2font {
+		text-align: center;
+	}
+
+	.Confor2 h2 {
+		text-align: center;
+	}
+
+	.Comn2NotDis {
+		display: none;
+	}
+
+	.contentimg3 {
+		margin-left: 35%;
+	}
+
+	.Confor3 h1 {
+		padding-left: 40%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con3font {
+		font-size: 15px;
+	}
+
+	p.con3font {
+		text-align: center;
+	}
+
+	.Confor3 h2 {
+		text-align: center;
+	}
+
+	.Comn3NotDis {
+		display: none;
+	}
+
+	.contentimg4 {
+		margin-left: 35%;
+	}
+
+	.Confor4 h1 {
+		padding-left: 44%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con4font {
+		font-size: 15px;
+	}
+
+	p.con4font {
+		text-align: center;
+	}
+
+	.Confor4 h2 {
+		text-align: center;
+	}
+
+	.Comn4NotDis {
+		display: none;
+	}
+
+	.contentimg5 {
+		margin-left: 35%;
+	}
+
+	.Confor5 h1 {
+		padding-left: 33%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con5font {
+		font-size: 15px;
+	}
+
+	p.con5font {
+		text-align: center;
+	}
+
+	.Confor5 h2 {
+		text-align: center;
+	}
+
+	.Comn5NotDis {
+		display: none;
+	}
+
+	.contentimg6 {
+		margin-left: 35%;
+	}
+
+	.Confor6 h1 {
+		padding-left: 40%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con6font {
+		font-size: 15px;
+	}
+
+	p.con6font {
+		text-align: center;
+	}
+
+	.Confor6 h2 {
+		text-align: center;
+	}
+
+	.Comn6NotDis {
+		display: none;
+	}
+
+	.contentimg7 {
+		margin-left: 35%;
+	}
+
+	.Confor7 h1 {
+		padding-left: 44%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con7font {
+		font-size: 15px;
+	}
+
+	p.con7font {
+		text-align: center;
+	}
+
+	.Confor7 h2 {
+		text-align: center;
+	}
+
+	.Comn7NotDis {
+		display: none;
+	}
+
+	.contentimg8 {
+		margin-left: 35%;
+	}
+
+	.Confor8 h1 {
+		padding-left: 38%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con8font {
+		font-size: 15px;
+	}
+
+	p.con8font {
+		text-align: center;
+	}
+
+	.Confor8 h2 {
+		text-align: center;
+	}
+
+	.Comn8NotDis {
+		display: none;
+	}
+
+	.contentimg9 {
+		margin-left: 35%;
+	}
+
+	.Confor9 h1 {
+		padding-left: 35%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con9font {
+		font-size: 15px;
+	}
+
+	p.con9font {
+		text-align: center;
+	}
+
+	.Confor9 h2 {
+		text-align: center;
+	}
+
+	.Comn9NotDis {
+		display: none;
+	}
+}
+
+@media only screen and (min-device-width: 751px) and (max-device-width: 1050px) {
+	.ComnSymMain {
+		display: flex;
+		flex-direction: column;
+		/* justify-content: space-around; */
+	}
+
+	.ComnSymImgConMain {
+		display: flex;
+		text-align: center;
+	}
+
+	.ComnSymMain {
+		padding: 50px;
+		padding-top: 0;
+	}
+
+	.comnimg1 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg2 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg3 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg4 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg5 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg6 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg7 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg8 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.comnimg9 {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.commonbtn {
+		background-color: transparent;
+		border: none;
+		border-radius: 20px;
+	}
+
+	.commonbtn:hover {
+		box-shadow: 3px 3px 3px 3px gray;
+	}
+
+	.commonContent {
+		width: 100%;
+	}
+
+	.contentimg1 {
+		margin-left: 35%;
+	}
+
+	.Confor1 h1 {
+		padding-left: 35%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con1font {
+		font-size: 20px;
+	}
+
+	p.con1font {
+		text-align: center;
+	}
+
+	.Confor1 h2 {
+		text-align: center;
+	}
+
+	.Comn1NotDis {
+		display: none;
+	}
+
+	.contentimg2 {
+		margin-left: 35%;
+	}
+
+	.Confor2 h1 {
+		padding-left: 37%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con2font {
+		font-size: 20px;
+	}
+
+	p.con2font {
+		text-align: center;
+	}
+
+	.Confor2 h2 {
+		text-align: center;
+	}
+
+	.Comn2NotDis {
+		display: none;
+	}
+
+	.contentimg3 {
+		margin-left: 35%;
+	}
+
+	.Confor3 h1 {
+		padding-left: 40%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con3font {
+		font-size: 20px;
+	}
+
+	p.con3font {
+		text-align: center;
+	}
+
+	.Confor3 h2 {
+		text-align: center;
+	}
+
+	.Comn3NotDis {
+		display: none;
+	}
+
+	.contentimg4 {
+		margin-left: 35%;
+	}
+
+	.Confor4 h1 {
+		padding-left: 44%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con4font {
+		font-size: 20px;
+	}
+
+	p.con4font {
+		text-align: center;
+	}
+
+	.Confor4 h2 {
+		text-align: center;
+	}
+
+	.Comn4NotDis {
+		display: none;
+	}
+
+	.contentimg5 {
+		margin-left: 35%;
+	}
+
+	.Confor5 h1 {
+		padding-left: 33%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con5font {
+		font-size: 20px;
+	}
+
+	p.con5font {
+		text-align: center;
+	}
+
+	.Confor5 h2 {
+		text-align: center;
+	}
+
+	.Comn5NotDis {
+		display: none;
+	}
+
+	.contentimg6 {
+		margin-left: 35%;
+	}
+
+	.Confor6 h1 {
+		padding-left: 40%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con6font {
+		font-size: 20px;
+	}
+
+	p.con6font {
+		text-align: center;
+	}
+
+	.Confor6 h2 {
+		text-align: center;
+	}
+
+	.Comn6NotDis {
+		display: none;
+	}
+
+	.contentimg7 {
+		margin-left: 35%;
+	}
+
+	.Confor7 h1 {
+		padding-left: 44%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con7font {
+		font-size: 20px;
+	}
+
+	p.con7font {
+		text-align: center;
+	}
+
+	.Confor7 h2 {
+		text-align: center;
+	}
+
+	.Comn7NotDis {
+		display: none;
+	}
+
+	.contentimg8 {
+		margin-left: 35%;
+	}
+
+	.Confor8 h1 {
+		padding-left: 38%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con8font {
+		font-size: 20px;
+	}
+
+	p.con8font {
+		text-align: center;
+	}
+
+	.Confor8 h2 {
+		text-align: center;
+	}
+
+	.Comn8NotDis {
+		display: none;
+	}
+
+	.contentimg9 {
+		margin-left: 35%;
+	}
+
+	.Confor9 h1 {
+		padding-left: 35%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con9font {
+		font-size: 20px;
+	}
+
+	p.con9font {
+		text-align: center;
+	}
+
+	.Confor9 h2 {
+		text-align: center;
+	}
+
+	.Comn9NotDis {
+		display: none;
+	}
+}
+
+@media only screen and (min-device-width: 1051px) and (max-device-width: 1400px) {
+	.ComnSymMain {
+		display: flex;
+		/* flex-direction: column; */
+		justify-content: space-evenly;
+	}
+
+	.ComnSymImgConMain {
+		display: flex;
+		text-align: center;
+	}
+
+	.ComnSymMain {
+		padding: 30px;
+		padding-top: 0;
+	}
+
+	.comnimg1 {
+		width: 12vw;
+		height: 12vw;
+	}
+
+	.comnimg2 {
+		width: 12vw;
+		height: 12vw;
+	}
+
+	.comnimg3 {
+		width: 12vw;
+		height: 12vw;
+	}
+
+	.comnimg4 {
+		width: 12vw;
+		height: 12vw;
+	}
+
+	.comnimg5 {
+		width: 12vw;
+		height: 12vw;
+	}
+
+	.comnimg6 {
+		width: 12vw;
+		height: 12vw;
+	}
+
+	.comnimg7 {
+		width: 12vw;
+		height: 12vw;
+	}
+
+	.comnimg8 {
+		width: 12vw;
+		height: 12vw;
+	}
+
+	.comnimg9 {
+		width: 12vw;
+		height: 12vw;
+	}
+
+	.commonbtn {
+		background-color: transparent;
+		border: none;
+		border-radius: 20px;
+	}
+
+	.commonbtn:hover {
+		box-shadow: 3px 3px 3px 3px gray;
+	}
+
+	.commonContent {
+		width: 560px;
+	}
+
+	.contentimg1 {
+		margin-left: 35%;
+	}
+
+	.Confor1 h1 {
+		padding-left: 35%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: 33px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con1font {
+		font-size: 17.5px;
+	}
+
+	.Confor1 h2 {
+		font-size: 25px;
+	}
+
+	.Comn1NotDis {
+		display: none;
+	}
+
+	.contentimg2 {
+		margin-left: 35%;
+	}
+
+	.Confor2 h1 {
+		padding-left: 37%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: 33px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con2font {
+		font-size: 17.5px;
+	}
+
+	.Confor2 h2 {
+		font-size: 25px;
+	}
+
+	.Comn2NotDis {
+		display: none;
+	}
+
+	.contentimg3 {
+		margin-left: 35%;
+	}
+
+	.Confor3 h1 {
+		padding-left: 40%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: 33px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con3font {
+		font-size: 17.5px;
+	}
+
+	.Confor3 h2 {
+		font-size: 25px;
+	}
+
+	.Comn3NotDis {
+		display: none;
+	}
+
+	.contentimg4 {
+		margin-left: 35%;
+	}
+
+	.Confor4 h1 {
+		padding-left: 44%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: 33px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con4font {
+		font-size: 17.5px;
+	}
+
+	.Confor4 h2 {
+		font-size: 25px;
+	}
+
+	.Comn4NotDis {
+		display: none;
+	}
+
+	.contentimg5 {
+		margin-left: 35%;
+	}
+
+	.Confor5 h1 {
+		padding-left: 33%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: 33px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con5font {
+		font-size: 17.5px;
+	}
+
+	.Confor5 h2 {
+		font-size: 25px;
+	}
+
+	.Comn5NotDis {
+		display: none;
+	}
+
+	.contentimg6 {
+		margin-left: 35%;
+	}
+
+	.Confor6 h1 {
+		padding-left: 40%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: 33px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con6font {
+		font-size: 17.5px;
+	}
+
+	.Confor6 h2 {
+		font-size: 25px;
+	}
+
+	.Comn6NotDis {
+		display: none;
+	}
+
+	.contentimg7 {
+		margin-left: 35%;
+	}
+
+	.Confor7 h1 {
+		padding-left: 44%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: 33px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con7font {
+		font-size: 17.5px;
+	}
+
+	.Confor7 h2 {
+		font-size: 25px;
+	}
+
+	.Comn7NotDis {
+		display: none;
+	}
+
+	.contentimg8 {
+		margin-left: 35%;
+	}
+
+	.Confor8 h1 {
+		padding-left: 38%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: 33px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con8font {
+		font-size: 17.5px;
+	}
+
+	.Confor8 h2 {
+		font-size: 25px;
+	}
+
+	.Comn8NotDis {
+		display: none;
+	}
+
+	.contentimg9 {
+		margin-left: 35%;
+	}
+
+	.Confor9 h1 {
+		padding-left: 35%;
+		background-color: rgba(23, 76, 175, 0.795);
+		padding-top: 5px;
+		margin-top: 10px;
+		font-size: 33px;
+		padding-bottom: 5px;
+		color: white;
+	}
+
+	.con9font {
+		font-size: 17.5px;
+	}
+
+	.Confor9 h2 {
+		font-size: 25px;
+	}
+
+	.Comn9NotDis {
+		display: none;
+	}
 }

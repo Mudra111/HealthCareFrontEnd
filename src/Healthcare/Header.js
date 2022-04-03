@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "./Logo.png";
+import logo from "./images/healthcareLogo.png";
 import "./Header.css";
 import { Link } from "react-router-dom";
 

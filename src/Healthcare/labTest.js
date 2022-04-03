@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import "./labtest.css";
 import Scans from "./images/scans-xray.png";
+import { Link, useNavigate } from "react-router-dom";
+import Child from "./ChildComp";
 
-export default function LabTest() {
+export default function LabTest(props) {
 	const [labMain1, setLabMain1] = useState(true);
 	const [labMain2, setLabMain2] = useState(false);
-
 	const lab1 = () => {
 		setLabMain1(true);
 		setLabMain2(false);
@@ -15,6 +16,19 @@ export default function LabTest() {
 		setLabMain1(false);
 		setLabMain2(true);
 	};
+
+	const objectForPass = {
+		name: "mudra",
+		id: 11,
+		sub: "IT",
+	};
+
+	const navigate = useNavigate();
+
+	const PassObj = () => {
+		navigate("/login", { state: objectForPass });
+	};
+
 	return (
 		<div className="gridCon">
 			<div className="navForLab">
@@ -37,6 +51,7 @@ export default function LabTest() {
 							qualitative blood testing in cheap price.
 						</p>
 					</p>
+					{/*<a onClick={PassObj}>click here</a>*/}
 				</div>
 				<h3 className="howQ">How it works?</h3>
 				<div className="circleCon">
@@ -59,11 +74,13 @@ export default function LabTest() {
 					</div>
 					<div className="statement3">
 						Your report analysis will be done by <br />
-						an expert doctor for free on MFine app.
+						an expert doctor for free on HealthCare app.
 					</div>
 				</div>
 				<div className="labBloodbtndiv">
-					<button className="labBloodButn">Book for Blood test</button>
+					<Link to="/bloodtest_booking">
+						<button className="labBloodButn">Book for Blood test</button>
+					</Link>
 				</div>
 			</div>
 
@@ -409,7 +426,9 @@ export default function LabTest() {
 					</div>
 				</div>
 				<div className="labBloodbtndiv">
-					<button className="labBloodButn">Book for test</button>
+					<Link to="/scans_booking">
+						<button className="labBloodButn">Book for test</button>
+					</Link>
 				</div>
 			</div>
 		</div>

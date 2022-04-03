@@ -45,7 +45,7 @@ export const Home = () => {
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src={Img1} class="d-block w-100n" alt="..." />
+              <img src={Img1} class="d-block w-100" alt="..." />
               <div>
                 <h1 className="Slide1Con1">WELCOME TO HOSPITAL</h1>
                 <h4 className="Slide1Con2">BE CALM QUIT COOL.</h4>

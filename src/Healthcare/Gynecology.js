@@ -81,9 +81,9 @@ export default function Gynecology() {
 
 	return (
 		<div className="main_gyn">
-			<div>
+			{/*<div>
 				<SuggArr />
-			</div>
+	</div>*/}
 			<div className="gynecology_depa">
 				<div className="gyn_heading_div">
 					<h1 className="gyneco_heading">Obstetrics and Gynecology</h1>
@@ -93,7 +93,7 @@ export default function Gynecology() {
 					<div className="overviewCon">
 						<h2 className="ovrconheading">Overview</h2>
 						<hr />
-						<br />
+						<br className="brforgyn" />
 						<p>
 							When you come to the HealthCare Clinic Department of Obstetrics
 							and Gynecology, you'll find support on your lifelong journey from
@@ -101,7 +101,7 @@ export default function Gynecology() {
 							includes you as a partner in care, healing, hope and solutions to
 							complex problems.
 						</p>
-						<br />
+						<br className="brforgyn" />
 						<br />
 						<p>
 							Your experience in the Department of Obstetrics and Gynecology is

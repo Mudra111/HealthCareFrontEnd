@@ -8,11 +8,11 @@ header {
   /* font-family: Arial, Helvetica, sans-serif; */
   font-weight: 600;
   width: 100vw;
-  background-color: rgb(231, 230, 230);
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1% 2%;
+  padding: 0.5% 2%;
   box-shadow: 2px 2px 8px black;
 }
 
@@ -36,9 +36,10 @@ header {
 } */
 
 .logo {
-  width: 10vw;
-  height: 10vh;
+  width: 9vw;
+  height: 11vh;
   margin-right: auto;
+  margin-top: 0;
 }
 
 .links {
@@ -63,18 +64,20 @@ header {
 }
 
 .links li a:hover {
-  color: green;
+  color: rgb(0, 19, 128);
 }
 
 .login:hover {
-  background-color: blue;
-  border: 0px solid blue;
+  background-color: rgba(242, 242, 247, 0.973);
+  border: 3px solid darkblue;
+  color: darkblue;
 }
 
 .login {
   font-weight: 600;
   /* font-size: 20px; */
-  padding: 0.2rem 0.5rem;
+  padding: 8px 20px;
+  border-radius: 25px;
   background-color: darkblue;
   border: 0px solid darkblue;
   color: white;
@@ -96,30 +99,6 @@ ul.dropmenu {
   text-shadow: none;
 }
 
-.border li:hover {
-  border: 2px solid black;
-  border-radius: 4px;
-}
-.sub-menu li:hover {
-  border: 2px solid black;
-  border-radius: 4px;
-}
-.border li:hover a {
-  color: rgb(95, 95, 95);
-}
-.sub-menu li:hover a {
-  color: rgb(95, 95, 95);
-}
-
-.sub-menu {
-  padding-left: 0px !important;
-  width: max-content;
-}
-
-.abc {
-  width: 500px;
-}
-
 ul.links li ul.dropmenu {
   visibility: hidden;
   opacity: 0;
@@ -128,10 +107,6 @@ ul.links li ul.dropmenu {
 ul.links li:hover ul.dropmenu {
   visibility: visible;
   opacity: 1;
-}
-
-ul.links li:hover {
-  color: green;
 }
 
 #menu-btn {

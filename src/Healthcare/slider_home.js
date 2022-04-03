@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-elastic-carousel";
 import Item from "./slider2-com";
 import "./slider_home.css";
-import "./slider2_subslider2.css";
+// import "./slider2_subslider2.css";
 import sp1Gen from "./images/general-sp1.png";
 import sp2Gen from "./images/general-sp2.png";
 import sp3Gen from "./images/general-sp3.png";
@@ -25,7 +25,7 @@ export default function slider2() {
 		<div className="DctSlider">
 			<Carousel breakPoints={breakpoints}>
 				<Item>
-					<div className="profile-name-container">
+					<div className="dct-name-container">
 						<img src={sp1Gen} className="dctImagHome" alt="" />
 						<div className="dct-detail">
 							<p className="dct-name">
@@ -40,7 +40,7 @@ export default function slider2() {
 					</div>
 				</Item>
 				<Item>
-					<div className="profile-name-container">
+					<div className="dct-name-container">
 						<img src={sp2Gen} className="dctImagHome" alt="" />
 						<div className="dct-detail">
 							<p className="dct-name">
@@ -55,7 +55,7 @@ export default function slider2() {
 					</div>
 				</Item>
 				<Item>
-					<div className="profile-name-container">
+					<div className="dct-name-container">
 						<img src={sp3Gen} className="dctImagHome" alt="" />
 						<div className="dct-detail">
 							<p className="dct-name">
@@ -70,7 +70,7 @@ export default function slider2() {
 					</div>
 				</Item>
 				<Item>
-					<div className="profile-name-container">
+					<div className="dct-name-container">
 						<img src={sp1Gyn} className="dctImagHome" alt="" />
 						<div className="dct-detail">
 							<p className="dct-name">
@@ -85,7 +85,7 @@ export default function slider2() {
 					</div>
 				</Item>
 				<Item>
-					<div className="profile-name-container">
+					<div className="dct-name-container">
 						<img src={sp2Gyn} className="dctImagHome" alt="" />
 						<div className="dct-detail">
 							<p className="dct-name">
@@ -102,7 +102,7 @@ export default function slider2() {
 					</div>
 				</Item>
 				<Item>
-					<div className="profile-name-container">
+					<div className="dct-name-container">
 						<img src={sp3Gyn} className="dctImagHome" alt="" />
 						<div className="dct-detail">
 							<p className="dct-name">
@@ -117,7 +117,7 @@ export default function slider2() {
 					</div>
 				</Item>
 				<Item>
-					<div className="profile-name-container">
+					<div className="dct-name-container">
 						<img src={SkinSp1} className="dctImagHome" alt="" />
 						<div className="dct-detail">
 							<p className="dct-name">
@@ -132,7 +132,7 @@ export default function slider2() {
 					</div>
 				</Item>
 				<Item>
-					<div className="profile-name-container">
+					<div className="dct-name-container">
 						<img src={SkinSp2} className="dctImagHome" alt="" />
 						<div className="dct-detail">
 							<p className="dct-name">
@@ -147,7 +147,7 @@ export default function slider2() {
 					</div>
 				</Item>
 				<Item>
-					<div className="profile-name-container">
+					<div className="dct-name-container">
 						<img src={SkinSp3} className="dctImagHome" alt="" />
 						<div className="dct-detail">
 							<p className="dct-name">

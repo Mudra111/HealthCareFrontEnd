@@ -87,8 +87,8 @@ export default function General() {
 
 				<div className="overview_gen">
 					{/*<img src={GynecImg} alt="" className="gynecologyImg" />*/}
-					<div className="overviewCon">
-						<h2 className="ovrconheading">Overview</h2>
+					<div className="overviewCon_gen">
+						<h2 className="ovrconheading_gen">Overview</h2>
 						<hr />
 						<br />
 						<p>
@@ -119,19 +119,19 @@ export default function General() {
 								<h2 className="sp_1_name_gen">Dr. Aman Kumar</h2>
 								<div className="forS_size_gen">
 									<p className="sp1n_gen">(General Physician)</p>
-									<div className="gy_ImgCon">
+									<div className="gen_ImgCon">
 										<img src={sp1Gen} alt="" className="sp1Imggen" />
-										<div className="sp_1_con">
+										<div className="sp_1_congen">
 											<table className="sp1Tabgen">
 												<tr>
-													<td className="tdata">
+													<td className="tdatagen">
 														<b>Qualification</b>
 													</td>
 													<td>: </td>
 													<td>MBBS, MD</td>
 												</tr>
 												<tr>
-													<td className="tdata">
+													<td className="tdatagen">
 														<b>Experience</b>
 													</td>
 													<td>: </td>
@@ -141,9 +141,9 @@ export default function General() {
 										</div>
 									</div>
 
-									<div className="sp1Qua">
+									<div className="sp1Quagen">
 										<h5 className="sp1quaHead_gen">Work Experience</h5>
-										<ul className="sp1quaDet">
+										<ul className="sp1quaDet_gen">
 											<li>
 												Practising Medicine for the last 29 yrs. Trained &
 												Worked under Eminent Teachers like Prof. Dr.A.M.Selvaraj
@@ -156,7 +156,7 @@ export default function General() {
 											<li>
 												2004 to till date - Cheif Medical Officer at Bharath
 												Heavy Electricals Ltd. Corporate Office Dispensary,
-												Teynampet, Chennai.{" "}
+												Teynampet, Chennai.
 											</li>
 											<li>
 												2006 to Till date - Consultant Physician at Apollo Heart
@@ -164,15 +164,14 @@ export default function General() {
 											</li>
 										</ul>
 										<h5 className="sp1quaHead_gen">Awards And Achievements</h5>
-										<ul className="sp1quaDet">
+										<ul className="sp1quaDet_gen">
 											<li>
-												{" "}
 												Life time Achievement Award from LION'S CLUB - Periamet,
 												Chennai, Tamil Nadu.
 											</li>
 										</ul>
 										<h5 className="sp1quaHead_gen">Professional Memberships</h5>
-										<ul className="sp1quaDet">
+										<ul className="sp1quaDet_gen">
 											<li>MBBS- Madras Medical College, Chennai- 1989</li>
 										</ul>
 									</div>
@@ -189,11 +188,11 @@ export default function General() {
 								<h2 className="sp_1_name_gen">Dr. Chandrasekar Chandilya</h2>
 								<div className="forS_size_gen">
 									<p className="sp1n_gen">(General Physician)</p>
-									<div className="gy_ImgCon">
+									<div className="gen_ImgCon">
 										<img src={sp2Gen} alt="" className="sp1Imggen" />
 
-										<div className="sp_1_con">
-											<table className="sp1Tab">
+										<div className="sp_1_congen">
+											<table className="sp1Tabgen">
 												<tr>
 													<td>
 														<b>Qualification</b>
@@ -212,13 +211,13 @@ export default function General() {
 										</div>
 									</div>
 
-									<div className="sp1Qua">
+									<div className="sp1Quagen">
 										<h5 className="sp1quaHead_gen">Work Experience</h5>
-										<ul className="sp1quaDet">
+										<ul className="sp1quaDet_gen">
 											<li>Working in Apollo Hospitals since last Assignment</li>
 										</ul>
 										<h5 className="sp1quaHead_gen">Awards And Achievements</h5>
-										<ul className="sp1quaDet">
+										<ul className="sp1quaDet_gen">
 											<li>
 												Former Head of the Department of Internal Medicine,
 												Apollo Hospitals, Chennai
@@ -234,7 +233,7 @@ export default function General() {
 											</li>
 										</ul>
 										<h5 className="sp1quaHead_gen">Professional Memberships</h5>
-										<ul className="sp1quaDet">
+										<ul className="sp1quaDet_gen">
 											<li>
 												Elected Fellow of the college of Independent Medical
 												practitioners, Madras in March 1981.
@@ -264,10 +263,10 @@ export default function General() {
 								<h2 className="sp_1_name_gen">Dr. Arup Sahu</h2>
 								<div className="forS_size_gen">
 									<p className="sp1n_gen">(General Physician)</p>
-									<div className="gy_ImgCon">
+									<div className="gen_ImgCon">
 										<img src={sp3Gen} alt="" className="sp1Imggen" />
-										<div className="sp_1_con">
-											<table className="sp1Tab">
+										<div className="sp_1_congen">
+											<table className="sp1Tabgen">
 												<tr>
 													<td>
 														<b>Qualification</b>
@@ -286,14 +285,14 @@ export default function General() {
 										</div>
 									</div>
 
-									<div className="sp1Qua">
+									<div className="sp1Quagen">
 										<h5 className="sp1quaHead_gen">Work Experience</h5>
-										<ul className="sp1quaDet">
+										<ul className="sp1quaDet_gen">
 											<li>Suraksha Hospital, Kolkata 2002</li>
 											<li>Working in Apollo Hospitals since last Assignment</li>
 										</ul>
 										<h5 className="sp1quaHead_gen">Awards And Achievements</h5>
-										<ul className="sp1quaDet">
+										<ul className="sp1quaDet_gen">
 											<li>
 												National Scholarshop, National Science Talent
 												Scholarship, National Science Extempore talk award(3rs,
@@ -301,7 +300,7 @@ export default function General() {
 											</li>
 										</ul>
 										<h5 className="sp1quaHead_gen">Professional Memberships</h5>
-										<ul className="sp1quaDet">
+										<ul className="sp1quaDet_gen">
 											<li>Life member, Association of Physicians of India</li>
 											<li>
 												Executive committee member of 41st indian society of
@@ -320,8 +319,8 @@ export default function General() {
 				<div className="breakLine_gen"></div>
 
 				<section className="que_gen">
-					<div className="que-container">
-						<div className="heading_que que-item_gen">
+					<div className="que-containergen">
+						<div className="heading_queGen que-item_gen">
 							<h2>Frequently Asked Questions on General Physician Near Me</h2>
 						</div>
 						<div className="que-item_gen" id="que1">
@@ -553,7 +552,7 @@ export default function General() {
 									<ul>
 										<li>General Physician</li>
 										<li>
-											Gynaecologists who provide care pertaining to women’s
+											Gynaecologists who provide care pertaining to women's
 											health.
 										</li>
 									</ul>
