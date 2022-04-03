@@ -14,8 +14,7 @@
 }
 
 .main-form1 {
-  max-width: 700px;
-  width: 100%;
+  width: 700px;
   background: white;
   padding: 25px 30px;
   border-radius: 5px;
@@ -101,22 +100,21 @@ form .user-det1 .input {
   background: linear-gradient(-135deg, #71b7e6, #9b59b6);
 }
 
-@media (max-width: 584px) {
-  .main-form {
-    max-width: 100%;
+/* Responsive */
+
+@media (min-width: 350px) and (max-width: 550px) {
+}
+
+@media (min-width: 551px) and (max-width: 750px) {
+  .main-form1 {
+    width: 500px;
   }
 
   form .user-det1 .input {
     width: 100%;
     margin-bottom: 15px;
   }
+}
 
-  .main-form1 form .user-det1 {
-    max-height: 300px;
-    overflow-y: scroll;
-  }
-
-  .user-det1::-webkit-scrollbar {
-    width: 0;
-  }
+@media (min-width: 751px) and (max-width: 1050px) {
 }

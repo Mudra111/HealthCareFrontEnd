@@ -1,24 +1,24 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-	/* font-family: Arial, Helvetica, sans-serif; */
-	font-weight: 600;
-	width: 100vw;
-	background-color: rgb(231, 230, 230);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 1% 2%;
-	box-shadow: 2px 2px 8px black;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-weight: 600;
+  width: 100vw;
+  background-color: rgb(231, 230, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 2%;
+  box-shadow: 2px 2px 8px black;
 }
 
 .header {
-	padding-top: 0;
-	padding-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* .nav-1{
@@ -27,7 +27,7 @@ header {
 } */
 
 .navbar {
-	padding-top: 0;
+  padding-top: 0;
 }
 
 /* .header{
@@ -36,99 +36,217 @@ header {
 } */
 
 .logo {
-	width: 10vw;
-	height: 10vh;
-	margin-right: auto;
+  width: 10vw;
+  height: 10vh;
+  margin-right: auto;
 }
 
 .links {
-	cursor: pointer;
-	list-style: none;
-	margin: 0rem;
-	padding: 0rem;
+  display: flex;
+  cursor: pointer;
+  list-style: none;
+  margin: 0rem;
+  padding: 0rem;
 }
 
 .links li {
-	display: inline-block;
-	padding: 0.5rem 1rem;
-	/* font-size: larger;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  /* font-size: larger;
     font-weight: 600; */
 }
 
 .links li a {
-	text-decoration: none;
-	transition: all 0.3s ease 0s;
-	color: black;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  color: black;
 }
 
 .links li a:hover {
-	color: green;
+  color: green;
 }
 
 .login:hover {
-	background-color: blue;
-	border: 0px solid blue;
+  background-color: blue;
+  border: 0px solid blue;
 }
 
 .login {
-	font-weight: 600;
-	/* font-size: 20px; */
-	padding: 0.2rem 0.5rem;
-	background-color: darkblue;
-	border: 0px solid darkblue;
-	color: white;
+  font-weight: 600;
+  /* font-size: 20px; */
+  padding: 0.2rem 0.5rem;
+  background-color: darkblue;
+  border: 0px solid darkblue;
+  color: white;
 }
 
 ul.dropmenu li {
-	display: block;
+  display: block;
 }
 
 ul.dropmenu {
-	position: absolute;
-	background-color: white;
-	box-shadow: 2px 2px 7px black;
-	padding: 0rem;
+  position: absolute;
+  background-color: white;
+  box-shadow: 2px 2px 7px black;
+  padding: 0rem;
 }
 
 .dropmenu a {
-	text-align: center;
-	text-shadow: none;
+  text-align: center;
+  text-shadow: none;
 }
 
 .border li:hover {
-	border: 2px solid black;
-	border-radius: 4px;
+  border: 2px solid black;
+  border-radius: 4px;
 }
 .sub-menu li:hover {
-	border: 2px solid black;
-	border-radius: 4px;
+  border: 2px solid black;
+  border-radius: 4px;
 }
 .border li:hover a {
-	color: rgb(95, 95, 95);
+  color: rgb(95, 95, 95);
 }
 .sub-menu li:hover a {
-	color: rgb(95, 95, 95);
+  color: rgb(95, 95, 95);
 }
 
 .sub-menu {
-	padding-left: 0px !important;
-	width: max-content;
+  padding-left: 0px !important;
+  width: max-content;
 }
 
 .abc {
-	width: 500px;
+  width: 500px;
 }
 
 ul.links li ul.dropmenu {
-	visibility: hidden;
-	opacity: 0;
+  visibility: hidden;
+  opacity: 0;
 }
 
 ul.links li:hover ul.dropmenu {
-	visibility: visible;
-	opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
 ul.links li:hover {
-	color: green;
+  color: green;
+}
+
+#menu-btn {
+  display: none;
+  color: #2b2b2b;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.close {
+  display: none;
+}
+
+/* Responsive */
+@media (min-width: 350px) and (max-width: 550px) {
+  .links {
+    display: none;
+    flex-flow: column nowrap;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    padding-top: 3.5rem;
+    overflow-y: scroll;
+    overflow-x: visible;
+    text-align: center;
+  }
+
+  #menu-btn {
+    display: block;
+  }
+
+  .links.active {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .close {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+  }
+
+  .dropdown-item {
+    font-size: small;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 750px) {
+  .links {
+    display: none;
+    flex-flow: column nowrap;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 300px;
+    padding-top: 3.5rem;
+    overflow-y: scroll;
+    overflow-x: visible;
+    text-align: center;
+  }
+
+  #menu-btn {
+    display: block;
+  }
+
+  .links.active {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .close {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1050px) {
+  .links {
+    display: none;
+    flex-flow: column nowrap;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 300px;
+    padding-top: 3.5rem;
+    overflow-y: scroll;
+    overflow-x: visible;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+
+  #menu-btn {
+    display: block;
+  }
+
+  .links.active {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .close {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+  }
 }
