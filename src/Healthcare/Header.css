@@ -140,6 +140,7 @@ ul.links li:hover ul.dropmenu {
 
   #menu-btn {
     display: block;
+    font-size: xx-large;
   }
 
   .links.active {
@@ -156,6 +157,13 @@ ul.links li:hover ul.dropmenu {
 
   .dropdown-item {
     font-size: small;
+  }
+
+  .logo {
+    width: 25vw;
+    height: 15vh;
+    margin-right: auto;
+    margin-top: 0;
   }
 }
 
@@ -177,6 +185,7 @@ ul.links li:hover ul.dropmenu {
 
   #menu-btn {
     display: block;
+    font-size: xx-large;
   }
 
   .links.active {
@@ -189,6 +198,13 @@ ul.links li:hover ul.dropmenu {
     position: absolute;
     top: 20px;
     right: 5px;
+  }
+
+  .logo {
+    width: 25vw;
+    height: 15vh;
+    margin-right: auto;
+    margin-top: 0;
   }
 }
 
@@ -211,6 +227,7 @@ ul.links li:hover ul.dropmenu {
 
   #menu-btn {
     display: block;
+    font-size: xx-large;
   }
 
   .links.active {
@@ -223,5 +240,86 @@ ul.links li:hover ul.dropmenu {
     position: absolute;
     top: 20px;
     right: 5px;
+  }
+
+  .logo {
+    width: 25vw;
+    height: 15vh;
+    margin-right: auto;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1051px) and (max-width: 1250px) {
+  header {
+    font-weight: 600;
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-size: 13px;
+    box-shadow: 2px 2px 8px black;
+  }
+
+  .login {
+    font-weight: 600;
+    font-size: 13px;
+    padding: 3px 20px;
+    border-radius: 25px;
+    background-color: darkblue;
+    border: 0px solid darkblue;
+    color: white;
+  }
+
+  .links li {
+    display: inline-block;
+    padding: 0.5rem 0.5rem;
+    vertical-align: middle;
+  }
+
+  .logo {
+    width: 15vw;
+    height: 15vh;
+    margin-right: auto;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1251px) and (max-width: 1500px) {
+  header {
+    font-weight: 600;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-size: 17px;
+    box-shadow: 2px 2px 8px black;
+  }
+
+  .login {
+    font-weight: 600;
+    font-size: 17px;
+    padding: 3px 20px;
+    border-radius: 25px;
+    background-color: darkblue;
+    border: 0px solid darkblue;
+    color: white;
+  }
+
+  .links li {
+    display: inline-block;
+    padding: 0.5rem 0.5rem;
+    vertical-align: middle;
+  }
+
+  .logo {
+    width: 15vw;
+    height: 10vh;
+    margin-right: auto;
+    margin-top: 0;
   }
 }
