@@ -1,41 +1,255 @@
 .dpo {
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 2rem;
-	box-shadow: 2px 2px 8px black;
-	background-color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  box-shadow: 2px 2px 8px black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dpo img {
+  width: 80%;
 }
 
 .bd2 {
-	height: 50vh;
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-left: 2rem;
-	margin-right: auto;
+  height: 50vh;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 2rem;
+  margin-right: auto;
 }
 
 .title1 {
-	text-align: center;
-	/* font-size: ; */
-	padding: 20px;
-	background-color: rgba(64, 68, 73, 0.473);
-	font-weight: bold;
+  text-align: center;
+  /* font-size: ; */
+  padding: 20px;
+  background-color: rgba(64, 68, 73, 0.473);
+  font-weight: bold;
 }
 
 ul.con2 li {
-	font-size: larger;
-	line-height: 2;
+  font-size: larger;
+  line-height: 2;
 }
 ul.lh li {
-	font-size: larger;
-	line-height: 1.5;
-}
-
-.bg1 {
-	background-color: rgba(0, 0, 0, 0.103);
+  font-size: larger;
+  line-height: 1.5;
 }
 
 .bg {
-	padding-bottom: 3rem;
+  padding-bottom: 3rem;
+}
+
+.desc {
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  height: 80px;
+}
+
+.bdp {
+  text-align: center;
+  padding: 20px 5px;
+  background-color: rgb(233, 232, 232);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (min-width: 350px) and (max-width: 550px) {
+  .dpo {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2rem;
+    box-shadow: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .desc {
+    text-align: center;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    height: 80px;
+    font-size: 15px;
+  }
+
+  .bdp {
+    text-align: center;
+    padding: 20px 5px;
+    background-color: rgb(233, 232, 232);
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .dpo img {
+    width: 80%;
+  }
+
+  .bd2 {
+    height: 50vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  ul.con2 li {
+    font-size: small;
+    line-height: 2;
+  }
+  ul.lh li {
+    font-size: small;
+    line-height: 2;
+  }
+
+  .bg {
+    padding-bottom: 1rem;
+  }
+  .title1 {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(64, 68, 73, 0.473);
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 750px) {
+  .dpo {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2rem;
+    box-shadow: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .desc {
+    text-align: center;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    height: 80px;
+    font-size: 17px;
+  }
+
+  .bdp {
+    text-align: center;
+    padding: 20px 5px;
+    background-color: rgb(233, 232, 232);
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .dpo img {
+    width: 60%;
+  }
+
+  .bd2 {
+    height: 50vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  ul.con2 li {
+    font-size: medium;
+    line-height: 2;
+  }
+  ul.lh li {
+    font-size: medium;
+    line-height: 2;
+  }
+
+  .bg {
+    padding-bottom: 1rem;
+  }
+  .title1 {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(64, 68, 73, 0.473);
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1050px) {
+  .dpo {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2rem;
+    box-shadow: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .desc {
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px 5px;
+    height: 80px;
+    font-size: 17px;
+  }
+
+  .bdp {
+    text-align: center;
+    width: 100%;
+    padding: 10px 5px;
+    background-color: rgb(233, 232, 232);
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .dpo img {
+    width: 80%;
+    height: 300px;
+  }
+
+  .bd2 {
+    height: 50vh;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  ul.con2 li {
+    font-size: large;
+    line-height: 2;
+  }
+
+  ul.con2 {
+    width: 100%;
+  }
+  ul.lh li {
+    font-size: large;
+    line-height: 2;
+  }
+
+  .bg {
+    padding-bottom: 1rem;
+  }
+  .title1 {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(64, 68, 73, 0.473);
+    font-weight: bold;
+  }
 }
