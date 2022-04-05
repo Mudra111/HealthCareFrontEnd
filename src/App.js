@@ -15,6 +15,7 @@ import Userlogin from "./Healthcare/Userlogin";
 import Bloodbooktest from "./Healthcare/BloodTestBook";
 import ScansBook from "./Healthcare/ScansBook";
 import Feedback from "./Healthcare/Feedback";
+import FailureOfBT from "./Healthcare/FailureOfBokking"
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { WhatToDo1 } from "./Healthcare/WhatToDo1";
@@ -49,6 +50,7 @@ export default function App() {
           <Route exact path="/scans_booking" element={<ScansBook />} />
           <Route exact path="/feedback" element={<Feedback />} />
           <Route exact path="/profile" element={<Profile />} />
+          <Route exact path="/failurOfBTB" element={<FailureOfBT />} />
         </Routes>
         <Footer />
       </Router>

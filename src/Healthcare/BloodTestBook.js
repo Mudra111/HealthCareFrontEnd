@@ -61,6 +61,9 @@ export default function Userlogin() {
 				navigate("/labtest");
 				alert("Your Tests are booked successfully!!");
 			}
+			else{
+				navigate("/failurOfBTB");
+			}
 			//   if(response.data.isRegistered){
 			// navigat('/login');
 			//   }
@@ -79,19 +82,23 @@ export default function Userlogin() {
 		<div className="body">
 			<div className="main-form1">
 				<div className="head">Book for Blood test</div>
+				<br />
+				<div className="input">
+					<label>
+						<b>USERNAME / EMAIL:</b>
+					</label>
+					<input
+						style={{ width: "25vw", padding: "10px", marginLeft: "10px" }}
+						// className="inpbox1"
+						type="email"
+						onChange={(e) => {
+							setEmailfortest(e.target.value);
+						}}
+					/>
+				</div>
 				<form action="#">
 					<div className="user-det1">
 						<h2>Select Reports</h2>
-						<br />
-						<div className="input">
-							<input
-								className="inpbox1"
-								type="email"
-								onChange={(e) => {
-									setEmailfortest(e.target.value);
-								}}
-							/>
-						</div>
 						<br />
 						<div className="input">
 							<input
