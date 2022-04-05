@@ -1,7 +1,7 @@
 .ComnSymMain {
 	display: flex;
 	justify-content: space-around;
-	background-color: rgb(220, 240, 245);
+	background-color: rgba(220, 240, 245, 0.742);
 }
 
 .ComnSymImgConMain {

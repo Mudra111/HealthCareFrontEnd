@@ -26,11 +26,11 @@ export default function Userlogin() {
 
 			function Redirect() {
 				let isTrue;
-				if (userDetails[0].EMail=== userName) {
+				if (userDetails[0].EMail === userName) {
 					isTrue = true;
-						navigate("/");
-						localStorage.setItem("isAuthenticated", "true");
-						localStorage.setItem("user", JSON.stringify(userDetails));
+					navigate("/");
+					localStorage.setItem("isAuthenticated", "true");
+					localStorage.setItem("user", JSON.stringify(userDetails));
 					// HandleRedirect(isTrue);
 				} else {
 					console.log("Enter valid entry");

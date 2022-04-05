@@ -1,143 +1,143 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .body {
-  display: flex;
-  /* height: 100vh; */
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
-  padding: 5% 0;
+	display: flex;
+	/* height: 100vh; */
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+	padding: 5% 0;
 }
 
 .main-form {
-  max-width: 900px;
-  width: 100%;
-  background: white;
-  padding: 25px 30px;
-  border-radius: 5px;
+	max-width: 900px;
+	width: 100%;
+	background: white;
+	padding: 25px 30px;
+	border-radius: 5px;
 }
 
 .main-form .head {
-  font-size: 25px;
-  font-weight: 500;
-  position: relative;
+	font-size: 25px;
+	font-weight: 500;
+	position: relative;
 }
 
 .main-form .head::before {
-  content: " ";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 3px;
-  width: 30px;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+	content: " ";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 30px;
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 
 .main-form form .user-det {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 20px 0 12px 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 20px 0 12px 0;
 }
 
 form .user-det .input {
-  width: calc(100% / 2 - 20px);
-  margin-bottom: 15px;
+	width: calc(100% / 2 - 20px);
+	margin-bottom: 15px;
 }
 
 form .user-det .gender {
-  width: calc(100% / 2 - 20px);
-  margin-bottom: 15px;
+	width: calc(100% / 2 - 20px);
+	margin-bottom: 15px;
 }
 
 .user-det .input input {
-  height: 45px;
-  width: 100%;
-  outline: none;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  padding-left: 15px;
-  font-size: 16px;
-  transition: all 0.3s ease;
+	height: 45px;
+	width: 100%;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding-left: 15px;
+	font-size: 16px;
+	transition: all 0.3s ease;
 }
 
 .user-det .input select {
-  height: 45px;
-  width: 100%;
-  outline: none;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  padding-left: 15px;
-  font-size: 16px;
-  transition: all 0.3s ease;
+	height: 45px;
+	width: 100%;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding-left: 15px;
+	font-size: 16px;
+	transition: all 0.3s ease;
 }
 
 .user-det .input label {
-  font-weight: 500;
-  margin-bottom: 5px;
+	font-weight: 500;
+	margin-bottom: 5px;
 }
 
 .user-det .gender label {
-  font-weight: 500;
-  margin-bottom: 5px;
+	font-weight: 500;
+	margin-bottom: 5px;
 }
 
 .user-det .input input:focus,
 .user-det .input input:valid {
-  border-color: #9b59b6;
+	border-color: #9b59b6;
 }
 
 .button {
-  height: 45px;
-  margin: 45px 0;
+	height: 45px;
+	margin: 45px 0;
 }
 
 .button button {
-  height: 100%;
-  width: 100%;
-  outline: none;
-  color: white;
-  border: none;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  border-radius: 5px;
+	height: 100%;
+	width: 100%;
+	outline: none;
+	color: white;
+	border: none;
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	border-radius: 5px;
 }
 
 .button button:hover {
-  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+	background: linear-gradient(-135deg, #71b7e6, #9b59b6);
 }
 
 .gender .cat label {
-  margin-left: 10px;
+	margin-left: 10px;
 }
 
 @media (max-width: 584px) {
-  .main-form {
-    max-width: 100%;
-  }
+	.main-form {
+		max-width: 100%;
+	}
 
-  form .user-det .input {
-    width: 100%;
-    margin-bottom: 15px;
-  }
+	form .user-det .input {
+		width: 100%;
+		margin-bottom: 15px;
+	}
 
-  form .user-det .gender {
-    width: 100%;
-    margin-bottom: 15px;
-  }
+	form .user-det .gender {
+		width: 100%;
+		margin-bottom: 15px;
+	}
 
-  .main-form form .user-det {
-    max-height: 300px;
-    overflow-y: scroll;
-  }
+	.main-form form .user-det {
+		max-height: 300px;
+		overflow-y: scroll;
+	}
 
-  .user-det::-webkit-scrollbar {
-    width: 0;
-  }
+	.user-det::-webkit-scrollbar {
+		width: 0;
+	}
 }

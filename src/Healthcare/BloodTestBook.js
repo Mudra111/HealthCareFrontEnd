@@ -1,19 +1,80 @@
 import React, { useState } from "react";
 import "./BloodTestBook.css";
-import { Link } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
+import Axios from "axios";
 
 export default function Userlogin() {
-	const [box1, setBox1] = useState();
-	const [box2, setBox2] = useState();
-	const [box3, setBox3] = useState();
-	const [box4, setBox4] = useState();
-	const [box5, setBox5] = useState();
-	const [box6, setBox6] = useState();
-	const [box7, setBox7] = useState();
-	const [box8, setBox8] = useState();
-	const [box9, setBox9] = useState();
-	const [box10, setBox10] = useState();
-	const [box11, setBox11] = useState();
+	const [box1, setBox1] = useState(" ");
+	const [box2, setBox2] = useState(" ");
+	const [box3, setBox3] = useState(" ");
+	const [box4, setBox4] = useState(" ");
+	const [box5, setBox5] = useState(" ");
+	const [box6, setBox6] = useState(" ");
+	const [box7, setBox7] = useState(" ");
+	const [box8, setBox8] = useState(" ");
+	const [box9, setBox9] = useState(" ");
+	const [box10, setBox10] = useState(" ");
+	const [box11, setBox11] = useState(" ");
+	const Result = [];
+	const Result2 = [];
+	const [emailfortest, setEmailfortest] = useState();
+	const navigate = useNavigate();
+	const disBook = () => {
+		Result.push(
+			box1,
+			box2,
+			box3,
+			box4,
+			box5,
+			box6,
+			box7,
+			box8,
+			box9,
+			box10,
+			box11
+		);
+		// Result.push(box2);
+		// Result.push(box3);
+		// Result.push(box4);
+		// Result.push(box5);
+		// Result.push(box6);
+		// Result.push(box7);
+		// Result.push(box8);
+		// Result.push(box9);
+		// Result.push(box10);
+		// Result.push(box11);
+		Result.map((value) => {
+			if (value !== " ") {
+				Result2.push(value);
+			}
+		});
+		console.log(Result);
+		console.log(Result2);
+		const arrayResult = Result2.toString();
+		Axios.post("http://localhost:3001/bloodtest", {
+			ResultTest: arrayResult,
+			emailForTest: emailfortest,
+		}).then((response) => {
+			console.log(response);
+			const TestBloodBooked = response.data.testBooked;
+			if (TestBloodBooked) {
+				navigate("/labtest");
+				alert("Your Tests are booked successfully!!");
+			}
+			//   if(response.data.isRegistered){
+			// navigat('/login');
+			//   }
+			//   if(response.data.isRegister){
+			// Navigate(-1);
+			//   }
+		});
+	};
+
+	// async function book() {
+	// 	var dis = await disBook();
+	// 	console.log(dis);
+	// }
+
 	return (
 		<div className="body">
 			<div className="main-form1">
@@ -24,10 +85,26 @@ export default function Userlogin() {
 						<br />
 						<div className="input">
 							<input
+								className="inpbox1"
+								type="email"
+								onChange={(e) => {
+									setEmailfortest(e.target.value);
+								}}
+							/>
+						</div>
+						<br />
+						<div className="input">
+							<input
 								type="checkbox"
 								id="1test"
 								className="inpbox1"
-								onChange={(e) => setBox1("CBC")}
+								onChange={(e) => {
+									if (box1 === " ") {
+										setBox1("CBC");
+									} else {
+										setBox1(" ");
+									}
+								}}
 							/>
 							<label htmlFor="1test">Complete blood count(CBC)</label>
 						</div>
@@ -38,7 +115,13 @@ export default function Userlogin() {
 								id="1test"
 								className="inpbox1"
 								value="BMP"
-								onChange={(e) => setBox2("BMP")}
+								onChange={(e) => {
+									if (box2 === " ") {
+										setBox2("BMP");
+									} else {
+										setBox2(" ");
+									}
+								}}
 							/>
 							<label htmlFor="1test">Basic metabolic panel(BMP)</label>
 						</div>
@@ -49,7 +132,13 @@ export default function Userlogin() {
 								id="1test"
 								className="inpbox1"
 								value="CMP"
-								onChange={(e) => setBox3("CMP")}
+								onChange={(e) => {
+									if (box3 === " ") {
+										setBox3("CMP");
+									} else {
+										setBox3(" ");
+									}
+								}}
 							/>
 							<label htmlFor="1test">Comprehensive metabolic panel(CMP)</label>
 						</div>
@@ -60,7 +149,13 @@ export default function Userlogin() {
 								id="1test"
 								className="inpbox1"
 								value="Lipid panel"
-								onChange={(e) => setBox4("Lipid panel")}
+								onChange={(e) => {
+									if (box4 === " ") {
+										setBox4("Lipid panel");
+									} else {
+										setBox4(" ");
+									}
+								}}
 							/>
 							<label htmlFor="1test">Lipid panel</label>
 						</div>
@@ -70,7 +165,13 @@ export default function Userlogin() {
 								type="checkbox"
 								id="1test"
 								className="inpbox1"
-								onChange={(e) => setBox5("Thyroid panel")}
+								onChange={(e) => {
+									if (box5 === " ") {
+										setBox5("Thyroid pane4");
+									} else {
+										setBox5(" ");
+									}
+								}}
 							/>
 							<label htmlFor="1test">Thyroid panel</label>
 						</div>
@@ -80,7 +181,13 @@ export default function Userlogin() {
 								type="checkbox"
 								id="1test"
 								className="inpbox1"
-								onChange={(e) => setBox6("CK")}
+								onChange={(e) => {
+									if (box6 === " ") {
+										setBox6("CK");
+									} else {
+										setBox6(" ");
+									}
+								}}
 							/>
 							<label htmlFor="1test">Creatine kinase (CK)</label>
 						</div>
@@ -90,7 +197,13 @@ export default function Userlogin() {
 								type="checkbox"
 								id="1test"
 								className="inpbox1"
-								onChange={(e) => setBox7("CK-MB")}
+								onChange={(e) => {
+									if (box7 === " ") {
+										setBox7("CK-MB");
+									} else {
+										setBox7(" ");
+									}
+								}}
 							/>
 							<label htmlFor="1test">Creatine kinase-MB (CK-MB)</label>
 						</div>
@@ -100,7 +213,13 @@ export default function Userlogin() {
 								type="checkbox"
 								id="1test"
 								className="inpbox1"
-								onChange={(e) => setBox8("STIs")}
+								onChange={(e) => {
+									if (box8 === " ") {
+										setBox8("STIs");
+									} else {
+										setBox8(" ");
+									}
+								}}
 							/>
 							<label htmlFor="1test">
 								Sexually transmitted infections(STIs)
@@ -112,7 +231,13 @@ export default function Userlogin() {
 								type="checkbox"
 								id="1test"
 								className="inpbox1"
-								onChange={(e) => setBox9("Coagulation")}
+								onChange={(e) => {
+									if (box9 === " ") {
+										setBox9("Coagulation");
+									} else {
+										setBox9(" ");
+									}
+								}}
 							/>
 							<label htmlFor="1test">Coagulation</label>
 						</div>
@@ -122,7 +247,13 @@ export default function Userlogin() {
 								type="checkbox"
 								id="1test"
 								className="inpbox1"
-								onChange={(e) => setBox10("DHEA")}
+								onChange={(e) => {
+									if (box10 === " ") {
+										setBox10("DHEA");
+									} else {
+										setBox10(" ");
+									}
+								}}
 							/>
 							<label htmlFor="1test">dehydroepiandrosterone (DHEA)</label>
 						</div>
@@ -132,14 +263,19 @@ export default function Userlogin() {
 								type="checkbox"
 								id="1test"
 								className="inpbox1"
-								onChange={(e) => setBox11("CRP")}
+								onChange={(e) => {
+									if (box11 === " ") {
+										setBox11("CRP");
+									} else {
+										setBox11(" ");
+									}
+								}}
 							/>
 							<label htmlFor="1test">C-reactive protein (CRP)</label>
 						</div>
 					</div>
-
 					<div className="button">
-						<button>Book Now</button>
+						<button onClick={disBook}>Book Now</button>
 					</div>
 				</form>
 			</div>

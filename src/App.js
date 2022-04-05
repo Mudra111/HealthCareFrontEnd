@@ -19,12 +19,11 @@ import Feedback from "./Healthcare/Feedback";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { WhatToDo1 } from "./Healthcare/WhatToDo1";
 
-import LabTest from "./Healthcare/labTest";
+import LabTest from "./Healthcare/Labtest";
+import Profile from "./Healthcare/Profile"
 // import { Help } from './Healthcare/Help';
 // import { Help1 } from './Healthcare/Help1';
 // import { Help2 } from './Healthcare/Help2';
-
-import Axios from "axios";
 
 export default function App() {
   return (
@@ -49,6 +48,7 @@ export default function App() {
           <Route exact path="/bloodtest_booking" element={<Bloodbooktest />} />
           <Route exact path="/scans_booking" element={<ScansBook />} />
           <Route exact path="/feedback" element={<Feedback />} />
+          <Route exact path="/profile" element={<Profile />} />
         </Routes>
         <Footer />
       </Router>
