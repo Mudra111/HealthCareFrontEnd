@@ -66,14 +66,17 @@ export default function LabTest(props) {
 				</div>
 				<div className="circleStatements">
 					<div className="statement1">
-						We will reach out on your phone <br />
+						<h2 className="no_for_lab">1</h2>We will reach out on your phone{" "}
+						<br />
 						number to understand your requirements.
 					</div>
 					<div className="statement2">
-						Lab details & price will be shared <br /> with you over the call.
+						<h2 className="no_for_lab">2</h2>Lab details & price will be shared{" "}
+						<br /> with you over the call.
 					</div>
 					<div className="statement3">
-						Your report analysis will be done by <br />
+						<h2 className="no_for_lab">3</h2>Your report analysis will be done
+						by <br />
 						an expert doctor for free on HealthCare app.
 					</div>
 				</div>

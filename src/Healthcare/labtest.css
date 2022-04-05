@@ -4,6 +4,10 @@
 	width: 100%;
 }
 
+.no_for_lab {
+	display: none;
+}
+
 .labMain {
 	grid-column-start: 2;
 	grid-column-end: 5;
@@ -1452,6 +1456,7 @@
 		border-radius: 50px;
 		width: 50px;
 		height: 50px;
+		display: none;
 	}
 
 	.circle2 {
@@ -1462,6 +1467,7 @@
 		border-radius: 50px;
 		width: 50px;
 		height: 50px;
+		display: none;
 	}
 
 	.circle3 {
@@ -1472,6 +1478,7 @@
 		border-radius: 50px;
 		width: 50px;
 		height: 50px;
+		display: none;
 	}
 
 	.circleCon {
@@ -1479,6 +1486,7 @@
 		display: flex;
 		justify-content: space-between;
 		height: 80px;
+		display: none;
 	}
 
 	.line1 {
@@ -1501,12 +1509,25 @@
 		display: none;
 	}
 
+	.no_for_lab {
+		display: block;
+		/* width: 50px; */
+		width: 50px;
+		border: 2px solid black;
+		border-radius: 25px;
+		margin-left: auto;
+		padding: 5px;
+		margin-right: auto;
+		text-align: center;
+	}
+
 	.num1 {
 		position: absolute;
 		top: 25px;
 		left: 197px;
 		font-weight: 700;
 		font-size: 25px;
+		display: none;
 	}
 
 	.num2 {
@@ -1515,6 +1536,7 @@
 		left: 38.3vw;
 		font-weight: 700;
 		font-size: 25px;
+		display: none;
 	}
 
 	.num3 {
@@ -1523,25 +1545,27 @@
 		right: 197px;
 		font-weight: 700;
 		font-size: 25px;
+		display: none;
 	}
 
 	.circleStatements {
+		margin-top: 25px;
 		display: flex;
 		justify-content: space-around;
 	}
 
 	.statement1 {
-		margin-left: 70px;
+		margin-left: 10px;
 		font-weight: 700;
 	}
 
 	.statement2 {
-		margin-left: 50px;
+		margin-left: 0px;
 		font-weight: 700;
 	}
 
 	.statement3 {
-		margin-left: 60px;
+		margin-left: 0px;
 		font-weight: 700;
 	}
 
