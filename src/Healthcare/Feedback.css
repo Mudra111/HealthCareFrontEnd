@@ -1,449 +1,451 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .FeedbackMain {
-	background: url("./images/bg1.jpg") no-repeat center center fixed;
-	background-size: cover;
-	min-height: 70vh;
-	align-items: center;
-	justify-content: center;
-	padding-top: 20px;
+  background: url("./images/bg1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 70vh;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
 }
 
 .feedbackcontainer {
-	width: 360px;
-	margin-left: auto;
-	margin-right: auto;
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .feedbackcontainer h1 {
-	font-size: 30px;
-	letter-spacing: 3px;
-	color: rgb(197, 194, 235);
-	border-bottom: 4px solid rgb(0, 0, 0);
-	margin-bottom: 30px;
-	padding: 7px 10px;
-	font-weight: bold;
-	text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: rgb(197, 194, 235);
+  border-bottom: 4px solid rgb(0, 0, 0);
+  margin-bottom: 30px;
+  padding: 7px 10px;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 
 .feedbackbox {
-	width: 100%;
-	margin: 20px 0px;
-	padding: 10px 10px;
-	border-bottom: 2px solid rgb(177, 161, 247);
+  width: 100%;
+  margin: 20px 0px;
+  padding: 10px 10px;
+  border-bottom: 2px solid rgb(177, 161, 247);
 }
 
 .feedbackbox input {
-	background: none;
-	width: 75%;
-	margin: 10px 0px;
-	padding: 2px 0px;
-	border: none;
-	outline: none;
-	font-size: 19px;
-	font-weight: bold;
-	letter-spacing: 2px;
-	color: rgb(220, 199, 238);
+  background: none;
+  width: 75%;
+  margin: 10px 0px;
+  padding: 2px 0px;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: rgb(220, 199, 238);
 }
 
 .feedbackbox i {
-	padding: 10px 20px;
-	width: 20px;
-	text-align: left;
-	font-size: 25px;
+  padding: 10px 20px;
+  margin-right: 20px;
+  width: 20px;
+  text-align: left;
+  font-size: 20px;
+  color: grey;
 }
 
 .feedbackdbox textarea {
-	border: 1px solid grey;
-	border-radius: 3px;
-	background: #060053;
-	opacity: 0.7;
-	font-size: 15px;
-	width: 100%;
-	margin: 4px 0px;
-	color: aliceblue;
-	padding: 5px 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  background: #060053;
+  opacity: 0.7;
+  font-size: 15px;
+  width: 100%;
+  margin: 4px 0px;
+  color: aliceblue;
+  padding: 5px 10px;
 }
 
 .feedbackbtn {
-	background-color: rgb(2, 3, 80);
-	opacity: 0.7;
-	cursor: pointer;
-	width: 30%;
-	font-size: 18px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: 120px;
-	margin-right: auto;
-	padding: 15px 0px;
-	border-radius: 12px;
-	color: white;
-	display: inline-block;
+  background-color: rgb(2, 3, 80);
+  opacity: 0.7;
+  cursor: pointer;
+  width: 30%;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 120px;
+  margin-right: auto;
+  padding: 15px 0px;
+  border-radius: 12px;
+  color: white;
+  display: inline-block;
 }
 
 @media only screen and (min-device-width: 350px) and (max-device-width: 550px) {
-	* {
-		margin: 0;
-		padding: 0;
-	}
+  * {
+    margin: 0;
+    padding: 0;
+  }
 
-	.FeedbackMain {
-		background: url("./images/bg1.jpg") no-repeat center center fixed;
-		background-size: cover;
-		min-height: 70vh;
-		align-items: center;
-		justify-content: center;
-		padding-top: 20px;
-	}
+  .FeedbackMain {
+    background: url("./images/bg1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
 
-	.feedbackcontainer {
-		width: 270px;
-		margin-left: auto;
-		margin-right: auto;
-	}
+  .feedbackcontainer {
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-	.feedbackcontainer h1 {
-		font-size: 15px;
-		letter-spacing: 3px;
-		color: rgb(197, 194, 235);
-		border-bottom: 4px solid rgb(0, 0, 0);
-		margin-bottom: 30px;
-		padding: 7px 10px;
-		font-weight: bold;
-		text-shadow: 3px 3px 5px rgb(0, 0, 0);
-	}
+  .feedbackcontainer h1 {
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: rgb(197, 194, 235);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    margin-bottom: 30px;
+    padding: 7px 10px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  }
 
-	.feedbackbox {
-		width: 100%;
-		margin: 20px 0px;
-		padding-right: 0px;
-		padding-left: 10px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		border-bottom: 2px solid rgb(177, 161, 247);
-	}
+  .feedbackbox {
+    width: 100%;
+    margin: 20px 0px;
+    padding-right: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(177, 161, 247);
+  }
 
-	.feedbackbox input {
-		background: none;
-		width: 75%;
-		margin: 10px 0px;
-		padding: 2px 0px;
-		border: none;
-		outline: none;
-		font-size: 10px;
-		font-weight: bold;
-		letter-spacing: 2px;
-		color: rgb(220, 199, 238);
-	}
+  .feedbackbox input {
+    background: none;
+    width: 75%;
+    margin: 10px 0px;
+    padding: 2px 0px;
+    border: none;
+    outline: none;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(220, 199, 238);
+  }
 
-	.feedbackbox i {
-		padding: 10px 10px;
-		width: 20px;
-		text-align: left;
-		font-size: 20px;
-	}
+  .feedbackbox i {
+    padding: 10px 10px;
+    width: 20px;
+    text-align: left;
+    font-size: 20px;
+  }
 
-	.feedbackdbox textarea {
-		border: 1px solid grey;
-		border-radius: 3px;
-		background: #060053;
-		opacity: 0.7;
-		font-size: 10px;
-		width: 100%;
-		margin: 4px 0px;
-		color: aliceblue;
-		padding: 5px 10px;
-	}
+  .feedbackdbox textarea {
+    border: 1px solid grey;
+    border-radius: 3px;
+    background: #060053;
+    opacity: 0.7;
+    font-size: 10px;
+    width: 100%;
+    margin: 4px 0px;
+    color: aliceblue;
+    padding: 5px 10px;
+  }
 
-	.feedbackbtn {
-		background-color: rgb(2, 3, 80);
-		opacity: 0.7;
-		cursor: pointer;
-		width: 30%;
-		font-size: 15px;
-		margin: 0px 0px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 15px;
-		margin-bottom: 15px;
-		padding: 15px 0px;
-		border-radius: 12px;
-		color: white;
-		display: inline-block;
-	}
+  .feedbackbtn {
+    background-color: rgb(2, 3, 80);
+    opacity: 0.7;
+    cursor: pointer;
+    width: 30%;
+    font-size: 15px;
+    margin: 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px 0px;
+    border-radius: 12px;
+    color: white;
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-device-width: 551px) and (max-device-width: 750px) {
-	* {
-		margin: 0;
-		padding: 0;
-	}
+  * {
+    margin: 0;
+    padding: 0;
+  }
 
-	.FeedbackMain {
-		background: url("./images/bg1.jpg") no-repeat center center fixed;
-		background-size: cover;
-		min-height: 70vh;
-		align-items: center;
-		justify-content: center;
-		padding-top: 20px;
-	}
+  .FeedbackMain {
+    background: url("./images/bg1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
 
-	.feedbackcontainer {
-		width: 300px;
-		margin-left: auto;
-		margin-right: auto;
-	}
+  .feedbackcontainer {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-	.feedbackcontainer h1 {
-		font-size: 20px;
-		letter-spacing: 3px;
-		color: rgb(197, 194, 235);
-		border-bottom: 4px solid rgb(0, 0, 0);
-		margin-bottom: 30px;
-		padding: 7px 10px;
-		font-weight: bold;
-		text-shadow: 3px 3px 5px rgb(0, 0, 0);
-	}
+  .feedbackcontainer h1 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: rgb(197, 194, 235);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    margin-bottom: 30px;
+    padding: 7px 10px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  }
 
-	.feedbackbox {
-		width: 100%;
-		margin: 20px 0px;
-		padding-right: 0px;
-		padding-left: 10px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		border-bottom: 2px solid rgb(177, 161, 247);
-	}
+  .feedbackbox {
+    width: 100%;
+    margin: 20px 0px;
+    padding-right: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(177, 161, 247);
+  }
 
-	.feedbackbox input {
-		background: none;
-		width: 75%;
-		margin: 10px 0px;
-		padding: 2px 0px;
-		border: none;
-		outline: none;
-		font-size: 15px;
-		font-weight: bold;
-		letter-spacing: 2px;
-		color: rgb(220, 199, 238);
-	}
+  .feedbackbox input {
+    background: none;
+    width: 75%;
+    margin: 10px 0px;
+    padding: 2px 0px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(220, 199, 238);
+  }
 
-	.feedbackbox i {
-		padding: 10px 10px;
-		width: 20px;
-		text-align: left;
-		font-size: 25px;
-	}
+  .feedbackbox i {
+    padding: 10px 10px;
+    width: 20px;
+    text-align: left;
+    font-size: 25px;
+  }
 
-	.feedbackdbox textarea {
-		border: 1px solid grey;
-		border-radius: 3px;
-		background: #060053;
-		opacity: 0.7;
-		font-size: 15px;
-		width: 100%;
-		margin: 4px 0px;
-		color: aliceblue;
-		padding: 5px 10px;
-	}
+  .feedbackdbox textarea {
+    border: 1px solid grey;
+    border-radius: 3px;
+    background: #060053;
+    opacity: 0.7;
+    font-size: 15px;
+    width: 100%;
+    margin: 4px 0px;
+    color: aliceblue;
+    padding: 5px 10px;
+  }
 
-	.feedbackbtn {
-		background-color: rgb(2, 3, 80);
-		opacity: 0.7;
-		cursor: pointer;
-		width: 30%;
-		font-size: 20px;
-		margin: 0px 0px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 15px;
-		margin-bottom: 15px;
-		padding: 15px 0px;
-		border-radius: 12px;
-		color: white;
-		display: inline-block;
-	}
+  .feedbackbtn {
+    background-color: rgb(2, 3, 80);
+    opacity: 0.7;
+    cursor: pointer;
+    width: 30%;
+    font-size: 20px;
+    margin: 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px 0px;
+    border-radius: 12px;
+    color: white;
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-device-width: 751px) and (max-device-width: 1050px) {
-	* {
-		margin: 0;
-		padding: 0;
-	}
+  * {
+    margin: 0;
+    padding: 0;
+  }
 
-	.FeedbackMain {
-		background: url("./images/bg1.jpg") no-repeat center center fixed;
-		background-size: cover;
-		min-height: 70vh;
-		align-items: center;
-		justify-content: center;
-		padding-top: 20px;
-	}
+  .FeedbackMain {
+    background: url("./images/bg1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
 
-	.feedbackcontainer {
-		width: 330px;
-		margin-left: auto;
-		margin-right: auto;
-	}
+  .feedbackcontainer {
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-	.feedbackcontainer h1 {
-		font-size: 25px;
-		letter-spacing: 3px;
-		color: rgb(197, 194, 235);
-		border-bottom: 4px solid rgb(0, 0, 0);
-		margin-bottom: 30px;
-		padding: 7px 10px;
-		font-weight: bold;
-		text-shadow: 3px 3px 5px rgb(0, 0, 0);
-	}
+  .feedbackcontainer h1 {
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: rgb(197, 194, 235);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    margin-bottom: 30px;
+    padding: 7px 10px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  }
 
-	.feedbackbox {
-		width: 100%;
-		margin: 20px 0px;
-		padding-right: 0px;
-		padding-left: 10px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		border-bottom: 2px solid rgb(177, 161, 247);
-	}
+  .feedbackbox {
+    width: 100%;
+    margin: 20px 0px;
+    padding-right: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(177, 161, 247);
+  }
 
-	.feedbackbox input {
-		background: none;
-		width: 75%;
-		margin: 10px 0px;
-		padding: 2px 0px;
-		border: none;
-		outline: none;
-		font-size: 20px;
-		font-weight: bold;
-		letter-spacing: 2px;
-		color: rgb(220, 199, 238);
-	}
+  .feedbackbox input {
+    background: none;
+    width: 75%;
+    margin: 10px 0px;
+    padding: 2px 0px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(220, 199, 238);
+  }
 
-	.feedbackbox i {
-		padding: 10px 10px;
-		width: 20px;
-		text-align: left;
-		font-size: 25px;
-	}
+  .feedbackbox i {
+    padding: 10px 10px;
+    width: 20px;
+    text-align: left;
+    font-size: 25px;
+  }
 
-	.feedbackdbox textarea {
-		border: 1px solid grey;
-		border-radius: 3px;
-		background: #060053;
-		opacity: 0.7;
-		font-size: 20px;
-		width: 100%;
-		margin: 4px 0px;
-		color: aliceblue;
-		padding: 5px 10px;
-	}
+  .feedbackdbox textarea {
+    border: 1px solid grey;
+    border-radius: 3px;
+    background: #060053;
+    opacity: 0.7;
+    font-size: 20px;
+    width: 100%;
+    margin: 4px 0px;
+    color: aliceblue;
+    padding: 5px 10px;
+  }
 
-	.feedbackbtn {
-		background-color: rgb(2, 3, 80);
-		opacity: 0.7;
-		cursor: pointer;
-		width: 30%;
-		font-size: 25px;
-		margin: 0px 0px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 15px;
-		margin-bottom: 15px;
-		padding: 15px 0px;
-		border-radius: 12px;
-		color: white;
-		display: inline-block;
-	}
+  .feedbackbtn {
+    background-color: rgb(2, 3, 80);
+    opacity: 0.7;
+    cursor: pointer;
+    width: 30%;
+    font-size: 25px;
+    margin: 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px 0px;
+    border-radius: 12px;
+    color: white;
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-device-width: 1051px) and (max-device-width: 1400px) {
-	* {
-		margin: 0;
-		padding: 0;
-	}
+  * {
+    margin: 0;
+    padding: 0;
+  }
 
-	.FeedbackMain {
-		background: url("./images/bg1.jpg") no-repeat center center fixed;
-		background-size: cover;
-		min-height: 70vh;
-		align-items: center;
-		justify-content: center;
-		padding-top: 20px;
-	}
+  .FeedbackMain {
+    background: url("./images/bg1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
 
-	.feedbackcontainer {
-		width: 360px;
-		margin-left: auto;
-		margin-right: auto;
-	}
+  .feedbackcontainer {
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-	.feedbackcontainer h1 {
-		font-size: 30px;
-		letter-spacing: 3px;
-		color: rgb(197, 194, 235);
-		border-bottom: 4px solid rgb(0, 0, 0);
-		margin-bottom: 30px;
-		padding: 7px 10px;
-		font-weight: bold;
-		text-shadow: 3px 3px 5px rgb(0, 0, 0);
-	}
+  .feedbackcontainer h1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: rgb(197, 194, 235);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    margin-bottom: 30px;
+    padding: 7px 10px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  }
 
-	.feedbackbox {
-		width: 100%;
-		margin: 20px 0px;
-		padding: 10px 10px;
-		border-bottom: 2px solid rgb(177, 161, 247);
-	}
+  .feedbackbox {
+    width: 100%;
+    margin: 20px 0px;
+    padding: 10px 10px;
+    border-bottom: 2px solid rgb(177, 161, 247);
+  }
 
-	.feedbackbox input {
-		background: none;
-		width: 75%;
-		margin: 10px 0px;
-		padding: 2px 0px;
-		border: none;
-		outline: none;
-		font-size: 19px;
-		font-weight: bold;
-		letter-spacing: 2px;
-		color: rgb(220, 199, 238);
-	}
+  .feedbackbox input {
+    background: none;
+    width: 75%;
+    margin: 10px 0px;
+    padding: 2px 0px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(220, 199, 238);
+  }
 
-	.feedbackbox i {
-		padding: 10px 20px;
-		width: 20px;
-		text-align: left;
-		font-size: 25px;
-	}
+  .feedbackbox i {
+    padding: 10px 20px;
+    width: 20px;
+    text-align: left;
+    font-size: 25px;
+  }
 
-	.feedbackdbox textarea {
-		border: 1px solid grey;
-		border-radius: 3px;
-		background: #060053;
-		opacity: 0.7;
-		font-size: 15px;
-		width: 100%;
-		margin: 4px 0px;
-		color: aliceblue;
-		padding: 5px 10px;
-	}
+  .feedbackdbox textarea {
+    border: 1px solid grey;
+    border-radius: 3px;
+    background: #060053;
+    opacity: 0.7;
+    font-size: 15px;
+    width: 100%;
+    margin: 4px 0px;
+    color: aliceblue;
+    padding: 5px 10px;
+  }
 
-	.feedbackbtn {
-		background-color: rgb(2, 3, 80);
-		opacity: 0.7;
-		cursor: pointer;
-		width: 30%;
-		font-size: 18px;
-		margin-left: 120px;
-		margin-right: auto;
-		margin-top: 20px;
-		margin-bottom: 20px;
-		padding: 15px 0px;
-		border-radius: 12px;
-		color: white;
-		display: inline-block;
-	}
+  .feedbackbtn {
+    background-color: rgb(2, 3, 80);
+    opacity: 0.7;
+    cursor: pointer;
+    width: 30%;
+    font-size: 18px;
+    margin-left: 120px;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 0px;
+    border-radius: 12px;
+    color: white;
+    display: inline-block;
+  }
 }
