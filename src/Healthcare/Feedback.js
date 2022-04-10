@@ -11,7 +11,7 @@ export default function Feedback() {
           <input type="text" name="text" id="text" placeholder="Full name" />
         </div>
         <div className="feedbackbox">
-          <i className="fas fa-envelope"></i>
+        <i className="fa fa-envelope"></i>
           <input
             type="email"
             name="email"
