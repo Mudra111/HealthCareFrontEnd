@@ -314,7 +314,7 @@
 	font-weight: 600;
 }
 
-@media only screen and (min-device-width: 350px) and (max-device-width: 550px) {
+@media only screen and (min-width: 350px) and (max-width: 550px) {
 	.gridCon {
 		display: flex;
 		flex-direction: column;
@@ -661,7 +661,7 @@
 	}
 }
 
-@media only screen and (min-device-width: 551px) and (max-device-width: 750px) {
+@media only screen and (min-width: 551px) and (max-width: 750px) {
 	.gridCon {
 		display: flex;
 		flex-direction: column;
@@ -1008,7 +1008,7 @@
 	}
 }
 
-@media only screen and (min-device-width: 751px) and (max-device-width: 1050px) {
+@media only screen and (min-width: 751px) and (max-width: 1050px) {
 	.gridCon {
 		display: flex;
 		width: 100%;
@@ -1164,7 +1164,6 @@
 		left: 30px;
 		font-weight: 700;
 		display: none;
-
 		font-size: 20px;
 	}
 
@@ -1358,7 +1357,7 @@
 	}
 }
 
-@media only screen and (min-device-width: 1051px) and (max-device-width: 1519px) {
+@media only screen and (min-width: 1051px) and (max-width: 1519px) {
 	.gridCon {
 		display: grid;
 		grid-template-columns: auto auto;

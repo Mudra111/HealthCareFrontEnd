@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./BloodTestBook.css";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Axios from "axios";
 
 export default function Userlogin() {
@@ -17,6 +17,9 @@ export default function Userlogin() {
 	const [box11, setBox11] = useState(" ");
 	const Result = [];
 	const Result2 = [];
+
+	// const redirect = useNavigate();
+
 	const [emailfortest, setEmailfortest] = useState();
 	const navigate = useNavigate();
 	const disBook = () => {
@@ -56,20 +59,30 @@ export default function Userlogin() {
 			emailForTest: emailfortest,
 		}).then((response) => {
 			console.log(response);
-			const TestBloodBooked = response.data.testBooked;
-			if (TestBloodBooked) {
-				navigate("/labtest");
-				alert("Your Tests are booked successfully!!");
-			}
-			else{
-				navigate("/failurOfBTB");
-			}
-			//   if(response.data.isRegistered){
-			// navigat('/login');
-			//   }
-			//   if(response.data.isRegister){
-			// Navigate(-1);
-			//   }
+			// const TestBloodBooked = response;
+
+			// console.log(TestBloodBooked);
+			const TestBloodBooked = response.data;
+			// const TestNotBooked = response.data.resultFalse;
+			console.log(TestBloodBooked);
+			const abc = (TestBloodBooked) => {
+				if (TestBloodBooked) {
+					alert("Your Tests are booked successfully!!");
+					// navigat("/labtest");
+					// <Navigate to="/labtest" />;
+					navigate("/labtest");
+					// redirect("/typesofblood");
+				} else {
+					// if (TestNotBooked) {
+					navigate("/failurOfBTB");
+					// }
+					// if (TestBloodNotBooked) {
+					// navigat("/failurOfBTB");
+					// redirect("/donate_money");
+					// }
+				}
+			};
+			abc(TestBloodBooked);
 		});
 	};
 
@@ -96,196 +109,192 @@ export default function Userlogin() {
 						}}
 					/>
 				</div>
-				<form action="#">
-					<div className="user-det1">
-						<h2>Select Reports</h2>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (box1 === " ") {
-										setBox1("CBC");
-									} else {
-										setBox1(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">Complete blood count(CBC)</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								value="BMP"
-								onChange={(e) => {
-									if (box2 === " ") {
-										setBox2("BMP");
-									} else {
-										setBox2(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">Basic metabolic panel(BMP)</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								value="CMP"
-								onChange={(e) => {
-									if (box3 === " ") {
-										setBox3("CMP");
-									} else {
-										setBox3(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">Comprehensive metabolic panel(CMP)</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								value="Lipid panel"
-								onChange={(e) => {
-									if (box4 === " ") {
-										setBox4("Lipid panel");
-									} else {
-										setBox4(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">Lipid panel</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (box5 === " ") {
-										setBox5("Thyroid pane4");
-									} else {
-										setBox5(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">Thyroid panel</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (box6 === " ") {
-										setBox6("CK");
-									} else {
-										setBox6(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">Creatine kinase (CK)</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (box7 === " ") {
-										setBox7("CK-MB");
-									} else {
-										setBox7(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">Creatine kinase-MB (CK-MB)</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (box8 === " ") {
-										setBox8("STIs");
-									} else {
-										setBox8(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">
-								Sexually transmitted infections(STIs)
-							</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (box9 === " ") {
-										setBox9("Coagulation");
-									} else {
-										setBox9(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">Coagulation</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (box10 === " ") {
-										setBox10("DHEA");
-									} else {
-										setBox10(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">dehydroepiandrosterone (DHEA)</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (box11 === " ") {
-										setBox11("CRP");
-									} else {
-										setBox11(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">C-reactive protein (CRP)</label>
-						</div>
+				<div className="user-det1">
+					<h2>Select Reports</h2>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (box1 === " ") {
+									setBox1("CBC");
+								} else {
+									setBox1(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">Complete blood count(CBC)</label>
 					</div>
-					<div className="button">
-						<button onClick={disBook}>Book Now</button>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							value="BMP"
+							onChange={(e) => {
+								if (box2 === " ") {
+									setBox2("BMP");
+								} else {
+									setBox2(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">Basic metabolic panel(BMP)</label>
 					</div>
-				</form>
-			</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							value="CMP"
+							onChange={(e) => {
+								if (box3 === " ") {
+									setBox3("CMP");
+								} else {
+									setBox3(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">Comprehensive metabolic panel(CMP)</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							value="Lipid panel"
+							onChange={(e) => {
+								if (box4 === " ") {
+									setBox4("Lipid panel");
+								} else {
+									setBox4(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">Lipid panel</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (box5 === " ") {
+									setBox5("Thyroid pane4");
+								} else {
+									setBox5(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">Thyroid panel</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (box6 === " ") {
+									setBox6("CK");
+								} else {
+									setBox6(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">Creatine kinase (CK)</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (box7 === " ") {
+									setBox7("CK-MB");
+								} else {
+									setBox7(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">Creatine kinase-MB (CK-MB)</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (box8 === " ") {
+									setBox8("STIs");
+								} else {
+									setBox8(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">Sexually transmitted infections(STIs)</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (box9 === " ") {
+									setBox9("Coagulation");
+								} else {
+									setBox9(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">Coagulation</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (box10 === " ") {
+									setBox10("DHEA");
+								} else {
+									setBox10(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">dehydroepiandrosterone (DHEA)</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (box11 === " ") {
+									setBox11("CRP");
+								} else {
+									setBox11(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">C-reactive protein (CRP)</label>
+					</div>
+				</div>
+				<div className="button">
+					<button onClick={disBook}>Book Now</button>
+				</div>
+			</div>	
 		</div>
 	);
 }

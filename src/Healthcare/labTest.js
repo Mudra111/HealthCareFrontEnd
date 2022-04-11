@@ -33,12 +33,12 @@ export default function LabTest(props) {
 		<div className="gridCon">
 			<div className="navForLab">
 				<ul className="typesOfLab">
-					<li className="labType">
-						<a onClick={lab1}>Blood Tests</a>
-					</li>
-					<li className="labType">
-						<a onClick={lab2}>Scans & X-Rays</a>
-					</li>
+					<a onClick={lab1}>
+						<li className="labType">Blood Tests</li>
+					</a>
+					<a onClick={lab2}>
+						<li className="labType">Scans & X-Rays</li>
+					</a>
 				</ul>
 			</div>
 			<div className={`${labMain1 ? "" : "labMain1"}`}>

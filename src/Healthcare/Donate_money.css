@@ -67,7 +67,7 @@
 	box-shadow: 7px 7px 15px gray;
 }
 
-@media only screen and (min-device-width: 350px) and (max-device-width: 550px) {
+@media only screen and  (min-width: 350px) and (max-width: 550px) {
 	.money {
 		padding: 0;
 		margin: 0;
@@ -148,7 +148,7 @@
 	}
 }
 
-@media only screen and (min-device-width: 551px) and (max-device-width: 750px) {
+@media only screen and (min-width: 551px) and (max-width: 750px) {
 	.money {
 		padding: 0;
 		margin: 0;
@@ -225,7 +225,7 @@
 	}
 }
 
-@media only screen and (min-device-width: 751px) and (max-device-width: 1050px) {
+@media only screen and (min-width: 751px) and (max-width: 1050px) {
 	.money {
 		padding: 0;
 		margin: 0;
@@ -298,7 +298,7 @@
 	}
 }
 
-@media only screen and (min-device-width: 1051px) and (max-device-width: 1400px) {
+@media only screen and (min-width: 1051px) and (max-width: 1400px) {
 	.money {
 		padding: 0;
 		margin: 0;
