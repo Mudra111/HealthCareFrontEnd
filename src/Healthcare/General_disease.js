@@ -4,6 +4,7 @@ import "./General.css";
 import sp1Gen from "./images/general-sp1.png";
 import sp2Gen from "./images/general-sp2.png";
 import sp3Gen from "./images/general-sp3.png";
+import {Link } from "react-router-dom"
 
 export default function General() {
 	const [isShow1, setIsShow1] = useState(false);
@@ -105,7 +106,7 @@ export default function General() {
 							they will refer you to a specialist doctor who'd provide you with
 							the care you need.
 						</p>
-						<button className="ReqAppo_gen">Request an Appointment</button>
+						<Link to="/online_consult"> <button className="ReqAppo_gen">Request an Appointment</button></Link>
 					</div>
 				</div>
 

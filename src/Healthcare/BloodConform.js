@@ -4,75 +4,93 @@ import { Link, Navigate, useNavigate } from "react-router-dom";
 import Axios from "axios";
 
 export default function BloodConform() {
-  const [disTextarea, setDisTextarea] = useState(false);
+	const [disTextarea, setDisTextarea] = useState(false);
 
-  const display = () => {
-    setDisTextarea(!disTextarea);
-  };
-  const notDisplay = () => {
-    setDisTextarea(false);
-  };
-  return (
-    <div className="body">
-      <div className="main-form1">
-        <div className="head">Book for Blood test</div>
-        <br />
-        <div className="input">
-          <label>
-            <b>USERNAME / EMAIL:</b>
-          </label>
-          <input
-            style={{ width: "25vw", padding: "10px", marginLeft: "10px" }}
-            // className="inpbox1"
-            type="email"
-          />
-        </div>
-        <form action="#">
-          <div className="user-det1">
-            <div className="gender">
-              <label htmlFor="">
-                <h4> Do yo have any disease?</h4>
-              </label>
-              <br />
-              <div className="cat">
-                <input
-                  type="radio"
-                  id="Male"
-                  name="gender"
-                  value="Male"
-                  onChange={display}
-                />
-                <label htmlFor="Yes">Yes</label>
-                <br />
-                <input
-                  type="radio"
-                  id="Female"
-                  name="gender"
-                  value="Female"
-                  onChange={notDisplay}
-                />
-                <label htmlFor="No">No</label>
-              </div>
-            </div>
+	const display = () => {
+		setDisTextarea(!disTextarea);
+	};
+	const notDisplay = () => {
+		setDisTextarea(false);
+	};
 
-            <div className={`input notvis ${disTextarea ? "visible" : ""}`}>
-              <label htmlFor="Address">
-                <h4>Describe Your Disease</h4>
-              </label>
-              <textarea
-                name="message"
-                rows={5}
-                cols={70}
-                required
-                id="Disease"
-              ></textarea>
-            </div>
-          </div>
-          <div className="button">
-            <button>Book Now</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  );
+	// for backend
+	const [question, setQuestion] = useState();
+	const [BDiesease, setBDiesease] = useState();
+
+	// const redirect = useNavigate();
+
+	const [emailfordonation, setEmailfordonation] = useState();
+	const navigate = useNavigate();
+	const donateBlood = () => {
+		Axios.post("http://localhost:3001/blooddonation", {
+			Question: question,
+			BloodDieasea: BDiesease,
+			emailfordonation: emailfordonation,
+		}).then((response) => {
+			console.log(response);
+			const BloodDonationBooked = response.data.blooddonationbook;
+			if (BloodDonationBooked) {
+				alert("Your Tests are booked successfully!!");
+				navigate("/whattodo1");
+			} else {
+				navigate("/failurOfBTB");
+			}
+		});
+	};
+
+	return (
+		<div className="body">
+			<div className="main-form1">
+				<div className="head">Book for Blood test</div>
+				<br />
+				<div className="input">
+					<label>
+						<b>USERNAME / EMAIL:</b>
+					</label>
+					<input
+						style={{ width: "25vw", padding: "10px", marginLeft: "10px" }}
+						// className="inpbox1"
+						type="email"
+						onChange={(e) => {
+							setEmailfordonation(e.target.value);
+						}}
+					/>
+				</div>
+				<div className="user-det1">
+					<div className="gender">
+						<label htmlFor="">
+							<h4> Do yo have any disease?</h4>
+						</label>
+						<br />
+						<div className="cat">
+							<input
+								type="radio"
+								id="Male"
+								name="question"
+								value="Yes"
+								onChange={(e) => {
+									setQuestion(e.target.value);
+								}}
+							/>
+							<label htmlFor="Yes">Yes</label>
+							<br />
+							<input
+								type="radio"
+								id="Female"
+								name="question"
+								value="No"
+								onChange={(e) => {
+									setQuestion(e.target.value);
+								}}
+							/>
+							<label htmlFor="No">No</label>
+						</div>
+					</div>
+				</div>
+				<div className="button">
+					<button onClick={donateBlood}>Book Now</button>
+				</div>
+			</div>
+		</div>
+	);
 }

@@ -23,6 +23,7 @@ import { WhatToDo1 } from "./Healthcare/WhatToDo1";
 import LabTest from "./Healthcare/Labtest";
 import Profile from "./Healthcare/Profile";
 import BloodConform from "./Healthcare/BloodConform";
+import OnlineConsult from "./Healthcare/OnlineConsult"
 // import { Help } from './Healthcare/Help';
 // import { Help1 } from './Healthcare/Help1';
 // import { Help2 } from './Healthcare/Help2';
@@ -53,6 +54,7 @@ export default function App() {
           <Route exact path="/profile" element={<Profile />} />
           <Route exact path="/failurOfBTB" element={<FailureOfBT />} />
           <Route exact path="/bloodconform" element={<BloodConform />} />
+          <Route exact path="/online_consult" element={<OnlineConsult />} />
         </Routes>
         <Footer />
       </Router>

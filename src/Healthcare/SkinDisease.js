@@ -4,6 +4,7 @@ import "./SkinDisease.css";
 import SkinSp1 from "./images/SkinSp1.jpg";
 import SkinSp2 from "./images/SkinSp2.jpg";
 import SkinSp3 from "./images/SkinSp3.png";
+import { Link } from "react-router-dom";
 
 export default function Skin() {
 	const [isShow1, setIsShow1] = useState(false);
@@ -127,7 +128,9 @@ export default function Skin() {
 						</p>
 						<br />
 
-						<button className="ReqAppo_skin">Request an Appointment</button>
+						<Link to="/online_consult">
+							<button className="ReqAppo_skin">Request an Appointment</button>
+						</Link>
 					</div>
 				</div>
 
