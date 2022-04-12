@@ -19,6 +19,52 @@ export default function Userlogin() {
 	const [boxscan13, setBoxscan13] = useState(" ");
 	const [boxscan14, setBoxscan14] = useState(" ");
 	const [boxscan15, setBoxscan15] = useState(" ");
+	const ResultScan = [];
+	const ResultScan2 = [];
+
+	const [emailfortestScan, setEmailfortestScan] = useState();
+	const navigate = useNavigate();
+
+	const disScan = () => {
+		ResultScan.push(
+			boxscan1,
+			boxscan2,
+			boxscan3,
+			boxscan4,
+			boxscan5,
+			boxscan6,
+			boxscan7,
+			boxscan8,
+			boxscan9,
+			boxscan10,
+			boxscan11,
+			boxscan12,
+			boxscan13,
+			boxscan14,
+			boxscan15
+		);
+		ResultScan.map((value) => {
+			if (value !== " ") {
+				ResultScan2.push(value);
+			}
+		});
+		console.log(ResultScan);
+		console.log(ResultScan2);
+		const arrayResultScan = ResultScan2.toString();
+		Axios.post("http://localhost:3001/scanbook", {
+			ResultScanTest: arrayResultScan,
+			emailForScanTest: emailfortestScan,
+		}).then((response) => {
+			console.log(response);
+			const TestBloodBookedScan = response.data.scanTestBooked;
+			if (TestBloodBookedScan) {
+				alert("Your Tests are booked successfully!!");
+				navigate("/labtest");
+			} else {
+				navigate("/failurOfBTB");
+			}
+		});
+	};
 
 	return (
 		<div className="body">
@@ -33,263 +79,261 @@ export default function Userlogin() {
 						style={{ width: "25vw", padding: "10px", marginLeft: "10px" }}
 						// className="inpbox1"
 						type="email"
-						// onChange={(e) => {
-						// 	setScanEmailfortest(e.target.value);
-						// }}
+						onChange={(e) => {
+							setEmailfortestScan(e.target.value);
+						}}
 					/>
 				</div>
-				<form action="#">
-					<div className="user-det1">
-						<h2>Select Reports</h2>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (boxscan1 === " ") {
-										setBoxscan1("MRI");
-									} else {
-										setBoxscan1(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">MRI</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								value="BMP"
-								onChange={(e) => {
-									if (boxscan2 === " ") {
-										setBoxscan2("3Tesla MRI");
-									} else {
-										setBoxscan2(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">3Tesla MRI</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								value="CMP"
-								onChange={(e) => {
-									if (boxscan3 === " ") {
-										setBoxscan3("1.5 Tesla MRI");
-									} else {
-										setBoxscan3(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">1.5 Tesla MRI</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								value="Lipid panel"
-								onChange={(e) => {
-									if (boxscan4 === " ") {
-										setBoxscan4("MRI Cartigram");
-									} else {
-										setBoxscan4(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">MRI Cartigram</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (boxscan5 === " ") {
-										setBoxscan5("Fetal MRI");
-									} else {
-										setBoxscan5(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">Fetal MRI</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (boxscan6 === " ") {
-										setBoxscan6("Fetal ECHO");
-									} else {
-										setBoxscan6(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">Fetal ECHO</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (boxscan7 === " ") {
-										setBoxscan7("CT Scan");
-									} else {
-										setBoxscan7(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">CT Scan</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (boxscan8 === " ") {
-										setBoxscan8("3D / 4D Ultrasound");
-									} else {
-										setBoxscan8(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">3D / 4D Ultrasound</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (boxscan9 === " ") {
-										setBoxscan9("Non invasive CT Angiography");
-									} else {
-										setBoxscan9(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">Non invasive CT Angiography</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (boxscan10 === " ") {
-										setBoxscan10("CT Coronary Angiography");
-									} else {
-										setBoxscan10(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">CT Coronary Angiography</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (boxscan11 === " ") {
-										setBoxscan11("Colour Doppler");
-									} else {
-										setBoxscan11(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">Colour Doppler</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (boxscan12 === " ") {
-										setBoxscan12("Penile Doppler");
-									} else {
-										setBoxscan12(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">Penile Doppler</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (boxscan13 === " ") {
-										setBoxscan13("Digital X-Ray");
-									} else {
-										setBoxscan13(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">Digital X-Ray</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (boxscan14 === " ") {
-										setBoxscan14("Digital Mammography");
-									} else {
-										setBoxscan14(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">Digital Mammography</label>
-						</div>
-						<br />
-						<div className="input">
-							<input
-								type="checkbox"
-								id="1test"
-								className="inpbox1"
-								onChange={(e) => {
-									if (boxscan15 === " ") {
-										setBoxscan15("DEXA");
-									} else {
-										setBoxscan15(" ");
-									}
-								}}
-							/>
-							<label htmlFor="1test">Bone Densitometry (DEXA)</label>
-						</div>
+				<div className="user-det1">
+					<h2>Select Reports</h2>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (boxscan1 === " ") {
+									setBoxscan1("MRI");
+								} else {
+									setBoxscan1(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">MRI</label>
 					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							value="BMP"
+							onChange={(e) => {
+								if (boxscan2 === " ") {
+									setBoxscan2("3Tesla MRI");
+								} else {
+									setBoxscan2(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">3Tesla MRI</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							value="CMP"
+							onChange={(e) => {
+								if (boxscan3 === " ") {
+									setBoxscan3("1.5 Tesla MRI");
+								} else {
+									setBoxscan3(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">1.5 Tesla MRI</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							value="Lipid panel"
+							onChange={(e) => {
+								if (boxscan4 === " ") {
+									setBoxscan4("MRI Cartigram");
+								} else {
+									setBoxscan4(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">MRI Cartigram</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (boxscan5 === " ") {
+									setBoxscan5("Fetal MRI");
+								} else {
+									setBoxscan5(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">Fetal MRI</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (boxscan6 === " ") {
+									setBoxscan6("Fetal ECHO");
+								} else {
+									setBoxscan6(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">Fetal ECHO</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (boxscan7 === " ") {
+									setBoxscan7("CT Scan");
+								} else {
+									setBoxscan7(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">CT Scan</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (boxscan8 === " ") {
+									setBoxscan8("3D / 4D Ultrasound");
+								} else {
+									setBoxscan8(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">3D / 4D Ultrasound</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (boxscan9 === " ") {
+									setBoxscan9("Non invasive CT Angiography");
+								} else {
+									setBoxscan9(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">Non invasive CT Angiography</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (boxscan10 === " ") {
+									setBoxscan10("CT Coronary Angiography");
+								} else {
+									setBoxscan10(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">CT Coronary Angiography</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (boxscan11 === " ") {
+									setBoxscan11("Colour Doppler");
+								} else {
+									setBoxscan11(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">Colour Doppler</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (boxscan12 === " ") {
+									setBoxscan12("Penile Doppler");
+								} else {
+									setBoxscan12(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">Penile Doppler</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (boxscan13 === " ") {
+									setBoxscan13("Digital X-Ray");
+								} else {
+									setBoxscan13(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">Digital X-Ray</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (boxscan14 === " ") {
+									setBoxscan14("Digital Mammography");
+								} else {
+									setBoxscan14(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">Digital Mammography</label>
+					</div>
+					<br />
+					<div className="input">
+						<input
+							type="checkbox"
+							id="1test"
+							className="inpbox1"
+							onChange={(e) => {
+								if (boxscan15 === " ") {
+									setBoxscan15("DEXA");
+								} else {
+									setBoxscan15(" ");
+								}
+							}}
+						/>
+						<label htmlFor="1test">Bone Densitometry (DEXA)</label>
+					</div>
+				</div>
 
-					<div className="button">
-						<button>Book Now</button>
-					</div>
-				</form>
+				<div className="button">
+					<button onClick={disScan}>Book Now</button>
+				</div>
 			</div>
 		</div>
 	);

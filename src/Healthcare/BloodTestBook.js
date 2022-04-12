@@ -36,16 +36,7 @@ export default function Userlogin() {
 			box10,
 			box11
 		);
-		// Result.push(box2);
-		// Result.push(box3);
-		// Result.push(box4);
-		// Result.push(box5);
-		// Result.push(box6);
-		// Result.push(box7);
-		// Result.push(box8);
-		// Result.push(box9);
-		// Result.push(box10);
-		// Result.push(box11);
+		// Result.push(
 		Result.map((value) => {
 			if (value !== " ") {
 				Result2.push(value);
@@ -59,37 +50,15 @@ export default function Userlogin() {
 			emailForTest: emailfortest,
 		}).then((response) => {
 			console.log(response);
-			// const TestBloodBooked = response;
-
-			// console.log(TestBloodBooked);
-			const TestBloodBooked = response.data;
-			// const TestNotBooked = response.data.resultFalse;
-			console.log(TestBloodBooked);
-			const abc = (TestBloodBooked) => {
+			const TestBloodBooked = response.data.bloodTestBooked;
 				if (TestBloodBooked) {
 					alert("Your Tests are booked successfully!!");
-					// navigat("/labtest");
-					// <Navigate to="/labtest" />;
 					navigate("/labtest");
-					// redirect("/typesofblood");
 				} else {
-					// if (TestNotBooked) {
 					navigate("/failurOfBTB");
-					// }
-					// if (TestBloodNotBooked) {
-					// navigat("/failurOfBTB");
-					// redirect("/donate_money");
-					// }
 				}
-			};
-			abc(TestBloodBooked);
 		});
 	};
-
-	// async function book() {
-	// 	var dis = await disBook();
-	// 	console.log(dis);
-	// }
 
 	return (
 		<div className="body">

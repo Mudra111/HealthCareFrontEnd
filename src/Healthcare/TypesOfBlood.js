@@ -1,10 +1,10 @@
 import React from "react";
-import SideImg from "./images/blood-donation.jpg";
 import WholeBlood from "./images/WholeBlood.jpg";
 import Plasma from "./images/Plasma.jpg";
 import PowerRed from "./images/PowerRed.jpeg";
 import Platelet from "./images/Platelet.jpg";
 import "./TOF.css";
+import { Link } from "react-router-dom";
 
 export const TypesOfBlood = () => {
   return (
@@ -32,9 +32,11 @@ export const TypesOfBlood = () => {
             <p className="tobd-con">All blood types</p>
             <h4>Donation frequency</h4>
             <p className="tobd-con">Every 56 days, up to 6 times a year</p>
-            <button type="button" class="btn but2">
-              Donate Now
-            </button>
+            <Link to="/bloodconform">
+              <button type="button" class="btn but2">
+                Donate Now
+              </button>
+            </Link>
           </div>
         </div>
       </div>
