@@ -103,6 +103,10 @@ form .user-det1 .input {
 /* Responsive */
 
 @media (min-width: 350px) and (max-width: 550px) {
+  .button {
+    height: 35px;
+    margin: 25px 0;
+  }
 }
 
 @media (min-width: 551px) and (max-width: 750px) {
