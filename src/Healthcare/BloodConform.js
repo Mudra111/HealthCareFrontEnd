@@ -17,7 +17,6 @@ export default function BloodConform() {
 	const [question, setQuestion] = useState();
 	const [BDiesease, setBDiesease] = useState();
 
-	// const redirect = useNavigate();
 
 	const [emailfordonation, setEmailfordonation] = useState();
 	const navigate = useNavigate();
@@ -49,7 +48,6 @@ export default function BloodConform() {
 					</label>
 					<input
 						style={{ width: "25vw", padding: "10px", marginLeft: "10px" }}
-						// className="inpbox1"
 						type="email"
 						onChange={(e) => {
 							setEmailfordonation(e.target.value);

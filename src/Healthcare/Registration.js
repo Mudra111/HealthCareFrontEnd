@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {Navigate, useNavigate} from "react-router-dom"
+import { Navigate, useNavigate } from "react-router-dom";
 import Axios from "axios";
 import "./Registration.css";
 
@@ -14,7 +14,7 @@ export default function Registration() {
 	const [pass, setPass] = useState("");
 	const [conpass, setConpass] = useState("");
 	const [gender, setGender] = useState("");
-  const navigat = useNavigate();
+	const navigat = useNavigate();
 
 	const register = () => {
 		Axios.post("http://localhost:3001/register", {
@@ -30,13 +30,12 @@ export default function Registration() {
 			Gender: gender,
 		}).then((response) => {
 			console.log(response);
-      if(response.data.isRegistered){
-        navigat('/login');
-      }
-      if(response.data.isRegister){
-        Navigate(-1);
-      }
-
+			if (response.data.isRegistered) {
+				navigat("/login");
+			}
+			if (response.data.isRegister) {
+				Navigate(-1);
+			}
 		});
 	};
 
@@ -44,7 +43,7 @@ export default function Registration() {
 		<div className="body">
 			<div className="main-form">
 				<div className="head">Registration</div>
-				<form action="#">
+				<form>
 					<div className="user-det">
 						<div className="input">
 							<label htmlFor="F_Name">First Name</label>

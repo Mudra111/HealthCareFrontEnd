@@ -1,494 +1,494 @@
 .center {
-  text-align: center;
-  font-weight: bolder;
-  font-size: 70px;
-  margin: 2rem 0;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 70px;
+	margin: 2rem 0;
 }
 
 .criterias {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  transform-style: preserve-3d;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transform-style: preserve-3d;
 }
 
 .row1 {
-  display: grid;
-  grid-template-columns: auto;
+	display: grid;
+	grid-template-columns: auto;
 }
 
 .row2 {
-  display: grid;
-  grid-template-columns: auto auto;
+	display: grid;
+	grid-template-columns: auto auto;
 }
 
 .c-item {
-  margin: 3rem 5rem;
+	margin: 3rem 5rem;
 }
 
 .box {
-  height: 16rem;
-  width: 50%;
-  background: transparent;
-  border: 3px solid transparent;
-  border-bottom-color: blue;
-  border-top-color: blue;
-  border-top-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  line-height: 1.5em;
-  text-align: center;
+	height: 16rem;
+	width: 50%;
+	background: transparent;
+	border: 3px solid transparent;
+	border-bottom-color: blue;
+	border-top-color: blue;
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	line-height: 1.5em;
+	text-align: center;
 }
 
 .box-1 {
-  height: 16rem;
-  width: 90%;
-  background: transparent;
-  border: 3px solid transparent;
-  border-bottom-color: blue;
-  border-top-color: blue;
-  border-top-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  line-height: 1.5em;
-  text-align: center;
+	height: 16rem;
+	width: 90%;
+	background: transparent;
+	border: 3px solid transparent;
+	border-bottom-color: blue;
+	border-top-color: blue;
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	line-height: 1.5em;
+	text-align: center;
 }
 
 .b2 {
-  margin-top: 1rem;
-  margin-left: auto;
-  margin-right: auto;
+	margin-top: 1rem;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .b1 {
-  margin-top: 1rem;
-  margin-left: auto;
+	margin-top: 1rem;
+	margin-left: auto;
 }
 
 .b3 {
-  margin-top: 1rem;
-  margin-right: auto;
+	margin-top: 1rem;
+	margin-right: auto;
 }
 
 .cri {
-  font-size: xx-large;
-  font-weight: bold;
-  margin-top: 5rem;
-  visibility: hidden;
-  color: white;
+	font-size: xx-large;
+	font-weight: bold;
+	margin-top: 5rem;
+	visibility: hidden;
+	color: white;
 }
 
 .ig8 .cri {
-  margin-top: 3rem;
+	margin-top: 3rem;
 }
 .ig9 .cri {
-  margin-top: 3rem;
+	margin-top: 3rem;
 }
 .ig14 .cri {
-  margin-top: 2.5rem;
+	margin-top: 2.5rem;
 }
 
 .content {
-  font-size: 20px;
-  font-weight: lighter;
-  color: white;
-  visibility: hidden;
+	font-size: 20px;
+	font-weight: lighter;
+	color: white;
+	visibility: hidden;
 }
 
 div.box:hover {
-  background: linear-gradient(45deg, navy, lightblue);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+	background: linear-gradient(45deg, navy, lightblue);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 div.box:hover h2.cri {
-  visibility: visible;
+	visibility: visible;
 }
 div.box:hover p.content {
-  visibility: visible;
+	visibility: visible;
 }
 
 div.box-1:hover {
-  background: linear-gradient(45deg, navy, lightblue);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+	background: linear-gradient(45deg, navy, lightblue);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 div.box-1:hover h2.cri {
-  visibility: visible;
+	visibility: visible;
 }
 div.box-1:hover p.content {
-  visibility: visible;
+	visibility: visible;
 }
 
 div.bloodDon {
-  margin-top: 0rem;
-  margin-bottom: 3rem;
+	margin-top: 0rem;
+	margin-bottom: 3rem;
 }
 
 .but1 {
-  font-size: larger;
-  font-weight: bold;
-  background-color: darkblue;
-  color: white;
-  border: 0px solid darkblue;
-  padding: 1rem;
+	font-size: larger;
+	font-weight: bold;
+	background-color: darkblue;
+	color: white;
+	border: 0px solid darkblue;
+	padding: 1rem;
 }
 
 .but1:hover {
-  background-color: blue;
-  color: white;
-  border: 0px solid blue;
+	background-color: blue;
+	color: white;
+	border: 0px solid blue;
 }
 
 .ig1 {
-  background: url("./images/Age.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+	background: url("./images/Age.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 
 .ig2 {
-  background: url("./images/Weight.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+	background: url("./images/Weight.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 
 .ig3 {
-  background: url("./images/Pulse.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+	background: url("./images/Pulse.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 .ig4 {
-  background: url("./images/Blood\ Pressure.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+	background: url("./images/Blood\ Pressure.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 .ig5 {
-  background: url("./images/Child\ Birth.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+	background: url("./images/Child\ Birth.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 .ig6 {
-  background: url("./images/Hemo.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+	background: url("./images/Hemo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 .ig7 {
-  background: url("./images/Malaria.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+	background: url("./images/Malaria.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 .ig8 {
-  background: url("./images/IV.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+	background: url("./images/IV.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 .ig9 {
-  background: url("./images/Skin.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+	background: url("./images/Skin.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 .ig10 {
-  background: url("./images/Cancer.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+	background: url("./images/Cancer.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 .ig11 {
-  background: url("./images/Accupuncture.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+	background: url("./images/Accupuncture.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 .ig12 {
-  background: url("./images/Infection.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+	background: url("./images/Infection.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 .ig13 {
-  background: url("./images/Heart.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+	background: url("./images/Heart.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 .ig14 {
-  background: url("./images/Dentist.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+	background: url("./images/Dentist.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 .ig15 {
-  background: url("./images/Other.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+	background: url("./images/Other.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 .ig16 {
-  background: url("./images/Medication.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  margin-bottom: 5rem;
+	background: url("./images/Medication.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin-bottom: 5rem;
 }
 
 /* Responsive */
 @media (min-width: 350px) and (max-width: 550px) {
-  .center {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 35px;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-  }
+	.center {
+		text-align: center;
+		font-weight: bolder;
+		font-size: 35px;
+		margin-bottom: 1rem;
+		margin-top: 2rem;
+	}
 
-  .row1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+	.row1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
 
-  .row2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+	.row2 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
 
-  .box {
-    height: 10rem;
-    width: 90%;
-    border: 3px solid transparent;
-    border-bottom-color: blue;
-    border-top-color: blue;
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    /* line-height: 1.5em; */
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
+	.box {
+		height: 10rem;
+		width: 90%;
+		border: 3px solid transparent;
+		border-bottom-color: blue;
+		border-top-color: blue;
+		border-top-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+		/* line-height: 1.5em; */
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-  .box-1 {
-    height: 10rem;
-    width: 90%;
-    border: 3px solid transparent;
-    border-bottom-color: blue;
-    border-top-color: blue;
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    /* line-height: 1.5em; */
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
+	.box-1 {
+		height: 10rem;
+		width: 90%;
+		border: 3px solid transparent;
+		border-bottom-color: blue;
+		border-top-color: blue;
+		border-top-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+		/* line-height: 1.5em; */
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-  .cri {
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 1.5rem;
-    visibility: hidden;
-    color: white;
-    margin-bottom: 0rem;
-  }
+	.cri {
+		font-size: 25px;
+		font-weight: bold;
+		margin-top: 1.5rem;
+		visibility: hidden;
+		color: white;
+		margin-bottom: 0rem;
+	}
 
-  .content {
-    font-size: 17px;
-    font-weight: lighter;
-    color: white;
-    visibility: hidden;
-  }
+	.content {
+		font-size: 17px;
+		font-weight: lighter;
+		color: white;
+		visibility: hidden;
+	}
 
-  .but1 {
-    font-size: small;
-    font-weight: bold;
-    background-color: darkblue;
-    color: white;
-    border: 0px solid darkblue;
-    padding: 1rem;
-  }
+	.but1 {
+		font-size: small;
+		font-weight: bold;
+		background-color: darkblue;
+		color: white;
+		border: 0px solid darkblue;
+		padding: 1rem;
+	}
 
-  .ig16 {
-    margin-bottom: 2rem;
-  }
+	.ig16 {
+		margin-bottom: 2rem;
+	}
 }
 
 @media (min-width: 551px) and (max-width: 750px) {
-  .center {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 40px;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-  }
+	.center {
+		text-align: center;
+		font-weight: bolder;
+		font-size: 40px;
+		margin-bottom: 1rem;
+		margin-top: 2rem;
+	}
 
-  .row1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+	.row1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
 
-  .row2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+	.row2 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
 
-  .box {
-    height: 13rem;
-    width: 80%;
-    border: 3px solid transparent;
-    border-bottom-color: blue;
-    border-top-color: blue;
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    /* line-height: 1.5em; */
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
+	.box {
+		height: 13rem;
+		width: 80%;
+		border: 3px solid transparent;
+		border-bottom-color: blue;
+		border-top-color: blue;
+		border-top-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+		/* line-height: 1.5em; */
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-  .box-1 {
-    height: 13rem;
-    width: 80%;
-    border: 3px solid transparent;
-    border-bottom-color: blue;
-    border-top-color: blue;
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    /* line-height: 1.5em; */
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
+	.box-1 {
+		height: 13rem;
+		width: 80%;
+		border: 3px solid transparent;
+		border-bottom-color: blue;
+		border-top-color: blue;
+		border-top-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+		/* line-height: 1.5em; */
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-  .cri {
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 3rem;
-    visibility: hidden;
-    color: white;
-    margin-bottom: 0rem;
-  }
+	.cri {
+		font-size: 30px;
+		font-weight: bold;
+		margin-top: 3rem;
+		visibility: hidden;
+		color: white;
+		margin-bottom: 0rem;
+	}
 
-  .ig8 .cri {
-    font-size: 27px;
-  }
+	.ig8 .cri {
+		font-size: 27px;
+	}
 
-  .content {
-    font-size: 19px;
-    font-weight: lighter;
-    color: white;
-    visibility: hidden;
-  }
+	.content {
+		font-size: 19px;
+		font-weight: lighter;
+		color: white;
+		visibility: hidden;
+	}
 
-  .ig8 .content {
-    font-size: 16px;
-  }
+	.ig8 .content {
+		font-size: 16px;
+	}
 
-  .but1 {
-    font-size: large;
-    font-weight: bold;
-    background-color: darkblue;
-    color: white;
-    border: 0px solid darkblue;
-    padding: 1rem;
-  }
+	.but1 {
+		font-size: large;
+		font-weight: bold;
+		background-color: darkblue;
+		color: white;
+		border: 0px solid darkblue;
+		padding: 1rem;
+	}
 
-  .ig16 {
-    margin-bottom: 2rem;
-  }
+	.ig16 {
+		margin-bottom: 2rem;
+	}
 }
 
 @media (min-width: 751px) and (max-width: 1050px) {
-  .center {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 40px;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-  }
+	.center {
+		text-align: center;
+		font-weight: bolder;
+		font-size: 40px;
+		margin-bottom: 1rem;
+		margin-top: 2rem;
+	}
 
-  .box {
-    height: 15rem;
-    width: 50%;
-    border: 3px solid transparent;
-    border-bottom-color: blue;
-    border-top-color: blue;
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    /* line-height: 1.5em; */
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
+	.box {
+		height: 15rem;
+		width: 50%;
+		border: 3px solid transparent;
+		border-bottom-color: blue;
+		border-top-color: blue;
+		border-top-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+		/* line-height: 1.5em; */
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-  .box-1 {
-    height: 15rem;
-    width: 90%;
-    border: 3px solid transparent;
-    border-bottom-color: blue;
-    border-top-color: blue;
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    /* line-height: 1.5em; */
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
+	.box-1 {
+		height: 15rem;
+		width: 90%;
+		border: 3px solid transparent;
+		border-bottom-color: blue;
+		border-top-color: blue;
+		border-top-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+		/* line-height: 1.5em; */
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-  .cri {
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 3rem;
-    visibility: hidden;
-    color: white;
-    margin-bottom: 0rem;
-  }
+	.cri {
+		font-size: 30px;
+		font-weight: bold;
+		margin-top: 3rem;
+		visibility: hidden;
+		color: white;
+		margin-bottom: 0rem;
+	}
 
-  .ig8 .cri {
-    font-size: 27px;
-  }
-  .ig9 .cri {
-    font-size: 27px;
-  }
+	.ig8 .cri {
+		font-size: 27px;
+	}
+	.ig9 .cri {
+		font-size: 27px;
+	}
 
-  .content {
-    font-size: 19px;
-    font-weight: lighter;
-    color: white;
-    visibility: hidden;
-  }
+	.content {
+		font-size: 19px;
+		font-weight: lighter;
+		color: white;
+		visibility: hidden;
+	}
 
-  .ig8 .content {
-    font-size: 17px;
-  }
-  .ig9 .content {
-    font-size: 17px;
-  }
+	.ig8 .content {
+		font-size: 17px;
+	}
+	.ig9 .content {
+		font-size: 17px;
+	}
 
-  .ig14 .content {
-    font-size: 17px;
-  }
+	.ig14 .content {
+		font-size: 17px;
+	}
 
-  .but1 {
-    font-size: large;
-    font-weight: bold;
-    background-color: darkblue;
-    color: white;
-    border: 0px solid darkblue;
-    padding: 1rem;
-  }
+	.but1 {
+		font-size: large;
+		font-weight: bold;
+		background-color: darkblue;
+		color: white;
+		border: 0px solid darkblue;
+		padding: 1rem;
+	}
 
-  .ig16 {
-    margin-bottom: 2rem;
-  }
+	.ig16 {
+		margin-bottom: 2rem;
+	}
 }

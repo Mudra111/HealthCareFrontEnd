@@ -51,12 +51,12 @@ export default function Userlogin() {
 		}).then((response) => {
 			console.log(response);
 			const TestBloodBooked = response.data.bloodTestBooked;
-				if (TestBloodBooked) {
-					alert("Your Tests are booked successfully!!");
-					navigate("/labtest");
-				} else {
-					navigate("/failurOfBTB");
-				}
+			if (TestBloodBooked) {
+				alert("Your Tests are booked successfully!!");
+				navigate("/labtest");
+			} else {
+				navigate("/failurOfBTB");
+			}
 		});
 	};
 
@@ -263,7 +263,7 @@ export default function Userlogin() {
 				<div className="button">
 					<button onClick={disBook}>Book Now</button>
 				</div>
-			</div>	
+			</div>
 		</div>
 	);
 }
